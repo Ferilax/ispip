@@ -1,0 +1,49 @@
+.aggregating-page {
+	main {
+		padding: 60px 0;
+	}
+
+	.cards {
+		&__title {
+			@extend %pseudo-h3;
+		}
+
+		&__grid {
+			margin-top: 40px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 20px;
+		}
+
+		&__card {
+			padding: 20px;
+			color: #3D3D3D;
+			line-height: 1.2;
+			border-radius: 22px;
+			border: 1px solid #E1E1E1;
+		}
+
+		@media (max-width: 1023px) {
+			&__grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__grid {
+				margin-top: 24px;
+			}
+		}
+
+		@media (max-width: 600px) {
+			&__grid {
+				grid-template-columns: 1fr;
+			}
+
+			&__card {
+				font-size: 18px;
+				font-weight: 500;
+			}
+		}
+	}
+}

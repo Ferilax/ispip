@@ -1,0 +1,30 @@
+.teachers-page {
+	main {
+		background: #F8F8F8;
+		padding: 42px 0;
+
+		@media (max-width: 767px) {
+			background: white;
+			padding: 60px 0;
+		}
+	}
+
+	.teachers {
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(250px, 350px));
+			justify-content: space-between;
+			column-gap: 32px;
+			row-gap: 80px;
+
+			@media (max-width: 900px) {
+				grid-template-columns: repeat(2, 1fr);
+				gap: 32px;
+			}
+
+			@media (max-width: 650px) {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+}

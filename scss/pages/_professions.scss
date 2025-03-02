@@ -1,0 +1,171 @@
+.professions-page {
+
+	main {
+		padding: 42px 0;
+		background: url("../img/profession-page-birds.png") right 17px top 42px no-repeat;
+
+		@media (max-width: 767px) {
+			background: none;
+			padding: 60px 0;
+		}
+	}
+
+	.info-text {
+		max-width: 790px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.2;
+
+		@media (max-width: 767px) {
+			font-weight: 400;
+			font-size: 16px;
+		}
+	}
+
+	.sections {
+		.container {
+			margin-top: 80px;
+			display: flex;
+			flex-direction: column;
+			gap: 60px;
+
+			@media (max-width: 1023px) {
+				margin-top: 40px;
+				gap: 40px;
+			}
+		}
+	}
+
+	.cards {
+		&__title {
+			@extend %pseudo-h3;
+		}
+
+		&__grid {
+			margin-top: 40px;
+			display: grid;
+			gap: 20px;
+		}
+
+		&__grid.triple {
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		&__grid.double {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		&__card {
+			border: 1px solid #E1E1E1;
+			border-radius: 22px;
+			padding: 20px 20px 14px;
+
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__date {
+			color: #557AC7;
+			font-weight: 600;
+			line-height: 1.3;
+		}
+
+		&__name {
+			color: #3D3D3D;
+			margin-top: 32px;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.2;
+			margin-bottom: auto;
+		}
+
+		&__info {
+			line-height: 1.4;
+			font-size: 14px;
+			margin-top: 12px;
+			color: var(--black-light);
+		}
+
+		@media (max-width: 1023px) {
+			&__grid {
+				margin-top: 24px;
+			}
+		}
+
+		@media (max-width: 900px) {
+			&__grid.triple {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__grid {
+				gap: 12px;
+			}
+		}
+
+		@media (max-width: 700px) {
+
+			&__grid.triple,
+			&__grid.double {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	.reception-info {
+		background: #092C75;
+		border: 1px solid #2D70EA;
+		padding: 24px 24px 38px;
+		border-radius: 8px;
+
+		max-width: 412px;
+		color: white;
+
+		&__title {
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 1.1;
+		}
+
+		&__text {
+			margin-top: 20px;
+
+			font-size: 14px;
+			line-height: 1.4;
+		}
+
+		&__link {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+			font-size: 20px;
+			font-weight: 600;
+
+			a {
+				display: flex;
+				align-items: center;
+				gap: 14px;
+			}
+		}
+
+		&__link-label {
+			font-size: 14px;
+			font-weight: 400;
+		}
+
+		@media (max-width: 767px) {
+			margin-top: -8px;
+			padding: 24px;
+
+			&__title {
+				font-size: 18px;
+			}
+
+			&__link {
+				font-size: 18px;
+			}
+		}
+	}
+}

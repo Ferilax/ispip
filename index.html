@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="stylesheet" href="css/style.css">
 	<title>Главная</title>
 </head>
@@ -11,45 +11,70 @@
 <body class="main-page">
 	<header class="header">
 		<div class="container">
-			<div class="header__logo-container">
-				<div class="header__logo"></div>
-				<div class="header__logo-text">ИНСТИТУТ СПЕЦИАЛЬНОЙ ПЕДАГОГИКИ И ПСИХОЛОГИИ ИМЕНИ РАУЛЯ ВАЛЛЕНБЕРГА</div>
+			<div class="header__mobile-links mobile">
+				<a href="" class="header__mobile-link">
+					<img src="img/icons/eye-white.svg" alt="">
+				</a>
+				<a href="" class="header__mobile-link">
+					<img src="img/icons/tel-white.svg" alt="">
+				</a>
+				<a href="" class="header__mobile-link">
+					<img src="img/icons/letter-white.svg" alt="">
+				</a>
+				<a href="" class="header__mobile-link">
+					<img src="img/icons/search-white.svg" alt="">
+				</a>
+				<a href="" class="header__mobile-link">
+					<img src="img/icons/login-white.svg" alt="">
+				</a>
 			</div>
 
-			<div>
-				<div class="header__actions-container">
-					<div class="header__actions">
-						<button>
-							<svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M7.93774 17.8706C9.58995 17.8706 11.1088 17.3023 12.3207 16.3598L16.2552 20.2943L17.5207 19.0288L13.5862 15.0943C14.5296 13.8815 15.0979 12.3627 15.0979 10.7104C15.0979 6.76252 11.8857 3.55029 7.93774 3.55029C3.98981 3.55029 0.777588 6.76252 0.777588 10.7104C0.777588 14.6584 3.98981 17.8706 7.93774 17.8706ZM7.93774 5.34033C10.8994 5.34033 13.3079 7.74883 13.3079 10.7104C13.3079 13.6721 10.8994 16.0806 7.93774 16.0806C4.97612 16.0806 2.56763 13.6721 2.56763 10.7104C2.56763 7.74883 4.97612 5.34033 7.93774 5.34033Z"
-									fill="#273A73" />
-							</svg>
-						</button>
-						<button>
-							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M12.8358 17.3683C12.2825 17.4729 11.7207 17.5253 11.1576 17.5249C7.14973 17.5249 3.75761 14.8909 2.61646 11.2598C2.92369 10.2825 3.39691 9.36542 4.01537 8.54875M13.0551 13.1572L9.2584 9.36143C9.76198 8.85784 10.445 8.57493 11.1572 8.57493C11.8694 8.57493 12.5524 8.85784 13.056 9.36143C13.5596 9.86502 13.8425 10.548 13.8425 11.2602C13.8425 11.9724 13.5596 12.6554 13.056 13.159L16.0015 16.1036M9.26019 9.36232L6.31557 6.41771M6.31557 6.41771L3.10245 3.20459M6.31557 6.41771C7.75866 5.4865 9.44017 4.99231 11.1576 4.99463C15.1655 4.99463 18.5576 7.62867 19.6988 11.2598C19.0687 13.2561 17.7605 14.9692 16.0006 16.1027L19.2128 19.3149"
-									stroke="#273A73" stroke-width="1.79004" stroke-linecap="round" stroke-linejoin="round" />
-							</svg>
-						</button>
-						<div class="header__language-select">
-							<button class="header__language-button active">EN</button>
-							<button class="header__language-button">RU</button>
-						</div>
-					</div>
-					<div class="header__actions-text">
-						<span>Лицензия 90Л01 №00008456</span>
-						<span>Миссия и видение</span>
+			<div class="header__logo-container">
+				<a href="index.html" class="header__logo">
+					<picture>
+						<source srcset="img/logo-mobile.png" media="(max-width: 1023px)" />
+						<img src="img/logo.png" alt="">
+					</picture>
+				</a>
+				<div class="header__logo-text">
+					ИНСТИТУТ СПЕЦИАЛЬНОЙ ПЕДАГОГИКИ И ПСИХОЛОГИИ
+				</div>
+
+				<button class="mobile header__burger">
+					<img src="img/icons/burger-white.svg" alt="">
+				</button>
+			</div>
+
+			<div class="header__grid desktop">
+				<div class="header__actions">
+					<button>
+						<img src="img/icons/search-blue.svg" alt="">
+					</button>
+					<button>
+						<img src="img/icons/eye-blue.svg" alt="">
+					</button>
+					<div class="header__language-select">
+						<button class="header__language-button">EN</button>
+						<button class="header__language-button active">RU</button>
 					</div>
 				</div>
 
-				<div class="header__info">
-					<a href="tel:8 (812) 565-55-56" class="header__tel">
-						<img src="img/tel-light-blue.svg" alt="">
-						8 (812) 565-55-56
-					</a>
+				<a href="tel:+78125655556" class="header__tel">
+					<img src="img/icons/tel-light-blue.svg" alt="">
+					8 (812) 565-55-56
+				</a>
 
+				<a href="" class="header__login">
+					Вход в личный кабинет
+					<img src="img/icons/login-blue.svg" alt="">
+				</a>
+
+				<div class="header__license">
+					<span>Лицензия 90Л01 №00008456</span>
+					<span>Миссия и видение</span>
+				</div>
+
+				<div class="header__schedule">
 					<div class="header__schedule-text">
 						Пн-Пт 9:00-18:00
 					</div>
@@ -57,16 +82,1331 @@
 					<a class="header__schedule-subtext">
 						Заказать звонок
 					</a>
-
 				</div>
+
+				<button class="header__feedback">
+					Напишите нам
+					<img src="img/icons/letter-white.svg" alt="">
+				</button>
 			</div>
 
 		</div>
 	</header>
 
-	<main></main>
+	<nav class="nav">
+		<div class="container logo-content mobile">
+			<a href="index.html" class="logo-content__logo">
+				<img src="img/logo-mobile.png" alt="">
+			</a>
+			<div class="logo-content__text">
+				ИНСТИТУТ СПЕЦИАЛЬНОЙ ПЕДАГОГИКИ И ПСИХОЛОГИИ
+			</div>
 
-	<footer></footer>
+			<button class="logo-content__close">
+				<img src="img/icons/close-white.svg" alt="">
+			</button>
+		</div>
+		<div class="container desktop">
+			<a href="index.html" class="nav__link">Главная</a>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					Сведения об образовательной организации
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list">
+					<a href="institute-info.html" class="nav__hidden-link">Основные сведения</a>
+					<a href="" class="nav__hidden-link">Структура и органы управления образовательной организацией</a>
+					<a href="" class="nav__hidden-link">Документы</a>
+					<a href="" class="nav__hidden-link">Образование</a>
+					<a href="" class="nav__hidden-link">Руководство</a>
+					<a href="" class="nav__hidden-link">Педагогический (научно-педагогический) состав</a>
+					<a href="" class="nav__hidden-link">
+						Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда
+					</a>
+					<a href="" class="nav__hidden-link">Платные образовательные услуги</a>
+					<a href="" class="nav__hidden-link">Финансово-хозяйственная деятельность</a>
+					<a href="" class="nav__hidden-link">Вакантные места для приема (перевода) обучающихся</a>
+					<a href="" class="nav__hidden-link">Стипендии и меры поддержки обучающихся</a>
+					<a href="" class="nav__hidden-link">Международное сотрудничество</a>
+					<a href="" class="nav__hidden-link">Организация питания в образовательной организации</a>
+					<a href="" class="nav__hidden-link">Образовательные стандарты и требования</a>
+				</div>
+			</div>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					Абитуриентам
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list">
+					<a href="professions.html" class="nav__hidden-link">Специальности, направления подготовки</a>
+					<a href="" class="nav__hidden-link">Положения о комиссиях ИСПиП</a>
+					<a href="" class="nav__hidden-link">Приказы о зачислении</a>
+					<a href="" class="nav__hidden-link">Правила приема</a>
+					<a href="" class="nav__hidden-link">Сроки приема</a>
+					<a href="" class="nav__hidden-link">Вступительные испытания</a>
+					<a href="" class="nav__hidden-link">Особые права при приеме на обучение по программам бакалавриата и
+						программам специалитета</a>
+					<a href="" class="nav__hidden-link">Особенности проведения вступительных испытаний для лиц с ограниченными
+						возможностями здоровья и инвалидов</a>
+					<a href="" class="nav__hidden-link">Учет индивидуальных достижений поступающих при приеме на обучение</a>
+					<a href="" class="nav__hidden-link">Общие правила подачи и рассмотрения апелляций</a>
+					<a href="" class="nav__hidden-link">Медицинские осмотры</a>
+					<a href="" class="nav__hidden-link">Олимпиады</a>
+					<a href="" class="nav__hidden-link">Цены/Квитанции</a>
+					<a href="" class="nav__hidden-link">Общежитие</a>
+					<a href="" class="nav__hidden-link">Информация Рособрнадзора</a>
+					<a href="" class="nav__hidden-link">План приёма</a>
+					<a href="" class="nav__hidden-link">Приём документов</a>
+				</div>
+			</div>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					Студентам
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list">
+					<a href="" class="nav__hidden-link">Студенческий совет</a>
+					<a href="" class="nav__hidden-link">Научное общество</a>
+					<a href="" class="nav__hidden-link">Студенческая жизнь</a>
+					<a href="" class="nav__hidden-link">Газета «Время ИСПиП»</a>
+					<a href="" class="nav__hidden-link">Наши звезды</a>
+					<a href="" class="nav__hidden-link">
+						Центр содействия трудоустройству выпускников ЧОУВО «Институт специальной педаг?
+					</a>
+				</div>
+			</div>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					ЭИОС
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list">
+					<a href="" class="nav__hidden-link"></a>
+				</div>
+			</div>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					Научная деятельность
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list short">
+					<a href="" class="nav__hidden-link">Аспирантура</a>
+					<a href="" class="nav__hidden-link">Новости науки</a>
+					<a href="" class="nav__hidden-link">Научно-исследовательская деятельность</a>
+					<a href="" class="nav__hidden-link">Публикации</a>
+					<a href="" class="nav__hidden-link">Конференции и семинары</a>
+				</div>
+			</div>
+			<a href="#" class="nav__link">Сотрудничество</a>
+			<div class="nav__hidden-container">
+				<button class="nav__link">
+					ДПО
+					<img src="img/icons/chevron-down-white.svg" alt="">
+				</button>
+				<div class="nav__hidden-list short">
+					<a href="teachers.html" class="nav__hidden-link">Преподаватели</a>
+					<a href="programs.html" class="nav__hidden-link">Профпереподготовка</a>
+					<a href="programs.html" class="nav__hidden-link">Повышение квалификации</a>
+				</div>
+			</div>
+			<a href="#" class="nav__link">Контакты</a>
+
+			<a href="" class="nav__login">
+				Вход в личный кабинет
+				<img src="img/icons/login-blue.svg" alt="">
+			</a>
+
+			<div class="nav__social">
+				<a href="" class="nav__social-link">
+					<img src="img/icons/vk-white.svg" alt="">
+				</a>
+				<a href="" class="nav__social-link">
+					<img src="img/icons/vk-white.svg" alt="">
+				</a>
+				<a href="" class="nav__social-link">
+					<img src="img/icons/vk-white.svg" alt="">
+				</a>
+			</div>
+		</div>
+
+	</nav>
+
+	<main>
+		<section class="main-section">
+			<swiper-container id="main-slider" init="false">
+				<swiper-slide>
+					<img src="img/main-slider-1.png" alt="">
+				</swiper-slide>
+				<swiper-slide>
+					<img src="img/logo-footer.png" alt="">
+				</swiper-slide>
+			</swiper-container>
+
+			<div class="swiper-pagination"></div>
+
+			<div class="container">
+				<div class="swiper-buttons">
+					<button class="swiper-prev">
+						<img src="img/icons/arrow-left.svg" alt="">
+					</button>
+					<button class="swiper-next">
+						<img src="img/icons/arrow-right.svg" alt="">
+					</button>
+				</div>
+
+				<div class="main-section__left">
+					<h1 class="main-section__title">Институт специальной педагогики и психологии</h1>
+					<div class="main-section__text">Ведущий вуз Санкт-Петербурга в сфере специальной педагогики и психологии</div>
+					<button class="main-section__button">Подобрать программу</button>
+				</div>
+
+				<div class="main-section__cards">
+					<article class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/redux-blue.svg" alt="">
+						</div>
+						Более 30 лет опыта в сфере образования
+					</article>
+					<article class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/student-cap-blue.svg" alt="">
+						</div>
+						Более 20 000 выпускников
+					</article>
+					<article class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/diploma-blue.svg" alt="">
+						</div>
+						Диплом о профессиональной переподготовке установленного образца
+					</article>
+					<article class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/messages-blue.svg" alt="">
+						</div>
+						Практикоориентированное обучение
+					</article>
+				</div>
+
+				<swiper-container id="card-slider" init="false">
+					<swiper-slide class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/redux-blue.svg" alt="">
+						</div>
+						Более 30 лет опыта в сфере образования
+					</swiper-slide>
+					<swiper-slide class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/student-cap-blue.svg" alt="">
+						</div>
+						Более 20 000 выпускников
+					</swiper-slide>
+					<swiper-slide class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/diploma-blue.svg" alt="">
+						</div>
+						Диплом о профессиональной переподготовке установленного образца
+					</swiper-slide>
+					<swiper-slide class="main-section__card">
+						<div class="main-section__card-icon">
+							<img src="img/icons/messages-blue.svg" alt="">
+						</div>
+						Практикоориентированное обучение
+					</swiper-slide>
+				</swiper-container>
+			</div>
+		</section>
+
+		<section class="info">
+			<div class="container">
+				<h2 class="info__title">Институт специальной педагогики и психологии — это:</h2>
+				<div class="info__list-and-button">
+					<ul class="info__list">
+						<li class="info__list-item">Престижное образование в сфере специальной педагогики и психологии</li>
+						<li class="info__list-item">Инновационные методики обучения</li>
+						<li class="info__list-item">Высококвалифицированный научно-педагогический состав</li>
+						<li class="info__list-item">Современная материально-техническая база</li>
+					</ul>
+					<a href="" class="info__button">Узнать больше об институте</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="programs">
+			<div class="container">
+				<h2 class="programs__title">Наши программы</h2>
+
+				<swiper-container id="tab-slider" init="false">
+					<swiper-slide>
+						<label class="tab">
+							<input type="radio" checked name="program">
+							<div class="tab__title">Высшее образование</div>
+							<div class="tab__text">13 программ</div>
+						</label>
+					</swiper-slide>
+					<swiper-slide>
+						<label class="tab">
+							<input type="radio" name="program">
+							<div class="tab__title">Профессиональная переподготовка</div>
+							<div class="tab__text">4 программы</div>
+						</label>
+					</swiper-slide>
+					<swiper-slide>
+						<label class="tab">
+							<input type="radio" name="program">
+							<div class="tab__title">Повышение квалификации</div>
+							<div class="tab__text">8 программ</div>
+						</label>
+					</swiper-slide>
+				</swiper-container>
+
+				<div class="programs__subtitle-and-see-all">
+					<h3 class="programs__subtitle">Профессиональная переподготовка:</h3>
+					<a class="see-all" href="">
+						<span>Смотреть все программы</span>
+						<img src="img/icons/share.svg" alt="">
+					</a>
+				</div>
+
+				<div class="programs__filters">
+					<div class="custom-select">
+						<div class="custom-select__label-container">
+							<span class="custom-select__label">
+								дистанционно
+							</span>
+							<svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M1.39293 0.469689C1.53358 0.329086 1.72431 0.250099 1.92318 0.250099C2.12205 0.250099 2.31278 0.329086 2.45343 0.469689L4.92318 2.93944L7.39293 0.469689C7.46211 0.398056 7.54487 0.34092 7.63638 0.301613C7.72788 0.262306 7.82629 0.241616 7.92588 0.240751C8.02546 0.239886 8.12422 0.258862 8.2164 0.296572C8.30857 0.334283 8.39231 0.389973 8.46273 0.460392C8.53314 0.530812 8.58884 0.614551 8.62655 0.706723C8.66426 0.798896 8.68323 0.897655 8.68237 0.99724C8.6815 1.09682 8.66081 1.19524 8.62151 1.28674C8.5822 1.37825 8.52506 1.461 8.45343 1.53019L5.45343 4.53019C5.31278 4.67079 5.12205 4.74978 4.92318 4.74978C4.72431 4.74978 4.53358 4.67079 4.39293 4.53019L1.39293 1.53019C1.25233 1.38954 1.17334 1.19881 1.17334 0.999939C1.17334 0.801066 1.25233 0.610335 1.39293 0.469689Z"
+									fill="#175CD8" />
+							</svg>
+						</div>
+						<input type="text" value="1">
+						<div class="custom-select__options">
+							<div class="custom-select__option" data-value="1">дистанционно</div>
+							<div class="custom-select__option" data-value="2">подраздел 2</div>
+							<div class="custom-select__option" data-value="3">подраздел 3</div>
+						</div>
+					</div>
+					<span class="programs__stripe"></span>
+					<div class="programs__checkboxes">
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							высшее образование
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							повышение квалификации
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							профпереподготовка
+						</label>
+					</div>
+				</div>
+
+				<swiper-container id="program-slider" init="false">
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-1.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">повышение квалификации</b>
+								<b class="tag">диплом</b>
+							</div>
+							<div class="program-card__title">Логопедическая работа с детьми и взрослыми</div>
+							<div class="program-card__training-time">
+								<span class="blue">7 месяцев</span> / 1200 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение с применением дистанционных технологий и электронного обучения
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-2.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">профпереподготовка</b>
+								<b class="tag">сертификат</b>
+							</div>
+							<div class="program-card__title">Специальное дефектологическое образование</div>
+							<div class="program-card__training-time">
+								<span class="blue">4 месяцеа</span> / 520 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение с применением дистанционных технологий и электронного обучения
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-3.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">повышение квалификации</b>
+								<b class="tag">диплом</b>
+							</div>
+							<div class="program-card__title">Нейропсихология детского возраста: методы, методология</div>
+							<div class="program-card__training-time">
+								<span class="blue">3 дня по 8 часов</span> / 48 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+				</swiper-container>
+
+				<div class="programs__show-more-container">
+					<span></span>
+					<button class="programs__show-more">
+						Показать еще (6)
+						<img src="img/icons/chevrom-down-blue.svg" alt="">
+					</button>
+					<span></span>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<h2 class="advantages__title">Почему выбирают нас?</h2>
+				<div class="advantages__list-and-bird">
+					<ul class="advantages__list">
+						<li class="advantages__list-item">Государственная бессрочная лицензия 90ЛО1 №0008456</li>
+						<li class="advantages__list-item">Диплом установленного образца, котирующийся по всей России</li>
+						<li class="advantages__list-item">90% преподавателей — кандидаты и доктора наук, доценты и профессора</li>
+						<li class="advantages__list-item">Возможность совмещать работу и учебу</li>
+						<li class="advantages__list-item">Доступ к обширной базе знаний и учебных материалов</li>
+						<li class="advantages__list-item">Индивидуальный подход к каждому студенту</li>
+					</ul>
+					<div class="advantages__bird">
+						<img src="img/icons/bird-big-white.svg" alt="">
+					</div>
+				</div>
+
+				<section class="comments">
+					<h2 class="comments__title">Отзывы выпускников</h2>
+
+					<div class="comments__flex">
+						<a href="" class="comments__show-more mobile">
+							Узнать больше об институте
+						</a>
+
+						<div class="comments__desk">
+							<swiper-container id="comment-slider" init="false">
+								<swiper-slide>
+									Проходила переподготовку по специальности «Практическая психология». Благодарю весь преподавательский
+									состав
+									— настоящие знатоки своего дела! Отдельное спасибо ректору Анзоровой Светлане Петровне. Однозначно
+									рекомендую!
+								</swiper-slide>
+								<swiper-slide>
+									Проходила переподготовку по специальности «Практическая психология». Благодарю весь преподавательский
+									состав
+									— настоящие знатоки своего дела! Отдельное спасибо ректору Анзоровой Светлане Петровне. Однозначно
+									рекомендую!
+								</swiper-slide>
+								<swiper-slide>
+									Проходила переподготовку по специальности «Практическая психология». Благодарю весь преподавательский
+									состав
+									— настоящие знатоки своего дела! Отдельное спасибо ректору Анзоровой Светлане Петровне. Однозначно
+									рекомендую!
+								</swiper-slide>
+							</swiper-container>
+
+							<div class="comments__bird">
+								<img src="img/icons/bird-blue.svg" alt="">
+							</div>
+
+							<div class="swiper-buttons">
+								<button class="swiper-prev">
+									<img src="img/icons/arrow-left-blue.svg" alt="">
+								</button>
+								<button class="swiper-next">
+									<img src="img/icons/arrow-right-blue.svg" alt="">
+								</button>
+							</div>
+						</div>
+
+						<div class="comments__profile-container">
+							<swiper-container id="comment-profile-slider" init="false">
+								<swiper-slide class="comments__profile">
+									<div class="comments__avatar">
+										<img src="img/comments/avatar-1.png" alt="">
+									</div>
+									<div class="comments__name">Светлана Белых</div>
+									<div class="comments__status">выпускница 2024 года</div>
+									<div class="comments__text">
+										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
+									</div>
+								</swiper-slide>
+								<swiper-slide class="comments__profile">
+									<div class="comments__avatar">
+										<img src="img/comments/avatar-1.png" alt="">
+									</div>
+									<div class="comments__name">Ульяна Рагун,</div>
+									<div class="comments__status">выпускница 2024 года</div>
+									<div class="comments__text">
+										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
+									</div>
+								</swiper-slide>
+								<swiper-slide class="comments__profile">
+									<div class="comments__avatar">
+										<img src="img/comments/avatar-1.png" alt="">
+									</div>
+									<div class="comments__name">Ульяна Рагун,</div>
+									<div class="comments__status">выпускница 2024 года</div>
+									<div class="comments__text">
+										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
+									</div>
+								</swiper-slide>
+							</swiper-container>
+							<a href="" class="comments__show-more desktop">
+								Узнать больше об институте
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="achievements">
+			<div class="container">
+				<div class="achievements__title-and-buttons">
+					<h2 class="achievements__title">Наши достижения</h2>
+					<div class="swiper-buttons">
+						<button class="swiper-prev">
+							<img src="img/icons/arrow-left-blue.svg" alt="">
+						</button>
+						<button class="swiper-next">
+							<img src="img/icons/arrow-right-blue.svg" alt="">
+						</button>
+					</div>
+				</div>
+				<swiper-container id="achievement-slider" init="false">
+					<swiper-slide class="achievements__achievement">
+						<img src="img/achievements/achievement-1.png" alt="">
+						Четырехкратный обладатель золотой медали "100 Лучших вузов России"
+					</swiper-slide>
+					<swiper-slide class="achievements__achievement">
+						<img src="img/achievements/achievement-2.png" alt="">
+						Трехкратный лауреат премии "100 Лучших вузов России"
+					</swiper-slide>
+					<swiper-slide class="achievements__achievement">
+						<img src="img/achievements/achievement-3.png" alt="">
+						Член Европейской ассоциации институтов
+					</swiper-slide>
+
+					<swiper-slide class="achievements__achievement">
+						<img src="img/achievements/achievement-2.png" alt="">
+						Трехкратный лауреат премии "100 Лучших вузов России"
+					</swiper-slide>
+					<swiper-slide class="achievements__achievement">
+						<img src="img/achievements/achievement-3.png" alt="">
+						Член Европейской ассоциации институтов
+					</swiper-slide>
+				</swiper-container>
+			</div>
+		</section>
+
+		<section class="popular-program">
+			<div class="container">
+				<div class="popular-program__head">
+					<h2 class="popular-program__title">
+						Популярные курсы:
+						<svg width="66" height="44" viewBox="0 0 66 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M17.6468 0.20609C17.8563 0.317643 18.448 0.689488 18.941 1.03654C19.4464 1.3712 20.3832 1.87938 21.0242 2.16446C22.528 2.82139 28.1489 4.69299 28.642 4.69299C28.8392 4.69299 29.8376 4.94089 30.8484 5.23836C36.0625 6.81249 39.4153 8.25029 42.312 10.1715C43.9884 11.287 46.6632 13.9271 47.6494 15.4392C48.0068 15.997 48.3397 16.4308 48.389 16.406C48.4383 16.3812 48.7711 15.9226 49.1285 15.3897C51.1378 12.4273 53.8249 10.9647 57.2024 10.9647C58.8295 10.9771 59.1869 11.0639 60.9003 11.8819L61.8864 12.3406L63.0574 12.2414C63.6984 12.1794 64.401 12.1546 64.6229 12.1918C65.4611 12.3406 66.1637 13.3693 65.9665 14.1626C65.9295 14.3361 65.5351 14.9435 65.116 15.5012C64.1299 16.8151 63.871 17.2489 63.6121 18.0793C63.1068 19.6906 61.9481 21.4135 60.814 22.2812C60.4566 22.5414 59.606 23.0868 58.9281 23.4834C56.7956 24.7105 56.13 25.3303 54.0591 28.0075C53.0484 29.3214 50.3365 32.135 49.1532 33.0894C46.2318 35.4568 42.8297 37.1177 39.4523 37.8242C36.5925 38.4315 36.0009 38.4687 29.5911 38.4687H23.5511L22.7129 38.7662C21.1721 39.3115 19.1876 40.6874 17.277 42.5094C16.5867 43.1663 15.8964 43.7737 15.7362 43.848C15.354 44.0587 14.7254 44.0463 14.3309 43.8356C13.8379 43.5877 9.48664 39.4231 4.61769 34.5644C0.722529 30.6848 0.192491 30.1022 0.0692265 29.6312C-0.0417116 29.185 -0.029385 29.0239 0.180165 28.5653C0.488326 27.8464 0.932079 27.5613 1.7333 27.5613C2.27566 27.5613 2.50987 27.6605 3.71786 28.3918C7.87188 30.9327 13.5174 32.2217 17.4742 31.5276C19.052 31.255 21.6405 30.3749 21.6405 30.1146C21.6405 30.0775 21.2954 29.9039 20.8763 29.7428C15.7115 27.7596 9.96738 23.5702 7.28021 19.8394C5.43124 17.2613 4.92585 15.9102 5.48054 15.0178C6.02291 14.1502 6.78715 14.0634 8.4389 14.6584C10.0783 15.2409 11.311 15.4021 14.3679 15.4145C17.4249 15.4145 21.0242 15.1542 21.0242 14.9311C21.0242 14.8567 20.8886 14.646 20.7284 14.4601C19.9272 13.6048 18.3247 10.8904 17.5482 9.13031C16.3278 6.3167 15.1445 2.30081 15.2924 1.47036C15.4033 0.900198 15.7485 0.429195 16.2415 0.193694C16.7716 -0.0665954 17.1784 -0.0665941 17.6468 0.20609ZM21.1105 8.47339C20.8147 7.87844 19.7916 5.46147 19.7916 5.36231C19.7916 5.27554 19.8902 5.31273 20.864 5.69697C22.602 6.39107 24.981 7.17194 28.1736 8.10155C33.1658 9.55174 35.9023 10.5681 38.2566 11.82C39.3044 12.3777 41.067 13.5181 41.6094 13.9891L41.9176 14.2617L41.0547 14.1874C40.5863 14.1502 39.6988 14.0634 39.0825 13.9891C37.4924 13.7907 33.5972 13.8031 30.5156 14.0262C29.0611 14.1378 27.2614 14.2493 26.5341 14.2989L25.2029 14.3733L24.8208 13.9643C23.7977 12.8735 21.924 10.0971 21.1105 8.47339ZM53.1716 15.8235C53.714 15.2161 54.7001 14.6584 55.6123 14.4353C57.2024 14.051 58.546 14.2865 59.9389 15.1913L60.6908 15.6871L60.2224 16.877C59.4581 18.8478 58.7925 19.5171 56.2163 20.9425C55.1439 21.5375 53.0484 23.4587 52.2471 24.5742C50.4968 27.0159 47.8096 29.8048 45.8744 31.1806C44.3952 32.2341 42.2134 33.3249 40.3768 33.9198C37.4677 34.8742 34.1765 35.1469 28.1736 34.9734C26.3739 34.9238 24.451 34.9114 23.9086 34.961C21.4926 35.1593 18.6699 36.6343 15.5143 39.3487L14.9842 39.8073L13.6037 38.4935C12.8394 37.7746 11.5698 36.5847 10.7932 35.8286L9.37571 34.4652L10.1153 34.6387C12.2724 35.1469 15.354 35.3204 17.4495 35.0477C20.3216 34.7007 23.0581 33.5728 25.5973 31.7012L26.2876 31.193L27.8777 31.4781C29.9116 31.8375 33.6095 31.8747 35.4585 31.5524C36.7898 31.3169 39.2427 30.6352 40.4754 30.1518C41.7573 29.6436 43.6926 28.5529 44.8759 27.6481C46.3551 26.5325 48.0808 24.7849 48.2657 24.2023C48.5985 23.186 47.785 22.0456 46.7126 22.0456C45.973 22.0456 45.7757 22.1696 44.7527 23.1984C41.8929 26.0987 38.232 27.7968 33.9054 28.243C26.8053 28.9867 17.8933 25.5782 12.0875 19.9138L10.8549 18.7115L13.9365 18.6991C17.1537 18.6991 19.5204 18.5379 24.2784 18.0174C29.5541 17.4472 31.6126 17.3109 35.138 17.2985C38.9469 17.2737 40.1426 17.3852 42.4969 17.9678C43.5816 18.2281 44.4568 18.5627 45.7881 19.1949C47.3782 19.9509 47.6864 20.0625 48.3027 20.0625C49.5846 20.0625 50.3735 19.4799 51.976 17.3356C52.4074 16.7531 52.9498 16.0714 53.1716 15.8235Z"
+								fill="white" />
+						</svg>
+					</h2>
+
+					<div class="swiper-buttons">
+						<button class="swiper-prev">
+							<img src="img/icons/arrow-left.svg" alt="">
+						</button>
+						<button class="swiper-next">
+							<img src="img/icons/arrow-right.svg" alt="">
+						</button>
+					</div>
+				</div>
+
+				<swiper-container id="popular-program-slider" init="false">
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-1.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">повышение квалификации</b>
+								<b class="tag">диплом</b>
+							</div>
+							<div class="program-card__title">Логопедическая работа с детьми и взрослыми</div>
+							<div class="program-card__training-time">
+								<span class="blue">7 месяцев</span> / 1200 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение с применением дистанционных технологий и электронного обучения
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-2.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">профпереподготовка</b>
+								<b class="tag">сертификат</b>
+							</div>
+							<div class="program-card__title">Специальное дефектологическое образование</div>
+							<div class="program-card__training-time">
+								<span class="blue">4 месяцеа</span> / 520 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение с применением дистанционных технологий и электронного обучения
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-3.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">повышение квалификации</b>
+								<b class="tag">диплом</b>
+							</div>
+							<div class="program-card__title">Нейропсихология детского возраста: методы, методология</div>
+							<div class="program-card__training-time">
+								<span class="blue">3 дня по 8 часов</span> / 48 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide class="program-card">
+						<div class="program-card__image">
+							<img src="img/programs/program-3.png" alt="">
+						</div>
+						<div class="program-card__body">
+							<div class="program-card__tags">
+								<b class="tag">повышение квалификации</b>
+								<b class="tag">диплом</b>
+							</div>
+							<div class="program-card__title">Нейропсихология детского возраста: методы, методология</div>
+							<div class="program-card__training-time">
+								<span class="blue">3 дня по 8 часов</span> / 48 часов
+							</div>
+							<p class="program-card__info">
+								Очно-заочное обучение
+							</p>
+							<div class="program-card__buttons">
+								<button class="program-card__send">Подать заявку</button>
+								<button class="program-card__more-info">Подробнее</button>
+							</div>
+						</div>
+					</swiper-slide>
+				</swiper-container>
+
+			</div>
+		</section>
+
+		<section class="section-training-info">
+			<div class="container">
+				<h2 class="section-training-info__title">Как проходит обучение?</h2>
+				<div class="section-training-info__flex">
+					<article class="info-card">
+						<div class="info-card__text">
+							Подача заявки и консультация, заключение договора
+						</div>
+						<button class="info-card__button">Как подать заявку?</button>
+					</article>
+					<div>
+						<h3 class="section-training-info__subtitle">
+							После одобрения заявки, поступающего ждут следующие шаги обучения
+						</h3>
+
+						<div class="section-training-info__steps">
+							<div class="section-training-info__step">
+								<span class="counter">2</span>
+								Зачисление на программу
+							</div>
+							<div class="section-training-info__step">
+								<span class="counter">3</span>
+								Доступ к учебным материалам в личном кабинете
+							</div>
+							<div class="section-training-info__step">
+								<span class="counter">4</span>
+								Лекции и практические занятия преподавателей в аудиториях института в гибридном формате, включая онлайн
+								лекции и вебинары
+							</div>
+							<div class="section-training-info__step">
+								<span class="counter">5</span>
+								Выполнение практических заданий и промежуточная аттестация
+							</div>
+							<div class="section-training-info__step">
+								<span class="counter">6</span>
+								Индивидуальные консультации с преподавателями
+							</div>
+							<div class="section-training-info__step">
+								<span class="counter">7</span>
+								Итоговая аттестация
+							</div>
+							<div class="section-training-info__step blue">
+								<span class="counter">8</span>
+								Получение диплома
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-diploma">
+			<div class="container">
+				<div class="section-diploma__flex">
+					<div class="section-diploma__left">
+						<h2 class="section-diploma__title">Ваш будущий диплом</h2>
+
+						<div class="section-diploma__text">
+							<p>
+								Качество образования в Институте специальной педагогики и психологии подтверждается выдаваемыми
+								документами, соответствующими высшим стандартам российского и международного образования.
+							</p>
+							<p>
+								Все учебные программы лицензированы, а дипломы института признаются профессиональным сообществом
+								благодаря
+								более чем 30-летней истории подготовки специалистов в области психологии и педагогики!
+							</p>
+							<p>
+								Сведения о дипломе вносятся в реестр ФИС ФРДО
+							</p>
+						</div>
+
+						<img class="mobile" src="img/diploma.png" alt="">
+
+
+						<div class="section-diploma__postscript">
+							<p>
+								Лицензия 90ЛО1 №0008456
+							</p>
+							<p>
+								Полное наименование образовательной организации: Частное образовательное учреждение высшего
+								образования
+								«Институт специальной педагогики и психологии»
+							</p>
+						</div>
+					</div>
+
+					<div class="section-diploma__image desktop">
+						<img src="img/diploma.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-teachers">
+			<div class="container">
+				<div class="section-teachers__head">
+					<h2 class="section-teachers__title">Наши преподаватели:</h2>
+					<a href="teachers.html" class="see-all">
+						<span>Познакомиться со всеми преподавателями</span>
+						<img src="img/icons/share.svg" alt="">
+					</a>
+				</div>
+
+				<swiper-container id="teacher-slider" init="false">
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-1.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Бизюк Александр Павлович</div>
+						<p class="teacher__info">
+							Доцент, кандидат психологических наук. Психолог, нейропсихолог, специальный
+							психолог. Автор более 85 научных работ, учебников и методических пособий. Победитель международного
+							конкурса PROЗНАНИЕ 2021.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-2.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Логинова Людмила Ивановна</div>
+						<p class="teacher__info">
+							Доцент, кандидат педагогических наук. Награждена почетной грамотой Министерства образования и науки
+							Российской Федерации. Автор более 30 научных публикаций.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-3.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Ростомашвили Ия Евгеньевна</div>
+						<p class="teacher__info">
+							Доцент, кандидат психологических наук, региональный директор АНО «Центр внедрения и развития инклюзивных
+							технологий», член редколлегии экспертно-аналитического журнала «Доступная среда», сертифицированный
+							аудитор по вопросам инклюзии.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-4.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Клименко Виктор Матвеевич</div>
+						<p class="teacher__info">
+							Врач-лечебник, нейробиолог, доктор медицинских наук, профессор, заведующий Физиологическим отделом им.
+							И.П. Павлова НИИ экспериментальной медицины Северо-Западного отделения РAМН. Автор более 150 научных
+							трудов, учебников, пособий. Более 50 лет стаж преподавательской работы.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-5.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Егорова Марина Александровна</div>
+						<p class="teacher__info">
+							Доцент, кандидат биологических наук, ведущий научный сотрудник. Руководит исследовательской группой в
+							Институте Эволюционной физиологии и биохимии им. И.М.Сеченова РАН. Эксперт Федерального реестра РИНКЦЭ,
+							член FENS. Автор более 175 научных публикаций.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-6.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Луговая Виолетта Федоровна</div>
+						<p class="teacher__info">
+							Доцент, кандидат психологических наук. Имеет высшую квалификационную категорию «педагог-психолог»,
+							квалификацию психолога-консультанта в области Гештальта, является членом Гильдии психотерапии и тренинга
+							Санкт-Петербурга.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-7.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Бахчеева Эмилия Петровна</div>
+						<p class="teacher__info">
+							Доцент, кандидат психологических наук. Преподаватель психологических дисциплин и психолог-практик со
+							стажем работы более 18 лет. Специалист в области индивидуального и семейного консультирования, ведущая
+							тренинговых и коррекционных групп. Автор более 30 публикаций, творческих проектов и разработок в области
+							психологии.
+						</p>
+					</swiper-slide>
+					<swiper-slide class="teacher">
+						<div class="teacher__avatar">
+							<img src="img/teachers/teacher-8.png" loading="lazy" alt="">
+						</div>
+						<div href="" class="teacher__name">Василенко Анна Владимировна</div>
+						<p class="teacher__info">
+							Кандидат медицинских наук, практикующий невролог со стажем 16 лет. Преподаватель неврологии, психиатрии и
+							нейрофизиологии. Сотрудник отделения эпилепсии НИПНИ имени В.М. Бехтерева и ассистент кафедры неврологии
+							СЗГМУ имени И.И. Мечникова. Автор 3 патентов на изобретение и около 100 научных работ.
+						</p>
+					</swiper-slide>
+				</swiper-container>
+
+				<div class="swiper-buttons">
+					<button class="swiper-prev">
+						<img src="img/icons/arrow-left-blue.svg" alt="">
+					</button>
+					<button class="swiper-next">
+						<img src="img/icons/arrow-right-blue.svg" alt="">
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- В article с классом lazy-video вставлять атрибут data-id с айдишником видео -->
+		<section class="videos">
+			<div class="container">
+				<div class="videos__head">
+					<h2 class="videos__title">Наши видеоматериалы:</h2>
+					<a href="videos.html" class="see-all">
+						<span>Посмотреть все видео</span>
+						<img src="img/icons/share.svg" alt="">
+					</a>
+					<div class="videos__checkboxes">
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							Интересное
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							психология
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							КПТ
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							Конфликты
+						</label>
+						<label class="tag-checkbox">
+							<input type="checkbox">
+							СВО
+						</label>
+					</div>
+				</div>
+
+				<div class="videos__flex">
+					<div class="video-big">
+						<article class="lazy-video big" data-id="405cfa67f724b6d2b04c73737ab5a080">
+							<button class="lazy-video__play">
+								<img src="img/icons/play-white.svg" alt="">
+							</button>
+						</article>
+						<b class="video-big__name">Название видеоматериала</b>
+						<p class="video-big__text">
+							Мы выпустили ролик с описанием под роликом чтобы можно было понять о чем ролик до открытия видео
+						</p>
+						<time datetime="2024-10-16" class="video-big__date">16 октября 2024</time>
+					</div>
+					<swiper-container id="video-slider" init="false">
+						<swiper-slide>
+							<article class="lazy-video" data-id="405cfa67f724b6d2b04c73737ab5a080">
+								<time datetime="2024-10-16" class="lazy-video__date">16 октября 2024</time>
+								<div class="lazy-video__flex">
+									<button class="lazy-video__play">
+										<img src="img/icons/play-white.svg" alt="">
+									</button>
+									<div class="lazy-video__text-and-duration">
+										<b class="lazy-video__text">Название видеоматериала</b>
+										<b class="lazy-video__duration">23:42</b>
+									</div>
+								</div>
+							</article>
+						</swiper-slide>
+						<swiper-slide>
+							<article class="lazy-video" data-id="405cfa67f724b6d2b04c73737ab5a080">
+								<time datetime="2024-10-16" class="lazy-video__date">16 октября 2024</time>
+								<div class="lazy-video__flex">
+									<button class="lazy-video__play">
+										<img src="img/icons/play-white.svg" alt="">
+									</button>
+									<div class="lazy-video__text-and-duration">
+										<b class="lazy-video__text">Название видеоматериала</b>
+										<b class="lazy-video__duration">23:42</b>
+									</div>
+								</div>
+							</article>
+						</swiper-slide>
+						<swiper-slide>
+							<article class="lazy-video" data-id="405cfa67f724b6d2b04c73737ab5a080">
+								<time datetime="2024-10-16" class="lazy-video__date">16 октября 2024</time>
+								<div class="lazy-video__flex">
+									<button class="lazy-video__play">
+										<img src="img/icons/play-white.svg" alt="">
+									</button>
+									<div class="lazy-video__text-and-duration">
+										<b class="lazy-video__text">Название видеоматериала</b>
+										<b class="lazy-video__duration">23:42</b>
+									</div>
+								</div>
+							</article>
+						</swiper-slide>
+						<swiper-slide>
+							<article class="lazy-video" data-id="405cfa67f724b6d2b04c73737ab5a080">
+								<time datetime="2024-10-16" class="lazy-video__date">16 октября 2024</time>
+								<div class="lazy-video__flex">
+									<button class="lazy-video__play">
+										<img src="img/icons/play-white.svg" alt="">
+									</button>
+									<div class="lazy-video__text-and-duration">
+										<b class="lazy-video__text">Название видеоматериала</b>
+										<b class="lazy-video__duration">23:42</b>
+									</div>
+								</div>
+							</article>
+						</swiper-slide>
+					</swiper-container>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<h2 class="consultation__title">Получите консультацию и узнайте, какая программа вам подойдет</h2>
+				<div class="consultation__image">
+					<img src="img/consultation-woman.png" loading="lazy" alt="">
+				</div>
+				<button class="consultation__button">
+					Подобрать программу
+					<img src="img/icons/bird-blue.svg" alt="">
+				</button>
+			</div>
+		</section>
+
+		<section class="student-support">
+			<div class="container">
+				<h2 class="student-support__title">Личный кабинет и поддержка студентов</h2>
+				<div class="student-support__flex">
+					<div class="student-support__content">
+						<h3 class="student-support__subtitle">
+							В процессе обучения у Вас будет доступ к личному кабинету, где вы сможете:
+						</h3>
+						<ul class="student-support__list">
+							<li class="student-support__list-item">Просматривать расписание и список курсов</li>
+							<li class="student-support__list-item">Отслеживать учебные достижения</li>
+							<li class="student-support__list-item">Общаться с преподавателями и кураторами</li>
+						</ul>
+						<div class="student-support__text desktop">
+							Воспользуйтесь видеоинструкцией по работе с личным кабинетом, чтобы легко освоить его основные функции. Мы
+							всегда готовы помочь вам на каждом этапе обучения! Если возникнут вопросы, обратитесь в службу поддержки
+							через чат или по указанным контактам на сайте.
+						</div>
+					</div>
+
+					<article class="lazy-video" data-id="405cfa67f724b6d2b04c73737ab5a080">
+						<div class="lazy-video__flex">
+							<button class="lazy-video__play">
+								<img src="img/icons/play-white.svg" alt="">
+							</button>
+							<div class="lazy-video__text-and-duration">
+								<b class="lazy-video__text">Название видеоматериала</b>
+								<b class="lazy-video__duration">23:42</b>
+							</div>
+						</div>
+					</article>
+
+					<div class="student-support__text mobile">
+						Воспользуйтесь видеоинструкцией по работе с личным кабинетом, чтобы легко освоить его основные функции. Мы
+						всегда готовы помочь вам на каждом этапе обучения! Если возникнут вопросы, обратитесь в службу поддержки
+						через чат или по указанным контактам на сайте.
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="psychology-program">
+			<div class="container">
+				<h2 class="psychology-program__title">Кризисная психология</h2>
+				<p class="psychology-program__text">
+					Оказание психологической помощи при психологических травмах в экстремальных ситуациях
+				</p>
+				<img src="img/psychology-program-bg-mobile.png" class="mobile" loading="lazy" alt="">
+				<div class="psychology-program__foot">
+					<button class="psychology-program__button">
+						Подробнее о программе
+						<img src="img/icons/bird-blue.svg" alt="">
+					</button>
+					<div class="psychology-program__info">
+						<p>320 часов</p>
+						<p>Набор групп каждый месяц</p>
+					</div>
+				</div>
+			</div>
+			<div class="psychology-program__image desktop">
+				<img src="img/psychology-program-bg.png" loading="lazy" alt="">
+			</div>
+		</section>
+
+		<section class="section-partners">
+			<div class="container">
+				<h2 class="section-partners__title">Партнеры</h2>
+				<swiper-container id="partner-slider" init="false">
+					<swiper-slide>
+						<div class="section-partners__image">
+							<img src="img/partners/partner-1.png" loading="lazy" alt="">
+						</div>
+					</swiper-slide>
+					<swiper-slide>
+						<div class="section-partners__image">
+							<img src="img/partners/partner-2.png" loading="lazy" alt="">
+						</div>
+						<div class="section-partners__text">
+							Наш партнер Т-Банк предлагает уникальные условия для оформления рассрочки и кредита на обучение с лучшими
+							условиями на рынке!
+						</div>
+						<div class="section-partners__info">
+							Все 100% прошедших курс окупают обучение уже за первые 2-3 года практики!
+						</div>
+					</swiper-slide>
+				</swiper-container>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container">
+				<div class="news__head">
+					<h2 class="news__title">Новости</h2>
+					<a href="news.html" class="news__see-all">
+						<span>Все новости</span>
+						<img src="img/icons/share-white.svg" alt="">
+					</a>
+					<div class="swiper-buttons">
+						<button class="swiper-prev">
+							<img src="img/icons/arrow-left.svg" alt="">
+						</button>
+						<button class="swiper-next">
+							<img src="img/icons/arrow-right.svg" alt="">
+						</button>
+					</div>
+				</div>
+				<!-- Закрепленный -->
+				<article class="news__news mobile">
+					<div class="news__name pinned">
+						Началась приемная кампания 2024
+						<img src="img/icons/pin-blue.svg" alt="">
+					</div>
+					<div class="news__info">
+						С 20 июня 2024 г. Институт начинает прием заявлений на обучение на 2024/2025 уч. год
+					</div>
+					<a href="" class="news__see-full pinned-full">Читать далее</a>
+				</article>
+				<swiper-container id="news-slider" init="false">
+					<!-- Закрепленный -->
+					<swiper-slide class="news__news desktop">
+						<div class="news__name pinned">
+							Началась приемная кампания 2024
+							<img src="img/icons/pin-blue.svg" alt="">
+						</div>
+						<div class="news__info">
+							С 20 июня 2024 г. Институт начинает прием заявлений на обучение на 2024/2025 уч. год
+						</div>
+						<a href="" class="news__see-full pinned-full">Читать далее</a>
+					</swiper-slide>
+					<swiper-slide class="news__news">
+						<div class="news__name">
+							Институт стал лауреатом премии "Золотая психея"
+						</div>
+						<div class="news__info">
+							Почетная премия присуждается лучшим вузам с лучшими результатами среди лучших вузов россии, и мы счастливы
+							получить такую награду
+						</div>
+						<a href="" class="news__see-full">Читать далее</a>
+					</swiper-slide>
+					<swiper-slide class="news__news">
+						<div class="news__name">
+							Открыт набор на новую программу
+						</div>
+						<div class="news__info">
+							<p>
+								"Нейропсихологическая диагностика и коррекция в детском возрасте"
+							</p>
+							<p>
+								Программа помогает в коррекции в детском возрасте тех ребят, которые...
+							</p>
+						</div>
+						<a href="" class="news__see-full">Читать далее</a>
+					</swiper-slide>
+					<swiper-slide class="news__news">
+						<div class="news__name">
+							Инстиитут стал лауреатом премии "Золотая психея"
+						</div>
+						<div class="news__info">
+							Почетная премия присуждается лучшим вузам с лучшими результатами среди лучших вузов россии, и мы счастливы
+							получить такую награду
+						</div>
+						<a href="" class="news__see-full">Читать далее</a>
+					</swiper-slide>
+					<swiper-slide class="news__news">
+						<div class="news__name">
+							Инстиитут стал лауреатом премии "Золотая психея"
+						</div>
+						<div class="news__info">
+							Почетная премия присуждается лучшим вузам с лучшими результатами среди лучших вузов россии, и мы счастливы
+							получить такую награду
+						</div>
+						<a href="" class="news__see-full">Читать далее</a>
+					</swiper-slide>
+				</swiper-container>
+			</div>
+		</section>
+
+		<section class="section-question-form">
+			<div class="container">
+				<h2 class="section-question-form__title">Остались вопросы? Мы поможем!</h2>
+				<form action="#" class="section-question-form__form">
+					<label class="input-dark">
+						<span class="input-dark__label">Имя</span>
+						<input type="text" name="name" placeholder="Иван Иванов" required>
+					</label>
+					<label class="input-dark">
+						<span class="input-dark__label">Email</span>
+						<input type="email" name="email" inputmode="email" placeholder="example@mail.ru" required>
+					</label>
+					<label class="input-dark">
+						<span class="input-dark__label">Телефон</span>
+						<input type="tel" name="tel" inputmode="tel" placeholder="Телефон" required>
+					</label>
+
+					<textarea class="textarea-light" name="message" placeholder="Сообщение..." required></textarea>
+
+					<div class="section-question-form__foot">
+						<button type="submit" class="section-question-form__submit">Отправить</button>
+						<div class="section-question-form__checkbox">
+							<label class="checkbox-light">
+								<input type="checkbox" name="privacy_policy">
+							</label>
+							<span class="section-question-form__checkbox-text">
+								Я согласен на обработку личных данных в соответствии с <a href="">Политикой конфиденциальности</a>
+							</span>
+						</div>
+
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="section-map">
+			<div class="container">
+				<h2 class="section-map__title">Контакты</h2>
+				<div class="section-map__address">
+					<span>Адрес:</span>
+					<span>194356,</span>
+					<span>Санкт-Петербург, ул. Большая Озерная, д. 92, лит. А</span>
+				</div>
+				<div class="section-map__links">
+					<a href="tel:+78125655556" class="section-map__tel">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M16.566 21.999C16.571 21.999 16.589 21.999 16.594 21.999C17.122 21.999 17.621 21.791 17.999 21.413L20.711 18.701C21.102 18.31 21.102 17.678 20.711 17.287L16.711 13.287C16.32 12.896 15.688 12.896 15.297 13.287L13.703 14.881C12.964 14.661 11.585 14.161 10.711 13.287C9.83697 12.413 9.33697 11.034 9.11697 10.295L10.711 8.701C11.102 8.31 11.102 7.678 10.711 7.287L6.71097 3.287C6.33597 2.912 5.67197 2.912 5.29697 3.287L2.58597 5.999C2.20597 6.379 1.99197 6.901 1.99997 7.434C2.02297 8.858 2.39997 13.804 6.29797 17.702C10.196 21.6 15.142 21.976 16.566 21.999ZM6.00497 5.408L8.59097 7.994L7.29797 9.287C7.05897 9.525 6.95697 9.869 7.02697 10.199C7.05097 10.314 7.63797 13.041 9.29797 14.701C10.958 16.361 13.685 16.948 13.8 16.972C14.133 17.042 14.474 16.94 14.712 16.701L16.005 15.408L18.591 17.994L16.585 19.999C15.337 19.978 11.067 19.643 7.71197 16.287C4.34597 12.921 4.01997 8.636 3.99997 7.413L6.00497 5.408ZM19.999 10.999H21.999C21.999 5.869 18.126 2 12.989 2V4C17.051 4 19.999 6.943 19.999 10.999Z"
+								fill="#5278C8" />
+							<path d="M12.999 8C15.102 8 15.999 8.897 15.999 11H17.999C17.999 7.775 16.224 6 12.999 6V8Z"
+								fill="#2851A2" />
+						</svg>
+						8 (812) 565-55-56
+					</a>
+					<a href="mailto:rector@wallenberg.ru" class="section-map__mail">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M3 19.0001V10.0701C2.99995 9.74092 3.08116 9.41682 3.23641 9.12654C3.39166 8.83627 3.61617 8.58881 3.89 8.40611L10.89 3.74011C11.2187 3.52083 11.6049 3.40381 12 3.40381C12.3951 3.40381 12.7813 3.52083 13.11 3.74011L20.11 8.40611C20.3838 8.58881 20.6083 8.83627 20.7636 9.12654C20.9188 9.41682 21 9.74092 21 10.0701V19.0001M3 19.0001C3 19.5305 3.21071 20.0392 3.58579 20.4143C3.96086 20.7894 4.46957 21.0001 5 21.0001H19C19.5304 21.0001 20.0391 20.7894 20.4142 20.4143C20.7893 20.0392 21 19.5305 21 19.0001M3 19.0001L9.75 14.5001M21 19.0001L14.25 14.5001M9.75 14.5001L3 10.0001M9.75 14.5001L10.89 15.2601C11.2187 15.4794 11.6049 15.5964 12 15.5964C12.3951 15.5964 12.7813 15.4794 13.11 15.2601L14.25 14.5001M14.25 14.5001L21 10.0001"
+								stroke="#5278C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						rector@wallenberg.ru
+					</a>
+				</div>
+				<div class="section-map__comments">
+					<img src="img/yandex-comments.png" alt="">
+				</div>
+				<div class="section-map__map">
+					<img src="img/map.png" alt="">
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<article class="modal modal-video">
+		<div class="modal__content">
+			<button class="modal-video__play">
+				<img src="img/icons/play-white.svg" alt="">
+			</button>
+		</div>
+	</article>
+
+	<article class="modal">
+		<div class="modal__content"></div>
+	</article>
+
+	<footer class="footer">
+		<div class="footer__flag"></div>
+		<div class="container">
+			<div class="footer__head">
+				<div class="footer__institute">
+
+					<div class="footer__logo-container">
+						<a href="index.html" class="footer__logo">
+							<img src="img/logo.png" alt="">
+						</a>
+						<div class="footer__logo-text">
+							ИНСТИТУТ СПЕЦИАЛЬНОЙ ПЕДАГОГИКИ И ПСИХОЛОГИИ
+						</div>
+					</div>
+
+					<span class="footer__institute-info">
+						Ведущий вуз в сфере специальной педагогики и психологии с более 30-летней историей
+					</span>
+				</div>
+				<div class="footer__social-and-login">
+					<div class="footer__social">
+						<a href="" class="footer__social-link">
+							<img src="img/icons/vk-blue.svg" alt="">
+						</a>
+						<a href="" class="footer__social-link">
+							<img src="img/icons/vk-blue.svg" alt="">
+						</a>
+						<a href="" class="footer__social-link">
+							<img src="img/icons/vk-blue.svg" alt="">
+						</a>
+					</div>
+					<a href="" class="footer__login">
+						Вход в личный кабинет
+						<img src="img/icons/login-white.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<nav class="footer__nav">
+				<a href="" class="footer__link">Сведения об образовательной организации</a>
+				<a href="" class="footer__link">Абитуриентам</a>
+				<a href="" class="footer__link">Студентам</a>
+				<a href="" class="footer__link">Аспирантура</a>
+				<a href="" class="footer__link">Научная деятельность</a>
+				<a href="" class="footer__link">Сотрудничество</a>
+			</nav>
+			<div class="footer__description-and-rating">
+				<p class="footer__description">
+					Рассрочка — это форма кредита (займа), при которой переплаты по кредиту (займу) не возникает за счет скидки
+					на
+					товар, предоставляемой продавцом. Пос-кредит (займ) – это форма кредита (займа), предоставленная
+					непосредственно в точке продаж или на сайте интернет-магазина. Процентная ставка от 0% до 100% годовых,
+					полная
+					стоимость потребительского кредита (займа) - от 0.000% до 60.000% годовых. Минимальная сумма - 3000 р.,
+					максимальная сумма - 500 000 рублей. Срок предоставления - от 3 до 36 месяцев. Ваш тариф и размер
+					ежемесячного
+					платежа будет определен по результатам рассмотрения заявки. Условия АО «Тинькофф Банк» и ООО МФК «Т-Финанс».
+				</p>
+				<div class="footer__rating">
+					<img src="img/yandex-rating.png" alt="">
+				</div>
+			</div>
+			<div class="footer__postscript">
+				<a href="">Политика конфиденциальности</a>
+				<span></span>
+				<a href="">Согласие на обработку персональных данных</a>
+				<span></span>
+				<div>© 2024 Институт специальной педагогики и психологии . Все права защищены.</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<script src="js/swipers.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/modals.js"></script>
+	<script src="js/videos.js"></script>
+	<script src="js/custom-select.js"></script>
 </body>
 
 </html>

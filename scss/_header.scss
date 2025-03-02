@@ -1,0 +1,196 @@
+.header {
+	padding: 27px 0;
+
+	.mobile {
+		display: none;
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+		column-gap: 30px;
+		row-gap: 8px;
+	}
+
+	&__logo-container {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+	}
+
+	&__logo {
+		flex: 0 0 88px;
+		height: 88px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+
+	&__logo-text {
+		max-width: 190px;
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 600;
+		color: var(--logo-text);
+	}
+
+	&__actions {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+
+		margin-right: 10px;
+	}
+
+	&__language-select {
+		display: flex;
+		gap: 10px;
+	}
+
+	&__language-button {
+		color: var(--blue-grey);
+		font-size: 14px;
+
+		&.active {
+			color: var(--primary-dark);
+		}
+	}
+
+	&__tel {
+		@include button(40px, 20px);
+		color: var(--primary-dark);
+		font-size: 14px;
+		border: 1px solid var(--primary-light);
+		border-radius: 4px;
+	}
+
+	& &__login {
+		@include button(40px, 18px);
+		font-size: 14px;
+		color: var(--primary);
+	}
+
+	&__license {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 11px;
+
+		margin-right: 10px;
+
+		font-size: 10px;
+		color: var(--primary-dark);
+	}
+
+	&__schedule {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 8px;
+	}
+
+	&__schedule-text {
+		color: var(--primary-dark);
+		font-size: 14px;
+
+		padding-left: 30px;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 16px;
+			height: 16px;
+			background: url("../img/icons/clock-light-blue.svg");
+		}
+	}
+
+	&__schedule-subtext {
+		padding-left: 30px;
+		color: var(--blue-grey);
+		font-size: 10px;
+	}
+
+	&__feedback {
+		@include button(40px, 18px);
+		background: var(--primary);
+		border: 1px solid var(--primary-light);
+		border-radius: 4px;
+		color: white;
+		font-size: 14px;
+	}
+
+	@media (max-width: 1140px) {
+		&__grid {
+			column-gap: 20px;
+		}
+
+		&__license,
+		&__actions {
+			margin: 0;
+		}
+	}
+
+	@media (max-width: 1023px) {
+		background: var(--primary);
+
+		padding: 54px 0 15px;
+
+		.mobile {
+			display: flex;
+		}
+
+		.desktop {
+			display: none;
+		}
+
+		.container {
+			display: block;
+		}
+
+		&__logo-container {
+			margin-top: 18px;
+			gap: 10px;
+		}
+
+		&__logo {
+			flex: 0 0 69px;
+			height: 69px;
+		}
+
+		&__logo-text {
+			font-size: 10px;
+			color: white;
+		}
+
+		&__mobile-links {
+			border-bottom: 1px solid #CFCFCF;
+			padding-bottom: 12px;
+
+			align-items: center;
+			justify-content: end;
+			gap: 16px;
+
+			img {
+				width: 18px;
+				height: 18px;
+			}
+		}
+
+		&__burger {
+			margin-left: auto;
+		}
+	}
+}

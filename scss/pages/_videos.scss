@@ -1,0 +1,62 @@
+.videos-page {
+	main {
+		padding: 42px 0;
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+		}
+	}
+
+
+	.videos {
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 60px;
+		}
+
+		&__info {
+			font-size: 18px;
+			font-weight: 500;
+		}
+
+		&__grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 20px;
+		}
+
+		.lazy-video {
+			aspect-ratio: 413/221;
+			background: url("../img/videos-page-birds.png") left top / 60% no-repeat #5278C8;
+		}
+
+		@media (max-width: 1023px) {
+			.container {
+				gap: 32px;
+			}
+
+			&__grid {
+				grid-template-columns: repeat(2, 1fr);
+				gap: 8px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__info {
+				display: none;
+			}
+
+			&__grid {
+				grid-template-columns: 1fr;
+				gap: 8px;
+			}
+
+			.lazy-video {
+				background-size: 52%;
+				background-position: left -20% top;
+			}
+		}
+	}
+
+}

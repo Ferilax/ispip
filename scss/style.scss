@@ -1,12 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
 
 @import "nullstyle";
+@import "vars";
+@import "templates";
 
 @import "header";
+@import "footer";
+@import "features";
 
+@import "./pages/main";
+@import "./pages/news";
+@import "./pages/institute-info";
+@import "./pages/professions";
+@import "./pages/teachers";
+@import "./pages/programs";
+@import "./pages/aggregating";
+@import "./pages/videos";
+
+body {
+	font-family: "Golos Text", serif;
+	color: var(--black);
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	@media (max-width: 1023px) {
+		&.lock-mobile {
+			overflow: hidden;
+		}
+	}
+
+	&.lock {
+		overflow: hidden;
+	}
+
+	b {
+		font-weight: 600;
+	}
+}
 
 .container {
-	max-width: 1440px;
+	max-width: 1360px;
 	margin: 0 auto;
-	padding: 0 80px	;
+	padding: 0 40px;
+
+	@media (max-width: 1100px) {
+		padding: 0 30px;
+	}
+
+	@media (max-width: 600px) {
+		padding: 0 20px;
+	}
 }
