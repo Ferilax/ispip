@@ -19,16 +19,16 @@ document.addEventListener("click", e => {
 
 //Обрабатываем клик по тригеру
 const nav = document.querySelector(".nav");
-nav?.addEventListener("click", e => {
-	const hiddenContainer = e.target.closest(".nav__hidden-container");
-	const clickedHiddenList = e.target.closest(".nav__hidden-list");
+//nav?.addEventListener("click", e => {
+//	const hiddenContainer = e.target.closest(".nav__hidden-container");
+//	const clickedHiddenList = e.target.closest(".nav__hidden-list");
 
-	if (!hiddenContainer || window.innerWidth < 1024) return;
+//	if (!hiddenContainer || window.innerWidth < 1024) return;
 
-	if (clickedHiddenList) return
+//	if (clickedHiddenList) return
 
-	setClassList(hiddenContainer);
-})
+//	setClassList(hiddenContainer);
+//})
 
 
 // Перенос тултипа, если касается правой части экрана

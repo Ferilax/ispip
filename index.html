@@ -209,7 +209,7 @@
 					<a href="programs.html" class="nav__hidden-link">Повышение квалификации</a>
 				</div>
 			</div>
-			<a href="#" class="nav__link">Контакты</a>
+			<a href="contacts.html" class="nav__link">Контакты</a>
 
 			<a href="" class="nav__login">
 				Вход в личный кабинет
@@ -316,58 +316,77 @@
 			</div>
 		</section>
 
-		<section class="info">
+		<section class="section-info">
 			<div class="container">
-				<h2 class="info__title">Институт специальной педагогики и психологии — это:</h2>
-				<div class="info__list-and-button">
-					<ul class="info__list">
-						<li class="info__list-item">Престижное образование в сфере специальной педагогики и психологии</li>
-						<li class="info__list-item">Инновационные методики обучения</li>
-						<li class="info__list-item">Высококвалифицированный научно-педагогический состав</li>
-						<li class="info__list-item">Современная материально-техническая база</li>
+				<h2 class="section-info__title">Институт специальной педагогики и психологии — это:</h2>
+				<div class="section-info__list-and-button">
+					<ul class="section-info__list">
+						<li class="section-info__list-item">Престижное образование в сфере специальной педагогики и психологии</li>
+						<li class="section-info__list-item">Инновационные методики обучения</li>
+						<li class="section-info__list-item">Высококвалифицированный научно-педагогический состав</li>
+						<li class="section-info__list-item">Современная материально-техническая база</li>
 					</ul>
-					<a href="" class="info__button">Узнать больше об институте</a>
+					<a href="institute-info.html" class="section-info__button">Узнать больше об институте</a>
 				</div>
 			</div>
 		</section>
 
-		<section class="programs">
+		<section class="section-programs">
 			<div class="container">
-				<h2 class="programs__title">Наши программы</h2>
+				<h2 class="section-programs__title">Наши программы</h2>
+
+				<!-- todo -->
+				<!--<div class="section-programs__tabs">
+					<label class="tab">
+						<input type="radio" checked name="program" value="1">
+						<div class="tab__title">Высшее образование</div>
+						<div class="tab__text">13 программ</div>
+					</label>
+					<label class="tab">
+						<input type="radio" name="program" value="2">
+						<div class="tab__title">Профессиональная переподготовка</div>
+						<div class="tab__text">4 программы</div>
+					</label>
+					<label class="tab">
+						<input type="radio" name="program" value="3">
+						<div class="tab__title">Повышение квалификации</div>
+						<div class="tab__text">8 программ</div>
+					</label>
+				</div>-->
 
 				<swiper-container id="tab-slider" init="false">
 					<swiper-slide>
 						<label class="tab">
-							<input type="radio" checked name="program">
+							<input type="radio" checked name="program" value="1">
 							<div class="tab__title">Высшее образование</div>
 							<div class="tab__text">13 программ</div>
 						</label>
 					</swiper-slide>
 					<swiper-slide>
 						<label class="tab">
-							<input type="radio" name="program">
+							<input type="radio" name="program" value="2">
 							<div class="tab__title">Профессиональная переподготовка</div>
 							<div class="tab__text">4 программы</div>
 						</label>
 					</swiper-slide>
 					<swiper-slide>
 						<label class="tab">
-							<input type="radio" name="program">
+							<input type="radio" name="program" value="3">
 							<div class="tab__title">Повышение квалификации</div>
 							<div class="tab__text">8 программ</div>
 						</label>
 					</swiper-slide>
 				</swiper-container>
 
-				<div class="programs__subtitle-and-see-all">
-					<h3 class="programs__subtitle">Профессиональная переподготовка:</h3>
+				<div class="section-programs__subtitle-and-see-all">
+					<h3 class="section-programs__subtitle"></h3>
 					<a class="see-all" href="">
 						<span>Смотреть все программы</span>
 						<img src="img/icons/share.svg" alt="">
 					</a>
 				</div>
 
-				<div class="programs__filters">
+				<div class="section-programs__filters">
 					<div class="custom-select">
 						<div class="custom-select__label-container">
 							<span class="custom-select__label">
@@ -386,8 +405,8 @@
 							<div class="custom-select__option" data-value="3">подраздел 3</div>
 						</div>
 					</div>
-					<span class="programs__stripe"></span>
-					<div class="programs__checkboxes">
+					<span class="section-programs__stripe"></span>
+					<div class="section-programs__checkboxes">
 						<label class="tag-checkbox">
 							<input type="checkbox">
 							высшее образование
@@ -472,9 +491,9 @@
 					</swiper-slide>
 				</swiper-container>
 
-				<div class="programs__show-more-container">
+				<div class="section-programs__show-more-container">
 					<span></span>
-					<button class="programs__show-more">
+					<button class="section-programs__show-more">
 						Показать еще (6)
 						<img src="img/icons/chevrom-down-blue.svg" alt="">
 					</button>
@@ -483,32 +502,33 @@
 			</div>
 		</section>
 
-		<section class="advantages">
+		<section class="section-advantages">
 			<div class="container">
-				<h2 class="advantages__title">Почему выбирают нас?</h2>
-				<div class="advantages__list-and-bird">
-					<ul class="advantages__list">
-						<li class="advantages__list-item">Государственная бессрочная лицензия 90ЛО1 №0008456</li>
-						<li class="advantages__list-item">Диплом установленного образца, котирующийся по всей России</li>
-						<li class="advantages__list-item">90% преподавателей — кандидаты и доктора наук, доценты и профессора</li>
-						<li class="advantages__list-item">Возможность совмещать работу и учебу</li>
-						<li class="advantages__list-item">Доступ к обширной базе знаний и учебных материалов</li>
-						<li class="advantages__list-item">Индивидуальный подход к каждому студенту</li>
+				<h2 class="section-advantages__title">Почему выбирают нас?</h2>
+				<div class="section-advantages__list-and-bird">
+					<ul class="section-advantages__list">
+						<li class="section-advantages__list-item">Государственная бессрочная лицензия 90ЛО1 №0008456</li>
+						<li class="section-advantages__list-item">Диплом установленного образца, котирующийся по всей России</li>
+						<li class="section-advantages__list-item">90% преподавателей — кандидаты и доктора наук, доценты и
+							профессора</li>
+						<li class="section-advantages__list-item">Возможность совмещать работу и учебу</li>
+						<li class="section-advantages__list-item">Доступ к обширной базе знаний и учебных материалов</li>
+						<li class="section-advantages__list-item">Индивидуальный подход к каждому студенту</li>
 					</ul>
-					<div class="advantages__bird">
+					<div class="section-advantages__bird">
 						<img src="img/icons/bird-big-white.svg" alt="">
 					</div>
 				</div>
 
-				<section class="comments">
-					<h2 class="comments__title">Отзывы выпускников</h2>
+				<section class="section-comments">
+					<h2 class="section-comments__title">Отзывы выпускников</h2>
 
-					<div class="comments__flex">
-						<a href="" class="comments__show-more mobile">
+					<div class="section-comments__flex">
+						<a href="institute-info.html" class="section-comments__show-more mobile">
 							Узнать больше об институте
 						</a>
 
-						<div class="comments__desk">
+						<div class="section-comments__desk">
 							<swiper-container id="comment-slider" init="false">
 								<swiper-slide>
 									Проходила переподготовку по специальности «Практическая психология». Благодарю весь преподавательский
@@ -530,7 +550,7 @@
 								</swiper-slide>
 							</swiper-container>
 
-							<div class="comments__bird">
+							<div class="section-comments__bird">
 								<img src="img/icons/bird-blue.svg" alt="">
 							</div>
 
@@ -544,40 +564,40 @@
 							</div>
 						</div>
 
-						<div class="comments__profile-container">
+						<div class="section-comments__profile-container">
 							<swiper-container id="comment-profile-slider" init="false">
-								<swiper-slide class="comments__profile">
-									<div class="comments__avatar">
+								<swiper-slide class="section-comments__profile">
+									<div class="section-comments__avatar">
 										<img src="img/comments/avatar-1.png" alt="">
 									</div>
-									<div class="comments__name">Светлана Белых</div>
-									<div class="comments__status">выпускница 2024 года</div>
-									<div class="comments__text">
+									<div class="section-comments__name">Светлана Белых</div>
+									<div class="section-comments__status">выпускница 2024 года</div>
+									<div class="section-comments__text">
 										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
 									</div>
 								</swiper-slide>
-								<swiper-slide class="comments__profile">
-									<div class="comments__avatar">
+								<swiper-slide class="section-comments__profile">
+									<div class="section-comments__avatar">
 										<img src="img/comments/avatar-1.png" alt="">
 									</div>
-									<div class="comments__name">Ульяна Рагун,</div>
-									<div class="comments__status">выпускница 2024 года</div>
-									<div class="comments__text">
+									<div class="section-comments__name">Ульяна Рагун,</div>
+									<div class="section-comments__status">выпускница 2024 года</div>
+									<div class="section-comments__text">
 										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
 									</div>
 								</swiper-slide>
-								<swiper-slide class="comments__profile">
-									<div class="comments__avatar">
+								<swiper-slide class="section-comments__profile">
+									<div class="section-comments__avatar">
 										<img src="img/comments/avatar-1.png" alt="">
 									</div>
-									<div class="comments__name">Ульяна Рагун,</div>
-									<div class="comments__status">выпускница 2024 года</div>
-									<div class="comments__text">
+									<div class="section-comments__name">Ульяна Рагун,</div>
+									<div class="section-comments__status">выпускница 2024 года</div>
+									<div class="section-comments__text">
 										Повышение квалификации, программа Психологического регулирования в конфликтных ситуациях
 									</div>
 								</swiper-slide>
 							</swiper-container>
-							<a href="" class="comments__show-more desktop">
+							<a href="institute-info.html" class="section-comments__show-more desktop">
 								Узнать больше об институте
 							</a>
 						</div>
@@ -586,10 +606,10 @@
 			</div>
 		</section>
 
-		<section class="achievements">
+		<section class="section-achievements">
 			<div class="container">
-				<div class="achievements__title-and-buttons">
-					<h2 class="achievements__title">Наши достижения</h2>
+				<div class="section-achievements__title-and-buttons">
+					<h2 class="section-achievements__title">Наши достижения</h2>
 					<div class="swiper-buttons">
 						<button class="swiper-prev">
 							<img src="img/icons/arrow-left-blue.svg" alt="">
@@ -600,24 +620,24 @@
 					</div>
 				</div>
 				<swiper-container id="achievement-slider" init="false">
-					<swiper-slide class="achievements__achievement">
+					<swiper-slide class="section-achievements__achievement">
 						<img src="img/achievements/achievement-1.png" alt="">
 						Четырехкратный обладатель золотой медали "100 Лучших вузов России"
 					</swiper-slide>
-					<swiper-slide class="achievements__achievement">
+					<swiper-slide class="section-achievements__achievement">
 						<img src="img/achievements/achievement-2.png" alt="">
 						Трехкратный лауреат премии "100 Лучших вузов России"
 					</swiper-slide>
-					<swiper-slide class="achievements__achievement">
+					<swiper-slide class="section-achievements__achievement">
 						<img src="img/achievements/achievement-3.png" alt="">
 						Член Европейской ассоциации институтов
 					</swiper-slide>
 
-					<swiper-slide class="achievements__achievement">
+					<swiper-slide class="section-achievements__achievement">
 						<img src="img/achievements/achievement-2.png" alt="">
 						Трехкратный лауреат премии "100 Лучших вузов России"
 					</swiper-slide>
-					<swiper-slide class="achievements__achievement">
+					<swiper-slide class="section-achievements__achievement">
 						<img src="img/achievements/achievement-3.png" alt="">
 						Член Европейской ассоциации институтов
 					</swiper-slide>
@@ -1249,25 +1269,25 @@
 			<div class="container">
 				<h2 class="section-question-form__title">Остались вопросы? Мы поможем!</h2>
 				<form action="#" class="section-question-form__form">
-					<label class="input-dark">
-						<span class="input-dark__label">Имя</span>
+					<label class="input">
+						<span class="input__label">Имя</span>
 						<input type="text" name="name" placeholder="Иван Иванов" required>
 					</label>
-					<label class="input-dark">
-						<span class="input-dark__label">Email</span>
+					<label class="input">
+						<span class="input__label">Email</span>
 						<input type="email" name="email" inputmode="email" placeholder="example@mail.ru" required>
 					</label>
-					<label class="input-dark">
-						<span class="input-dark__label">Телефон</span>
-						<input type="tel" name="tel" inputmode="tel" placeholder="Телефон" required>
+					<label class="input">
+						<span class="input__label">Телефон</span>
+						<input type="tel" name="tel" inputmode="tel" placeholder="+7 _______ ____-___-___" required>
 					</label>
 
-					<textarea class="textarea-light" name="message" placeholder="Сообщение..." required></textarea>
+					<textarea class="textarea" name="message" placeholder="Сообщение..." required></textarea>
 
 					<div class="section-question-form__foot">
 						<button type="submit" class="section-question-form__submit">Отправить</button>
 						<div class="section-question-form__checkbox">
-							<label class="checkbox-light">
+							<label class="checkbox">
 								<input type="checkbox" name="privacy_policy">
 							</label>
 							<span class="section-question-form__checkbox-text">
@@ -1324,10 +1344,6 @@
 				<img src="img/icons/play-white.svg" alt="">
 			</button>
 		</div>
-	</article>
-
-	<article class="modal">
-		<div class="modal__content"></div>
 	</article>
 
 	<footer class="footer">

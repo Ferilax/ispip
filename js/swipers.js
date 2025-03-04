@@ -85,6 +85,7 @@ swiperInit(popularProgramSlider, {
 })
 
 const tabSlider = document.querySelector("#tab-slider");
+const isDouble = tabSlider.querySelectorAll("swiper-slide").length === 2;
 swiperInit(tabSlider, {
 	slidesPerView: 1.2,
 	spaceBetween: 18,
@@ -94,20 +95,45 @@ swiperInit(tabSlider, {
 			slidesPerView: 1.6,
 		},
 		550: {
-			slidesPerView: 2.2,
+			slidesPerView: isDouble ? 2 : 2.2,
 		},
 		768: {
-			slidesPerView: 3,
+			slidesPerView: isDouble ? 2 : 3,
 		},
 	}
 })
+// ----------------------------------------------------------------
+function setProgramsSubtitleText(text) {
+	const subtitle = document.querySelector(".section-programs__subtitle");
 
+	const tab = tabSlider.querySelector("input:checked");
+
+	// Если нет checked таба, то код не заработает
+	if (tab) {
+		const tabTitle = tab.parentElement.querySelector(".tab__title");
+
+		subtitle.innerHTML = text || tabTitle.textContent;
+	}
+}
+setProgramsSubtitleText()
+
+tabSlider.addEventListener("click", e => {
+	const clickedTab = e.target.closest(".tab");
+
+	if (clickedTab && e.target.type === "radio") {
+		const tabTitle = clickedTab.querySelector(".tab__title");
+
+		setProgramsSubtitleText(tabTitle.textContent);
+	}
+
+})
+// ----------------------------------------------------------------
 const commentSlider = document.querySelector("#comment-slider");
 swiperInit(commentSlider, {
 	slidesPerView: 1,
 	navigation: {
-		prevEl: ".comments .swiper-prev",
-		nextEl: ".comments .swiper-next",
+		prevEl: ".section-comments .swiper-prev",
+		nextEl: ".section-comments .swiper-next",
 	},
 	allowTouchMove: false,
 	autoHeight: true,
@@ -118,8 +144,8 @@ const commentProfileSlider = document.querySelector("#comment-profile-slider");
 swiperInit(commentProfileSlider, {
 	slidesPerView: 1,
 	navigation: {
-		prevEl: ".comments .swiper-prev",
-		nextEl: ".comments .swiper-next",
+		prevEl: ".section-comments .swiper-prev",
+		nextEl: ".section-comments .swiper-next",
 	},
 	allowTouchMove: false,
 	autoHeight: true,
@@ -139,8 +165,8 @@ swiperInit(achievementSlider, {
 	slidesPerView: 1.3,
 	spaceBetween: 24,
 	navigation: {
-		prevEl: ".achievements .swiper-prev",
-		nextEl: ".achievements .swiper-next",
+		prevEl: ".section-achievements .swiper-prev",
+		nextEl: ".section-achievements .swiper-next",
 	},
 	breakpoints: {
 		501: {
@@ -275,4 +301,49 @@ swiperInit(tableSwiper, {
 			slidesPerView: 5,
 		},
 	}
+});
+
+const commentsGridSwiper = document.querySelector("#comments-grid-slider");
+swiperInit(commentsGridSwiper, {
+	slidesPerView: 1.2,
+	spaceBetween: 12,
+});
+
+const processInfoSwiper = document.querySelector("#process-info-slider");
+swiperInit(processInfoSwiper, {
+	slidesPerView: 1.2,
+	spaceBetween: 12,
+});
+
+const opportunitiesSwiper = document.querySelector("#opportunities-slider");
+swiperInit(opportunitiesSwiper, {
+	slidesPerView: 1.2,
+	spaceBetween: 12,
+	grid: {
+		rows: 1,
+	},
+
+	breakpoints: {
+		601: {
+			slidesPerView: 2.2,
+			spaceBetween: 12,
+			grid: {
+				rows: 1,
+			},
+		},
+		768: {
+			slidesPerView: 2.2,
+			spaceBetween: 20,
+			grid: {
+				rows: 2,
+			},
+		},
+		1024: {
+			slidesPerView: 3,
+			spaceBetween: 20,
+			grid: {
+				rows: 2,
+			},
+		},
+	},
 });

@@ -1,0 +1,125 @@
+.contacts-page {
+	background: #F8F8F8;
+
+	.map {
+		padding-bottom: 80px;
+		background: url("../img/teacher-birds.png") left top 25px no-repeat;
+
+		&__container-big {
+			max-width: 1440px;
+			padding: 0;
+			margin: auto;
+			height: 393px;
+
+			>* {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.container {
+			display: flex;
+			gap: 35px;
+		}
+
+		&__desk {
+			background: white;
+			flex: 0 1 444px;
+			padding: 20px;
+			border-radius: 8px;
+
+			margin-top: -130px;
+		}
+
+		&__address {
+			@extend .section-map__address;
+			margin: 0;
+		}
+
+		&__comments {
+			margin-top: 24px;
+
+			>* {
+				width: 100%;
+			}
+		}
+
+		&__tel,
+		&__mail {
+			@extend .section-map__tel;
+		}
+
+		&__links {
+			margin-top: 50px;
+			@extend .section-map__links;
+		}
+
+		.mobile {
+			display: none;
+		}
+
+		@media (max-width: 1023px) {
+			background-position: left top 50px;
+		}
+
+		@media (max-width: 767px) {
+			background-position: left top;
+			background-size: 100%;
+			display: flex;
+			flex-direction: column-reverse;
+			padding: 60px 0;
+			gap: 24px;
+
+			&__comments {
+				margin: 0;
+			}
+
+			&__container-big {
+				margin: 0;
+				padding: 0 30px;
+				height: 440px;
+
+				>* {
+					border-radius: 8px;
+				}
+			}
+
+			&__desk {
+				margin: 0;
+				flex: unset;
+			}
+
+			.container {
+				flex-direction: column-reverse;
+				gap: 24px;
+			}
+
+			.mobile {
+				display: flex;
+			}
+
+			.desktop {
+				display: none;
+			}
+
+			&__links {
+				margin: 0;
+			}
+		}
+
+		@media (max-width: 600px) {
+			&__container-big {
+				margin: 0;
+				padding: 0 20px;
+			}
+		}
+
+	}
+
+	.section-question-form {
+		.textarea {
+			border: 1px solid #D3D3D3;
+		}
+	}
+}
