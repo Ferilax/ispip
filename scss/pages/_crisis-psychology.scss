@@ -1,0 +1,689 @@
+.crisis-psychology-page {
+	.section-start {
+		.container {
+			gap: 24px;
+		}
+
+		&__body {
+			flex: 0 1 630px;
+		}
+
+		&__text {
+			margin-top: 40px;
+			font-size: 14px;
+			font-weight: 400;
+
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+
+		&__table {
+			margin-top: 20px;
+			display: flex;
+			gap: 36px;
+			font-size: 14px;
+			font-weight: 400;
+
+			.bold {
+				font-weight: 700;
+			}
+		}
+
+		&__column {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+
+		&__button {
+			padding: 0 34px;
+		}
+
+		&__foot {
+			margin-top: 40px;
+		}
+
+		@media (max-width: 1023px) {
+			&__text {
+				margin-top: 30px;
+			}
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: -1;
+				background: url("../img/crisis-psychology/img-1.png") 50%/cover no-repeat;
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__text {
+				margin-top: 18px;
+				gap: 16px;
+				font-weight: 400;
+			}
+
+			&__foot {
+				margin-top: 37px;
+			}
+
+			&__table {
+				margin-top: 24px;
+				font-size: 12px;
+				font-weight: 500;
+				gap: 16px;
+			}
+
+		}
+
+	}
+
+	.about-program {
+
+		&__body {
+			padding: 80px 0;
+			position: relative;
+		}
+
+		&__title {
+			@extend %h2;
+		}
+
+		&__text {
+			color: var(--black-light);
+			margin-top: 40px;
+			line-height: 1.2;
+			font-weight: 500;
+			font-size: 18px;
+			max-width: 827px;
+
+			display: flex;
+			flex-direction: column;
+			gap: 21px;
+		}
+
+		.bird {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: -1;
+		}
+
+		@media (max-width: 1023px) {
+
+			&__body {
+				padding: 70px 0;
+			}
+
+			&__text {
+				font-size: 16px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			background: url("../img/birds-without-one.png") top right no-repeat;
+
+			&__body {
+				padding: 60px 0;
+			}
+
+			&__text {
+				font-size: 14px;
+				color: var(--black);
+				gap: 16px;
+			}
+
+			.bird {
+				width: 71px;
+				height: 63px;
+				top: 32px;
+				right: -30px;
+				transform: none;
+			}
+		}
+
+		@media (max-width: 600px) {
+
+			.bird {
+				right: -20px;
+			}
+		}
+
+		@media (max-width: 424px) {
+			&__title {
+				font-weight: 500;
+				font-size: 20px;
+			}
+		}
+	}
+
+	.content-with-image {
+		padding: 62px 0 80px;
+		background: url("../img/books-1.png") left bottom / 50% no-repeat;
+
+		.text {
+			margin-top: 64px;
+			line-height: 1.2;
+			color: var(--black-light);
+			max-width: 520px;
+		}
+
+		@media (max-width: 1023px) {
+			padding: 62px 0 70px;
+
+			.text {
+				margin-top: 40px;
+			}
+		}
+
+		@media (max-width: 900px) {
+			background: none;
+
+			.container {
+				gap: 40px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			.text {
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+	}
+
+	.key-topics {
+		padding: 60px 0 140px;
+		background: var(--primary-intense);
+
+		.title {
+			color: white;
+			@extend %h2;
+		}
+
+		.flex {
+			display: flex;
+			margin-top: 40px;
+			gap: 20px;
+			align-items: start;
+		}
+
+		.desk {
+			border-radius: 20px;
+			background: white;
+			padding: 42px 40px;
+
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 1.1;
+
+			flex: 0 1 846px;
+		}
+
+		.right {
+			flex: 0 1 413px;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.right-text {
+			font-size: 20px;
+			line-height: 1.2;
+			font-weight: 500;
+			color: white;
+		}
+
+		.button {
+			max-width: 243px;
+			height: 65px;
+			color: #1141A4;
+			border-radius: 4px;
+			font-size: 18px;
+			font-weight: 500;
+			background: white;
+		}
+
+		.lazy-video {
+			aspect-ratio: 413/221;
+			background: url("../img/birds-3.png") left center / 54% no-repeat #5278C8;
+		}
+
+		.mobile {
+			display: none;
+		}
+
+		@media (max-width: 1023px) {
+			padding: 60px 0;
+
+			.desktop {
+				display: none;
+			}
+
+			.mobile {
+				order: 2;
+				display: block;
+				margin-top: 40px;
+			}
+
+			.flex {
+				flex-direction: column;
+				gap: 0;
+				margin: 0;
+			}
+
+			.right {
+				flex: unset;
+				order: 1;
+			}
+
+			.desk {
+				margin-top: 32px;
+				order: 3;
+				flex: unset;
+				font-size: 18px;
+				font-weight: 500;
+				gap: 30px;
+			}
+
+			.lazy-video {
+				max-width: 600px;
+			}
+
+			.right-text {
+				font-size: 18px;
+				font-weight: 500;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 40px 0 60px;
+
+			.button {
+				border-radius: 8px;
+				font-size: 16px;
+				height: 60px;
+				max-width: 100%;
+			}
+
+			.desk {
+				padding: 20px;
+				font-size: 16px;
+				gap: 24px;
+			}
+
+			.lazy-video__date {
+				font-size: 14px;
+				font-weight: 400;
+			}
+		}
+	}
+
+	.form-of-training {
+		.body {
+			background: url("../img/birds-4.png") top right 40px no-repeat;
+			padding: 80px 0;
+		}
+
+		.title {
+			@extend %h2;
+		}
+
+		.grid {
+			margin-top: 40px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+
+		}
+
+		.grid__item {
+			background: white;
+
+			&:first-child {
+				grid-column: span 2;
+			}
+
+			border: 1px solid #185BDD42;
+			border-radius: 8px;
+			padding: 24px;
+		}
+
+		.grid__title {
+			font-size: 20px;
+			line-height: 1.2;
+			font-weight: 500;
+		}
+
+		.grid__text {
+			line-height: 1.2;
+			color: var(--black-light);
+			margin-top: 20px;
+		}
+
+		.grid__list {
+			margin-top: 20px;
+			line-height: 1.2;
+		}
+
+		.grid__list-item {
+			@extend %list-mark;
+		}
+
+		@media (max-width: 1023px) {
+			.body {
+				padding: 70px 0;
+			}
+
+			.grid__title {
+				font-size: 18px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.body {
+				padding: 60px 0;
+				background: none;
+			}
+
+			.grid {
+				display: flex;
+				flex-direction: column;
+
+			}
+
+			.grid__title {
+				font-size: 16px;
+				font-weight: 600;
+			}
+
+			.grid__item {
+				padding: 20px;
+			}
+
+			.grid__text {
+				font-size: 14px;
+				margin-top: 24px;
+			}
+
+			.grid__list {
+				font-size: 14px;
+				margin-top: 24px;
+			}
+		}
+	}
+
+	.program-features {
+		background: url("../img/books-3.png") left top 30px no-repeat;
+		padding: 80px 0;
+
+		.title {
+			@extend %h2;
+		}
+
+		.grid {
+			margin-top: 40px;
+			display: grid;
+			grid-template-columns: repeat(3, minmax(auto, 354px));
+			gap: 40px;
+			justify-content: space-between;
+
+		}
+
+		.blue {
+			color: #1B5ED4;
+
+			&::after {
+				background: #1B5ED4;
+			}
+		}
+
+		.grid__item {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.grid__title {
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		.grid__list {
+			margin-top: 24px;
+			border: 1px solid #185BDD42;
+			border-radius: 8px;
+			padding: 20px;
+			background: white;
+
+			flex: 1 1 auto;
+
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.grid__list-item {
+			line-height: 1.2;
+			color: var(--black-light);
+			@extend %list-mark;
+
+			&.blue {
+				color: #1B5ED4;
+			}
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+
+			.grid {
+				grid-template-columns: repeat(2, 1fr);
+			}
+
+			.grid__title {
+				font-size: 18px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+			background: none;
+
+			.grid {
+				grid-template-columns: 1fr;
+			}
+
+			.grid__title {
+				font-size: 16px;
+			}
+
+			.grid__list {
+				margin-top: 12px;
+				gap: 24px;
+			}
+
+			.grid__list-item {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.training-price {
+		padding: 80px 0;
+		background: var(--primary-intense);
+		color: white;
+
+		.container {
+			display: flex;
+			justify-content: space-between;
+			gap: 24px;
+		}
+
+		.left {
+			flex: 0 1 743px;
+		}
+
+		.right {
+			flex: 0 1 413px;
+
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.title {
+			@extend %h2;
+		}
+
+		.price {
+			@extend %title-big;
+			margin-top: 24px;
+		}
+
+		.price-text {
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 1.1;
+			margin-top: 12px;
+			display: inline-block;
+		}
+
+		.list {
+			margin-top: 60px;
+		}
+
+		.list-item {
+			@extend %list-mark;
+			font-size: 18px;
+			line-height: 1.2;
+
+			&:after {
+				background: white;
+			}
+		}
+
+		.nearest-flow {
+			margin-top: 100px;
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		.card {
+			background: white;
+			border-radius: 9px;
+			min-height: 130px;
+
+			display: flex;
+			justify-content: space-between;
+			gap: 26px;
+
+			&:nth-child(1) {
+				.card__icon {
+					margin-top: 15px;
+					margin-right: 20px;
+				}
+			}
+
+			&:nth-child(2) {
+				.card__icon {
+					width: 92px;
+					margin-right: 12px;
+					margin-top: 22px;
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.card__text {
+			margin-top: 22px;
+			margin-left: 35px;
+			margin-bottom: 22px;
+			color: #404040;
+			font-size: 20px;
+			font-weight: 500;
+		}
+
+		.card__icon {
+			flex: 0 0 auto;
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+
+			.container {
+				flex-direction: column;
+				gap: 40px;
+			}
+
+			.right {
+				flex: unset;
+				max-width: 413px;
+			}
+
+			.list {
+				margin-top: 24px;
+			}
+
+			.price-text {
+				font-size: 18px;
+			}
+
+			.left {
+				flex: unset;
+			}
+
+			.nearest-flow {
+				margin-top: 30px;
+			}
+
+			.list-item {
+				font-size: 16px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			.price-text {
+				font-size: 16px;
+				font-weight: 500;
+			}
+
+			.price {
+				margin-top: 50px;
+			}
+
+			.list {
+				display: none;
+			}
+
+			.right {
+				gap: 12px;
+			}
+
+			.nearest-flow {
+				display: none;
+			}
+
+			.card__text {
+				margin: 0;
+				align-self: center;
+				padding: 20px 0 20px 20px;
+			}
+		}
+	}
+}

@@ -11,7 +11,7 @@ function setZeroHeight() {
 }
 setZeroHeight();
 
-accordeonSection.addEventListener("click", (e) => {
+accordeonSection?.addEventListener("click", (e) => {
 	let accordeon = e.target.closest(".accordeon");
 	let trigger = e.target.closest(".accordeon__trigger");
 

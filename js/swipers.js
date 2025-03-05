@@ -85,7 +85,7 @@ swiperInit(popularProgramSlider, {
 })
 
 const tabSlider = document.querySelector("#tab-slider");
-const isDouble = tabSlider.querySelectorAll("swiper-slide").length === 2;
+const isDouble = tabSlider?.querySelectorAll("swiper-slide").length === 2;
 swiperInit(tabSlider, {
 	slidesPerView: 1.2,
 	spaceBetween: 18,
@@ -104,6 +104,8 @@ swiperInit(tabSlider, {
 })
 // ----------------------------------------------------------------
 function setProgramsSubtitleText(text) {
+	if (!tabSlider) return;
+
 	const subtitle = document.querySelector(".section-programs__subtitle");
 
 	const tab = tabSlider.querySelector("input:checked");
@@ -117,7 +119,7 @@ function setProgramsSubtitleText(text) {
 }
 setProgramsSubtitleText()
 
-tabSlider.addEventListener("click", e => {
+tabSlider?.addEventListener("click", e => {
 	const clickedTab = e.target.closest(".tab");
 
 	if (clickedTab && e.target.type === "radio") {
@@ -313,6 +315,18 @@ const processInfoSwiper = document.querySelector("#process-info-slider");
 swiperInit(processInfoSwiper, {
 	slidesPerView: 1.2,
 	spaceBetween: 12,
+});
+
+const forWhomSliderSwiper = document.querySelector("#for-whom-slider");
+swiperInit(forWhomSliderSwiper, {
+	slidesPerView: "auto",
+	spaceBetween: 8,
+
+	breakpoints: {
+		768: {
+			spaceBetween: 20,
+		}
+	}
 });
 
 const opportunitiesSwiper = document.querySelector("#opportunities-slider");

@@ -112,24 +112,24 @@ h6 {
   --z-modal: 300;
 }
 
-.main-page .main-section__title, .section-start__title {
+.crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
   font-size: 48px;
   line-height: 1.1;
   color: white;
   font-weight: 500;
 }
 @media (max-width: 1200px) {
-  .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
     font-size: 40px;
   }
 }
 @media (max-width: 1000px) {
-  .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
     font-size: 32px;
   }
 }
 @media (max-width: 424px) {
-  .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
     font-size: 24px;
   }
 }
@@ -148,43 +148,43 @@ h6 {
   }
 }
 
-.dpo-page .consultation__title, .dpo-page .questions__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+.crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
   font-weight: 600;
   font-size: 30px;
   line-height: 1.2;
 }
 @media (max-width: 1023px) {
-  .dpo-page .consultation__title, .dpo-page .questions__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+  .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
     font-size: 26px;
   }
 }
 @media (max-width: 424px) {
-  .dpo-page .consultation__title, .dpo-page .questions__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+  .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
     font-size: 24px;
   }
 }
 
-.main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+.main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
   font-weight: 500;
   font-size: 26px;
 }
 @media (max-width: 1200px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
     font-size: 24px;
   }
 }
 @media (max-width: 1000px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
     font-size: 20px;
   }
 }
 @media (max-width: 424px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
     font-size: 18px;
   }
 }
@@ -208,6 +208,21 @@ h6 {
   z-index: -9999;
   width: 0;
   height: 0;
+}
+
+.crisis-psychology-page .training-price .list-item, .crisis-psychology-page .program-features .grid__list-item, .crisis-psychology-page .form-of-training .grid__list-item, .section-questions .postscript__list-item {
+  padding-left: 25px;
+  position: relative;
+}
+.crisis-psychology-page .training-price .list-item::after, .crisis-psychology-page .program-features .grid__list-item::after, .crisis-psychology-page .form-of-training .grid__list-item::after, .section-questions .postscript__list-item::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 4px;
+  height: 4px;
+  background: var(--black-light);
+  border-radius: 50%;
 }
 
 .header {
@@ -769,7 +784,6 @@ h6 {
   left: 0;
   width: 100%;
   height: 28px;
-  background: rgba(0, 0, 0, 0.2274509804);
 }
 .nav__hidden-link {
   font-size: 12px;
@@ -1340,6 +1354,7 @@ a.see-all {
 
 .input {
   position: relative;
+  display: block;
 }
 .input__label {
   position: absolute;
@@ -1394,6 +1409,7 @@ a.see-all {
   border-radius: 8px;
   height: 190px;
   resize: none;
+  display: block;
 }
 .textarea::-moz-placeholder {
   font-family: inherit;
@@ -2339,6 +2355,13 @@ a.see-all {
   padding: 60px 0 90px;
   overflow: hidden;
 }
+.section-programs.detail-page {
+  padding: 80px 0;
+  background: #F8F8F8;
+}
+.section-programs.detail-page swiper-slide {
+  margin-bottom: 1px;
+}
 .section-programs__tabs {
   display: grid;
   gap: 20px;
@@ -2361,6 +2384,9 @@ a.see-all {
   height: 100%;
   background: inherit;
   position: absolute;
+}
+.section-programs .title {
+  max-width: 400px;
 }
 .section-programs__subtitle-and-see-all {
   display: flex;
@@ -2415,6 +2441,10 @@ a.see-all {
   }
 }
 @media (max-width: 1023px) {
+  .section-programs.detail-page {
+    padding: 60px 0;
+    background: white;
+  }
   .section-programs__subtitle-and-see-all {
     margin-top: 42px;
   }
@@ -2423,6 +2453,9 @@ a.see-all {
   }
 }
 @media (max-width: 767px) {
+  .section-programs.detail-page {
+    padding: 45px 0;
+  }
   .section-programs__filters {
     flex-direction: column;
     margin-top: 30px;
@@ -2435,7 +2468,7 @@ a.see-all {
     display: block;
   }
   .section-programs__title::before {
-    width: 120vh;
+    width: 100vw;
     left: 50%;
     transform: translate(-50%);
     z-index: -1;
@@ -2467,12 +2500,12 @@ a.see-all {
 .section-start {
   background: #1141A4;
   color: white;
+  position: relative;
 }
 .section-start .container {
   min-height: 560px;
-  display: grid;
-  grid-template-columns: 57.25%;
   display: flex;
+  justify-content: space-between;
 }
 .section-start__image {
   margin-right: -80px;
@@ -2484,12 +2517,22 @@ a.see-all {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.section-start__body {
+  padding-top: 30px;
+}
+.section-start__back-link {
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 24px;
+}
 .section-start__text {
   margin-top: 24px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
-  max-width: 373px;
 }
 .section-start__foot {
   margin-top: 42px;
@@ -2521,7 +2564,7 @@ a.see-all {
 }
 @media (max-width: 1023px) {
   .section-start {
-    background: url("../img/dpo/dpo-mobile.png") 50%/cover no-repeat #1141A4;
+    background: rgba(17, 65, 164, 0.7);
   }
   .section-start .container {
     min-height: 620px;
@@ -2533,6 +2576,7 @@ a.see-all {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
 }
 @media (max-width: 767px) {
@@ -2546,6 +2590,10 @@ a.see-all {
   }
   .section-start__button {
     height: 60px;
+    font-size: 16px;
+  }
+  .section-start__back-link {
+    display: none;
   }
 }
 @media (max-width: 424px) {
@@ -2853,6 +2901,25 @@ a.see-all {
 .content-with-image__title {
   max-width: 400px;
 }
+.content-with-image .tape-title {
+  color: white;
+  background: #1141A4;
+  padding-right: 30px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.content-with-image .tape-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(calc(-100% + 1px));
+  background: inherit;
+  height: 100%;
+  width: 50vw;
+}
 .content-with-image__list {
   margin-top: 40px;
   display: flex;
@@ -2903,6 +2970,9 @@ a.see-all {
     background: url("../img/books-white.png") top left/cover no-repeat;
     padding: 60px 0;
   }
+  .content-with-image__body {
+    padding: 0;
+  }
   .content-with-image .container {
     display: flex;
     flex-direction: column;
@@ -2918,9 +2988,411 @@ a.see-all {
   }
 }
 @media (max-width: 767px) {
+  .content-with-image .tape-title {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+  .content-with-image .tape-title::after {
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+  }
   .content-with-image__list {
     gap: 12px;
     margin-top: 18px;
+  }
+}
+
+.section-for-whom {
+  background: #F8F8F8;
+}
+.section-for-whom__body {
+  padding: 80px 0;
+  position: relative;
+}
+.section-for-whom__image {
+  width: 235px;
+  height: 193px;
+}
+.section-for-whom__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-for-whom__text {
+  background: #1141A4;
+  flex: 0 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 0 40px;
+  text-align: center;
+}
+.section-for-whom swiper-container {
+  margin-top: 40px;
+  min-width: 0;
+  width: 100%;
+}
+.section-for-whom swiper-slide {
+  width: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-for-whom .bird {
+  display: none;
+  position: absolute;
+  right: -30px;
+  top: 32px;
+  pointer-events: none;
+}
+@media (max-width: 1023px) {
+  .section-for-whom__body {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-for-whom {
+    background: url("../img/birds-without-one.png") top right no-repeat;
+  }
+  .section-for-whom .bird {
+    display: block;
+  }
+  .section-for-whom__body {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 600px) {
+  .section-for-whom .bird {
+    right: -20px;
+  }
+}
+@media (max-width: 424px) {
+  .section-for-whom__title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .section-for-whom swiper-slide {
+    width: 250px;
+  }
+  .section-for-whom__image {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+.section-program-content {
+  background: var(--primary-intense);
+}
+.section-program-content .body {
+  padding: 64px 0;
+  background: url("../img/birds-1.png") bottom right 40px no-repeat;
+}
+.section-program-content .title {
+  color: white;
+}
+.section-program-content .flex {
+  margin-top: 40px;
+  display: flex;
+  align-items: start;
+  gap: 22px;
+}
+.section-program-content .desk {
+  color: var(--black-light);
+  padding: 40px;
+  flex: 0 1 737px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  gap: 19px;
+  background: white;
+  border-radius: 20px;
+}
+.section-program-content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 0 0 243px;
+}
+.section-program-content .right-text {
+  color: white;
+}
+.section-program-content .button {
+  color: #1141A4;
+  background: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  height: 65px;
+}
+@media (max-width: 767px) {
+  .section-program-content {
+    background: url("../img/books-2.png") top -40px right/100% no-repeat var(--primary-intense);
+  }
+  .section-program-content .body {
+    padding: 60px 0 0;
+    background: none;
+  }
+  .section-program-content .flex {
+    flex-direction: column;
+    margin-top: 32px;
+    align-items: stretch;
+  }
+  .section-program-content .desk {
+    flex: unset;
+    padding: 20px;
+    font-size: 14px;
+    gap: 16px;
+  }
+  .section-program-content .right {
+    flex: unset;
+  }
+  .section-program-content .right-text {
+    display: none;
+  }
+  .section-program-content .button {
+    border-radius: 8px;
+    font-size: 16px;
+    height: 60px;
+  }
+}
+
+.section-questions {
+  padding: 80px 0;
+}
+.section-questions .container {
+  display: grid;
+  justify-content: space-between;
+  gap: 24px;
+  grid-template-columns: minmax(auto, 416px) minmax(auto, 640px);
+}
+.section-questions .accordeons {
+  grid-row: span 2;
+  order: 2;
+}
+.section-questions .accordeon {
+  border: none;
+  border-bottom: 1px solid #95B7FE;
+  border-radius: 0;
+  padding: 8px 0;
+}
+.section-questions .accordeon:last-child {
+  border: none;
+}
+.section-questions .accordeon__flex {
+  gap: 30px;
+}
+.section-questions .accordeon__answer {
+  padding-left: 82px;
+}
+.section-questions .accordeon.open .accordeon__flex {
+  align-items: start;
+}
+.section-questions .accordeon.open .accordeon__answer {
+  margin-top: 0;
+}
+.section-questions .accordeon__list-item {
+  padding-left: 16px;
+  position: relative;
+}
+.section-questions .accordeon__list-item::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  background: var(--black-light);
+}
+.section-questions__title {
+  order: 1;
+}
+.section-questions .postscript {
+  margin-top: 40px;
+  line-height: 1.2;
+  max-width: 392px;
+  order: 3;
+}
+.section-questions .postscript__title {
+  color: #1E1E1E;
+  font-weight: 500;
+  font-size: 18px;
+}
+.section-questions .postscript__text {
+  margin-top: 18px;
+  color: var(--black-light);
+}
+.section-questions .postscript__list {
+  margin-top: 18px;
+  color: var(--black-light);
+}
+.section-questions .postscript__button {
+  margin-top: 32px;
+  padding: 0 18px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+  background: #1346A6;
+  height: 53px;
+  color: white;
+}
+@media (max-width: 1023px) {
+  .section-questions {
+    background: url("../img/books-white.png") center/cover repeat-y;
+    padding: 70px 0;
+  }
+  .section-questions .container {
+    grid-template-columns: 1fr;
+  }
+  .section-questions .accordeons {
+    flex: unset;
+  }
+  .section-questions .postscript {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 767px) {
+  .section-questions {
+    padding: 60px 0;
+  }
+  .section-questions .accordeon__flex {
+    gap: 12px;
+  }
+  .section-questions .accordeon__answer {
+    padding-left: 62px;
+  }
+  .section-questions .accordeon.open .accordeon__flex {
+    align-items: center;
+  }
+  .section-questions .accordeon.open .accordeon__answer {
+    margin-top: 12px;
+  }
+  .section-questions .postscript__text {
+    font-size: 14px;
+  }
+  .section-questions .postscript__list {
+    font-size: 14px;
+  }
+  .section-questions .postscript__button {
+    margin-top: 18px;
+    width: 100%;
+    height: 60px;
+    background: var(--primary-intense);
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.section-program-signup {
+  background: #2D70EA;
+  padding: 70px 0 117px;
+}
+.section-program-signup .container {
+  position: relative;
+}
+.section-program-signup__title {
+  color: white;
+}
+.section-program-signup__form {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  max-width: 623px;
+  gap: 20px;
+}
+.section-program-signup__foot {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.section-program-signup__submit {
+  font-size: 18px;
+  font-weight: 600;
+  color: #12398B;
+  border-radius: 12px;
+  background: white;
+  height: 65px;
+  flex: 0 0 311px;
+}
+.section-program-signup__checkbox {
+  display: flex;
+  gap: 11px;
+}
+.section-program-signup__checkbox-text {
+  font-size: 13px;
+  color: white;
+  line-height: 1.2;
+}
+.section-program-signup .input input {
+  font-size: 22px;
+  font-weight: 400;
+}
+.section-program-signup .input__label {
+  font-weight: 600;
+  font-size: 13px;
+}
+.section-program-signup .book {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 140px;
+}
+@media (max-width: 1023px) {
+  .section-program-signup {
+    padding: 70px 0;
+  }
+  .section-program-signup__form {
+    margin-top: 40px;
+  }
+  .section-program-signup .book {
+    display: none;
+  }
+  .section-program-signup .input input {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .section-program-signup {
+    padding: 60px 0;
+  }
+  .section-program-signup__form {
+    gap: 12px;
+  }
+  .section-program-signup .input input {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .section-program-signup .input__label {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .section-program-signup__foot {
+    margin: 0;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .section-program-signup__submit {
+    flex: unset;
+    height: 60px;
+    font-size: 16px;
+    color: #1141A4;
+  }
+}
+@media (max-width: 424px) {
+  .section-program-signup__checkbox-text {
+    font-size: 10px;
   }
 }
 
@@ -4651,7 +5123,23 @@ a.see-all {
   padding-top: 60px;
   flex: 0 1 734px;
 }
+.dpo-page .section-start__text {
+  max-width: 373px;
+}
 @media (max-width: 1023px) {
+  .dpo-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/dpo/dpo.png") right top/cover no-repeat;
+  }
+  .dpo-page .section-start__body {
+    padding: 0;
+  }
   .dpo-page .section-start .container {
     min-height: 620px;
   }
@@ -4886,81 +5374,8 @@ a.see-all {
     margin-top: 10px;
   }
 }
-.dpo-page .questions {
-  padding: 80px 0;
+.dpo-page .section-questions {
   background: url("../img/dpo/questions-birds.png") left bottom -90px no-repeat;
-}
-.dpo-page .questions .container {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-}
-.dpo-page .questions .accordeons {
-  flex: 0 1 640px;
-}
-.dpo-page .questions .accordeon {
-  border: none;
-  border-bottom: 1px solid #95B7FE;
-  border-radius: 0;
-  padding: 8px 0;
-}
-.dpo-page .questions .accordeon:last-child {
-  border: none;
-}
-.dpo-page .questions .accordeon__flex {
-  gap: 30px;
-}
-.dpo-page .questions .accordeon__answer {
-  padding-left: 82px;
-}
-.dpo-page .questions .accordeon.open .accordeon__flex {
-  align-items: start;
-}
-.dpo-page .questions .accordeon.open .accordeon__answer {
-  margin-top: 0;
-}
-.dpo-page .questions .accordeon__list-item {
-  padding-left: 16px;
-  position: relative;
-}
-.dpo-page .questions .accordeon__list-item::before {
-  content: "";
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 4px;
-  height: 4px;
-  background: var(--black-light);
-}
-@media (max-width: 1023px) {
-  .dpo-page .questions {
-    background: url("../img/books-white.png") center/cover repeat-y;
-    padding: 70px 0;
-  }
-  .dpo-page .questions .container {
-    flex-direction: column;
-  }
-  .dpo-page .questions .accordeons {
-    flex: unset;
-  }
-}
-@media (max-width: 767px) {
-  .dpo-page .questions {
-    padding: 60px 0;
-  }
-  .dpo-page .questions .accordeon__flex {
-    gap: 12px;
-  }
-  .dpo-page .questions .accordeon__answer {
-    padding-left: 62px;
-  }
-  .dpo-page .questions .accordeon.open .accordeon__flex {
-    align-items: center;
-  }
-  .dpo-page .questions .accordeon.open .accordeon__answer {
-    margin-top: 12px;
-  }
 }
 .dpo-page .consultation {
   position: relative;
@@ -5065,6 +5480,547 @@ a.see-all {
   }
   .dpo-page .consultation__buttons {
     width: 100%;
+  }
+}
+
+.crisis-psychology-page .section-start .container {
+  gap: 24px;
+}
+.crisis-psychology-page .section-start__body {
+  flex: 0 1 630px;
+}
+.crisis-psychology-page .section-start__text {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.crisis-psychology-page .section-start__table {
+  margin-top: 20px;
+  display: flex;
+  gap: 36px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.crisis-psychology-page .section-start__table .bold {
+  font-weight: 700;
+}
+.crisis-psychology-page .section-start__column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.crisis-psychology-page .section-start__button {
+  padding: 0 34px;
+}
+.crisis-psychology-page .section-start__foot {
+  margin-top: 40px;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .section-start__text {
+    margin-top: 30px;
+  }
+  .crisis-psychology-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/crisis-psychology/img-1.png") 50%/cover no-repeat;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .section-start__text {
+    margin-top: 18px;
+    gap: 16px;
+    font-weight: 400;
+  }
+  .crisis-psychology-page .section-start__foot {
+    margin-top: 37px;
+  }
+  .crisis-psychology-page .section-start__table {
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 16px;
+  }
+}
+.crisis-psychology-page .about-program__body {
+  padding: 80px 0;
+  position: relative;
+}
+.crisis-psychology-page .about-program__text {
+  color: var(--black-light);
+  margin-top: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 827px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.crisis-psychology-page .about-program .bird {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .about-program__body {
+    padding: 70px 0;
+  }
+  .crisis-psychology-page .about-program__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .about-program {
+    background: url("../img/birds-without-one.png") top right no-repeat;
+  }
+  .crisis-psychology-page .about-program__body {
+    padding: 60px 0;
+  }
+  .crisis-psychology-page .about-program__text {
+    font-size: 14px;
+    color: var(--black);
+    gap: 16px;
+  }
+  .crisis-psychology-page .about-program .bird {
+    width: 71px;
+    height: 63px;
+    top: 32px;
+    right: -30px;
+    transform: none;
+  }
+}
+@media (max-width: 600px) {
+  .crisis-psychology-page .about-program .bird {
+    right: -20px;
+  }
+}
+@media (max-width: 424px) {
+  .crisis-psychology-page .about-program__title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+.crisis-psychology-page .content-with-image {
+  padding: 62px 0 80px;
+  background: url("../img/books-1.png") left bottom/50% no-repeat;
+}
+.crisis-psychology-page .content-with-image .text {
+  margin-top: 64px;
+  line-height: 1.2;
+  color: var(--black-light);
+  max-width: 520px;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .content-with-image {
+    padding: 62px 0 70px;
+  }
+  .crisis-psychology-page .content-with-image .text {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .crisis-psychology-page .content-with-image {
+    background: none;
+  }
+  .crisis-psychology-page .content-with-image .container {
+    gap: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .content-with-image {
+    padding: 60px 0;
+  }
+  .crisis-psychology-page .content-with-image .text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.crisis-psychology-page .key-topics {
+  padding: 60px 0 140px;
+  background: var(--primary-intense);
+}
+.crisis-psychology-page .key-topics .title {
+  color: white;
+}
+.crisis-psychology-page .key-topics .flex {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+  align-items: start;
+}
+.crisis-psychology-page .key-topics .desk {
+  border-radius: 20px;
+  background: white;
+  padding: 42px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  flex: 0 1 846px;
+}
+.crisis-psychology-page .key-topics .right {
+  flex: 0 1 413px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.crisis-psychology-page .key-topics .right-text {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: white;
+}
+.crisis-psychology-page .key-topics .button {
+  max-width: 243px;
+  height: 65px;
+  color: #1141A4;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  background: white;
+}
+.crisis-psychology-page .key-topics .lazy-video {
+  aspect-ratio: 413/221;
+  background: url("../img/birds-3.png") left center/54% no-repeat #5278C8;
+}
+.crisis-psychology-page .key-topics .mobile {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .key-topics {
+    padding: 60px 0;
+  }
+  .crisis-psychology-page .key-topics .desktop {
+    display: none;
+  }
+  .crisis-psychology-page .key-topics .mobile {
+    order: 2;
+    display: block;
+    margin-top: 40px;
+  }
+  .crisis-psychology-page .key-topics .flex {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+  }
+  .crisis-psychology-page .key-topics .right {
+    flex: unset;
+    order: 1;
+  }
+  .crisis-psychology-page .key-topics .desk {
+    margin-top: 32px;
+    order: 3;
+    flex: unset;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 30px;
+  }
+  .crisis-psychology-page .key-topics .lazy-video {
+    max-width: 600px;
+  }
+  .crisis-psychology-page .key-topics .right-text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .key-topics {
+    padding: 40px 0 60px;
+  }
+  .crisis-psychology-page .key-topics .button {
+    border-radius: 8px;
+    font-size: 16px;
+    height: 60px;
+    max-width: 100%;
+  }
+  .crisis-psychology-page .key-topics .desk {
+    padding: 20px;
+    font-size: 16px;
+    gap: 24px;
+  }
+  .crisis-psychology-page .key-topics .lazy-video__date {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+.crisis-psychology-page .form-of-training .body {
+  background: url("../img/birds-4.png") top right 40px no-repeat;
+  padding: 80px 0;
+}
+.crisis-psychology-page .form-of-training .grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.crisis-psychology-page .form-of-training .grid__item {
+  background: white;
+  border: 1px solid rgba(24, 91, 221, 0.2588235294);
+  border-radius: 8px;
+  padding: 24px;
+}
+.crisis-psychology-page .form-of-training .grid__item:first-child {
+  grid-column: span 2;
+}
+.crisis-psychology-page .form-of-training .grid__title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.crisis-psychology-page .form-of-training .grid__text {
+  line-height: 1.2;
+  color: var(--black-light);
+  margin-top: 20px;
+}
+.crisis-psychology-page .form-of-training .grid__list {
+  margin-top: 20px;
+  line-height: 1.2;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .form-of-training .body {
+    padding: 70px 0;
+  }
+  .crisis-psychology-page .form-of-training .grid__title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .form-of-training .body {
+    padding: 60px 0;
+    background: none;
+  }
+  .crisis-psychology-page .form-of-training .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .crisis-psychology-page .form-of-training .grid__title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .crisis-psychology-page .form-of-training .grid__item {
+    padding: 20px;
+  }
+  .crisis-psychology-page .form-of-training .grid__text {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+  .crisis-psychology-page .form-of-training .grid__list {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+}
+.crisis-psychology-page .program-features {
+  background: url("../img/books-3.png") left top 30px no-repeat;
+  padding: 80px 0;
+}
+.crisis-psychology-page .program-features .grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 354px));
+  gap: 40px;
+  justify-content: space-between;
+}
+.crisis-psychology-page .program-features .blue {
+  color: #1B5ED4;
+}
+.crisis-psychology-page .program-features .blue::after {
+  background: #1B5ED4;
+}
+.crisis-psychology-page .program-features .grid__item {
+  display: flex;
+  flex-direction: column;
+}
+.crisis-psychology-page .program-features .grid__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.crisis-psychology-page .program-features .grid__list {
+  margin-top: 24px;
+  border: 1px solid rgba(24, 91, 221, 0.2588235294);
+  border-radius: 8px;
+  padding: 20px;
+  background: white;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.crisis-psychology-page .program-features .grid__list-item {
+  line-height: 1.2;
+  color: var(--black-light);
+}
+.crisis-psychology-page .program-features .grid__list-item.blue {
+  color: #1B5ED4;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .program-features {
+    padding: 70px 0;
+  }
+  .crisis-psychology-page .program-features .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .crisis-psychology-page .program-features .grid__title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .program-features {
+    padding: 60px 0;
+    background: none;
+  }
+  .crisis-psychology-page .program-features .grid {
+    grid-template-columns: 1fr;
+  }
+  .crisis-psychology-page .program-features .grid__title {
+    font-size: 16px;
+  }
+  .crisis-psychology-page .program-features .grid__list {
+    margin-top: 12px;
+    gap: 24px;
+  }
+  .crisis-psychology-page .program-features .grid__list-item {
+    font-size: 14px;
+  }
+}
+.crisis-psychology-page .training-price {
+  padding: 80px 0;
+  background: var(--primary-intense);
+  color: white;
+}
+.crisis-psychology-page .training-price .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.crisis-psychology-page .training-price .left {
+  flex: 0 1 743px;
+}
+.crisis-psychology-page .training-price .right {
+  flex: 0 1 413px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.crisis-psychology-page .training-price .price {
+  margin-top: 24px;
+}
+.crisis-psychology-page .training-price .price-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 12px;
+  display: inline-block;
+}
+.crisis-psychology-page .training-price .list {
+  margin-top: 60px;
+}
+.crisis-psychology-page .training-price .list-item {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.crisis-psychology-page .training-price .list-item:after {
+  background: white;
+}
+.crisis-psychology-page .training-price .nearest-flow {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.crisis-psychology-page .training-price .card {
+  background: white;
+  border-radius: 9px;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+.crisis-psychology-page .training-price .card:nth-child(1) .card__icon {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.crisis-psychology-page .training-price .card:nth-child(2) .card__icon {
+  width: 92px;
+  margin-right: 12px;
+  margin-top: 22px;
+}
+.crisis-psychology-page .training-price .card:nth-child(2) .card__icon img {
+  width: 100%;
+}
+.crisis-psychology-page .training-price .card__text {
+  margin-top: 22px;
+  margin-left: 35px;
+  margin-bottom: 22px;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 500;
+}
+.crisis-psychology-page .training-price .card__icon {
+  flex: 0 0 auto;
+}
+@media (max-width: 1023px) {
+  .crisis-psychology-page .training-price {
+    padding: 70px 0;
+  }
+  .crisis-psychology-page .training-price .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .crisis-psychology-page .training-price .right {
+    flex: unset;
+    max-width: 413px;
+  }
+  .crisis-psychology-page .training-price .list {
+    margin-top: 24px;
+  }
+  .crisis-psychology-page .training-price .price-text {
+    font-size: 18px;
+  }
+  .crisis-psychology-page .training-price .left {
+    flex: unset;
+  }
+  .crisis-psychology-page .training-price .nearest-flow {
+    margin-top: 30px;
+  }
+  .crisis-psychology-page .training-price .list-item {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .crisis-psychology-page .training-price {
+    padding: 60px 0;
+  }
+  .crisis-psychology-page .training-price .price-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .crisis-psychology-page .training-price .price {
+    margin-top: 50px;
+  }
+  .crisis-psychology-page .training-price .list {
+    display: none;
+  }
+  .crisis-psychology-page .training-price .right {
+    gap: 12px;
+  }
+  .crisis-psychology-page .training-price .nearest-flow {
+    display: none;
+  }
+  .crisis-psychology-page .training-price .card__text {
+    margin: 0;
+    align-self: center;
+    padding: 20px 0 20px 20px;
   }
 }
 

@@ -105,3 +105,19 @@
 	width: 0;
 	height: 0;
 }
+
+%list-mark {
+	padding-left: 25px;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 8px;
+		left: 10px;
+		width: 4px;
+		height: 4px;
+		background: var(--black-light);
+		border-radius: 50%;
+	}
+}
