@@ -316,7 +316,8 @@
 		}
 
 		&__logo-container {
-			flex: 0 0 auto;
+			flex: 0 0 198px;
+			max-width: 198px;
 		}
 
 		&__flag {
@@ -366,6 +367,20 @@
 			font-size: 6px;
 			line-height: 1.1;
 			width: 93px;
+		}
+
+		&__logo-container {
+			background: #000;
+			flex: 0 0 136px;
+			max-width: 136px;
+		}
+	}
+
+	@media (max-width: 360px) {
+
+		&__social-and-login {
+			align-items: start;
+			flex-direction: column;
 		}
 	}
 

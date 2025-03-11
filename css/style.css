@@ -674,7 +674,8 @@ h6 {
     width: 142px;
   }
   .footer__logo-container {
-    flex: 0 0 auto;
+    flex: 0 0 198px;
+    max-width: 198px;
   }
   .footer__flag {
     left: -6px;
@@ -714,6 +715,17 @@ h6 {
     font-size: 6px;
     line-height: 1.1;
     width: 93px;
+  }
+  .footer__logo-container {
+    background: #000;
+    flex: 0 0 136px;
+    max-width: 136px;
+  }
+}
+@media (max-width: 360px) {
+  .footer__social-and-login {
+    align-items: start;
+    flex-direction: column;
   }
 }
 
