@@ -1,0 +1,237 @@
+.clinical-psychology-page {
+	.section-start {
+
+		&__body {
+			flex: 0 1 674px;
+			padding-right: 24px;
+			padding-bottom: 30px;
+		}
+
+		.text {
+			margin-top: 24px;
+			line-height: 1.2;
+		}
+
+		.table {
+			margin-top: 32px;
+			display: grid;
+			grid-template-columns: repeat(3, auto);
+			row-gap: 20px;
+			column-gap: 30px;
+			font-size: 14px;
+		}
+
+		.table__column {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		&__foot {
+			margin-top: 32px;
+		}
+
+		@media (max-width: 1023px) {
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: -1;
+				background: url("../img/clinical-psychology/image-1.png") 50%/cover no-repeat;
+			}
+
+			&__body {
+				flex: unset;
+				padding: 0;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.table {
+				margin-top: 24px;
+				gap: 20px;
+				grid-template-columns: repeat(2, auto);
+			}
+
+			.text {
+				font-size: 14px;
+			}
+
+			.table__column {
+				&:nth-child(3) {
+					grid-row: 3/3;
+					grid-column: span 2;
+				}
+			}
+
+			&__foot {
+				margin-top: 24px;
+			}
+		}
+	}
+
+	.section-about-program {
+		&__body {
+			padding: 70px 0 100px;
+		}
+
+		&__text {
+			max-width: 580px;
+			margin-top: 58px;
+		}
+
+		@media (max-width: 1023px) {
+			&__body {
+				padding: 70px 0 80px;
+			}
+
+			&__text {
+				margin-top: 40px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__body {
+				padding: 60px 0;
+			}
+		}
+	}
+
+	.section-cards-with-checked {
+		@media (min-width: 768px) {
+			swiper-container {
+				height: 374px;
+			}
+		}
+	}
+
+	.section-program-content {
+
+		@media (min-width: 1024px) {
+			.desk {
+				padding: 50px 30px;
+			}
+
+			.body {
+				padding: 60px 0 70px;
+			}
+
+			.flex {
+				margin-top: 63px;
+			}
+
+			.right {
+				align-self: end;
+			}
+		}
+	}
+
+	.section-diploma {
+		padding: 80px 0 40px;
+
+		.text {
+			margin-top: 40px;
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+
+			>div {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+			}
+		}
+
+		.subtitle {
+			font-size: 22px;
+			font-weight: 500;
+			line-height: 1.2;
+		}
+
+		.list {
+			line-height: 1.2;
+			color: #F8F8F8;
+		}
+
+		.info {
+			color: #F8F8F8;
+		}
+
+		.list-item {
+			@extend %list-mark;
+
+			&::after {
+				background: white;
+			}
+		}
+
+		@media (min-width: 1024px) {
+			&__image {
+
+				img {
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+
+			.text {
+				margin: 0;
+			}
+
+			.subtitle {
+				font-size: 20px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			.subtitle {
+				font-size: 18px;
+			}
+
+			.info,
+			.list {
+				font-weight: 500;
+				color: white;
+			}
+		}
+	}
+
+	.section-price {
+		@media (min-width: 1024px) {
+			.mini-cards {
+				margin-top: 50px;
+			}
+		}
+
+		@media (min-width: 768px) {
+			padding: 55px 0 65px;
+
+			.title.second {
+				margin-top: 130px;
+			}
+
+			.mini-cards {
+				gap: 8px;
+			}
+		}
+	}
+
+	.section-questions {
+		@media (min-width: 1024px) {
+			padding: 60px 0 75px;
+		}
+	}
+}

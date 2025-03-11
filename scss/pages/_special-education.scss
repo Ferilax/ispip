@@ -1,0 +1,373 @@
+.special-education-page {
+	.section-start {
+		&__title {
+			@extend %h2;
+		}
+
+		.subtitle {
+			margin-top: 12px;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 1.1;
+		}
+
+		.text {
+			margin-top: 24px;
+			display: flex;
+			line-height: 1.2;
+			flex-direction: column;
+			gap: 6px;
+		}
+
+		&__body {
+			flex: 0 1 674px;
+			padding-right: 24px;
+		}
+
+		.table {
+			margin-top: 24px;
+			line-height: 1.4;
+			display: grid;
+			grid-template-columns: repeat(3, auto);
+			gap: 32px;
+			font-size: 14px;
+
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		.table__column {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+		}
+
+		@media (max-width: 1023px) {
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: -1;
+				background: url("../img/special-education/image-1.png") 50%/cover no-repeat;
+			}
+
+			&__body {
+				flex: unset;
+				padding: 0;
+			}
+
+			.subtitle {
+				font-size: 18px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.subtitle {
+				font-size: 16px;
+				margin-top: 18px;
+			}
+
+			.text {
+				margin-top: 18px;
+				font-size: 14px;
+				gap: 16px;
+			}
+
+			.desktop {
+				display: none;
+			}
+
+			.table {
+				font-size: 12px;
+				gap: 16px;
+				font-weight: 500;
+				line-height: 1.2;
+			}
+
+			.table__column {
+				gap: 12px;
+			}
+		}
+
+		@media (max-width: 424px) {
+			.subtitle {
+				font-size: 14px;
+			}
+		}
+
+		@media (max-width: 360px) {
+			.table {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	.section-about-program {
+		&__text {
+			max-width: 640px;
+		}
+	}
+
+	.section-cards-with-checked {
+		@media (min-width: 1024px) {
+			padding: 70px 0 155px;
+		}
+	}
+
+	.content-with-image.first {
+		padding: 65px 0;
+
+		.list {
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.2;
+		}
+
+		.text {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 1.2;
+			margin-top: 40px;
+			display: none;
+		}
+
+		.list-item {
+			padding-left: 21px;
+			position: relative;
+			max-width: 470px;
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 8px;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background: var(--primary-intense);
+			}
+		}
+
+		@media (max-width: 900px) {
+			.list {
+				font-size: 16px;
+				gap: 12px;
+				margin-top: 40px;
+			}
+
+			.list-item {
+				&::after {
+					top: 6px;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			.list {
+				font-size: 14px;
+			}
+
+			.text {
+				display: block;
+			}
+
+			.list-item {
+				padding-left: 16px;
+
+				&::after {
+					top: 4px;
+				}
+			}
+		}
+	}
+
+	.section-program-content {
+
+		.desk {
+			padding: 30px;
+			align-self: stretch;
+			justify-content: center;
+			display: flex;
+		}
+
+		@media (min-width: 1024px) {
+			.body {
+				padding: 80px 0;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.desk {
+				padding: 20px;
+			}
+		}
+	}
+
+	.content-with-image.second {
+		padding: 65px 0 70px;
+
+		.content-with-image__title {
+			line-height: 1.1;
+			max-width: 590px;
+		}
+
+		.list {
+			margin-top: 90px;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 1.1;
+
+			display: flex;
+			flex-direction: column;
+			gap: 22px;
+			max-width: 500px;
+			color: #1E1E1E;
+		}
+
+		.list-item {
+			padding-left: 18px;
+			position: relative;
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 8px;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background: var(--primary-intense);
+			}
+		}
+
+		@media (max-width: 1023px) {
+			.list {
+				margin-top: 40px;
+				font-size: 18px;
+			}
+
+			.list-item {
+				&::after {
+					top: 6px;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+			background: url("../img/books-4.png") left top / 100% no-repeat;
+
+			.list {
+				margin-top: 18px;
+				gap: 12px;
+				font-size: 14px;
+				font-weight: 400;
+				color: var(--black);
+			}
+
+			.container {
+				gap: 18px;
+			}
+
+			.list-item {
+				padding-left: 16px;
+
+				&::after {
+					top: 5px;
+				}
+			}
+		}
+	}
+
+	.section-proscpects {
+		@media (min-width: 1024px) {
+			padding: 90px 0 115px;
+		}
+	}
+
+	.section-training-info {
+		@media (max-width: 767px) {
+			.info-card {
+				background: var(--primary-intense);
+			}
+		}
+	}
+
+	.section-diploma {
+		padding: 80px 0 43px;
+
+		&__text {
+			line-height: 1.2;
+			font-size: 22px;
+			max-width: 506px;
+			gap: 26px;
+		}
+
+		.list-item {
+			@extend %list-mark;
+
+			&::after {
+				background: white;
+				top: 12px;
+			}
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+
+			&__text {
+				font-size: 20px;
+				gap: 24px;
+			}
+
+			.list-item {
+				&::after {
+					top: 10px;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			&__text {
+				font-size: 18px;
+				gap: 21px;
+			}
+
+			.list-item {
+				&::after {
+					top: 8px;
+				}
+			}
+		}
+	}
+
+	.section-advantages {
+		padding: 95px 0 80px;
+
+		.section-comments {
+			margin-top: 0;
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+		}
+	}
+}

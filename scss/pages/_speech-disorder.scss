@@ -1,0 +1,316 @@
+.speech-disorder-page {
+	.section-start {
+		&__body {
+			flex: 0 1 660px;
+			padding-bottom: 32px;
+			padding-right: 32px;
+		}
+
+		&__title {
+			@extend %h2;
+			margin-top: 12px;
+		}
+
+		.text {
+			line-height: 1.2;
+		}
+
+		.table {
+			margin-top: 24px;
+			display: grid;
+			grid-template-columns: repeat(3, auto);
+			gap: 32px;
+			font-size: 14px;
+		}
+
+		.table__column {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		@media (max-width: 1023px) {
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: -1;
+				background: url("../img/speech-therapy/image-1.png") 50%/cover no-repeat;
+			}
+
+			&__body {
+				flex: unset;
+				padding: 0;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.table {
+				gap: 20px;
+				font-weight: 500;
+				font-size: 12px;
+			}
+
+			&__title {
+				font-weight: 500;
+				margin-top: 18px;
+			}
+
+			.text {
+				font-size: 14px;
+			}
+
+			&__foot {
+				margin-top: 24px;
+			}
+		}
+
+		@media (max-width: 374px) {
+			.table {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	.section-about-program {
+		@media (min-width: 1024px) {
+			&__body {
+				padding: 85px 0;
+			}
+		}
+
+		&__text {
+			max-width: 580px;
+		}
+	}
+
+	.section-for-whom.big {
+		.grid {
+			grid-template-columns: repeat(3, minmax(300px, 1fr));
+			gap: 20px;
+		}
+
+		@media (min-width: 1024px) {
+			.section-for-whom__body {
+				padding: 80px 0;
+			}
+		}
+	}
+
+	.content-with-image.first {
+		.list {
+			margin-top: 50px;
+
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.2;
+		}
+
+		.list-item {
+			@include blue-mark(19px, 16px);
+		}
+
+		@media (min-width: 1024px) {
+			padding: 65px 0 85px;
+
+			.content-with-image__body {
+				padding-right: 16px;
+			}
+		}
+
+		@media (max-width: 1023px) {
+			.list {
+				margin-top: 40px;
+				font-size: 16px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.list {
+				font-size: 14px;
+				gap: 12px;
+			}
+		}
+	}
+
+	.section-program-content {
+		@media (min-width: 768px) {
+			.body {
+				padding: 80px 0;
+			}
+
+			.desk {
+				padding: 35px 30px;
+			}
+
+			.right {
+				align-self: end;
+			}
+		}
+	}
+
+	.content-with-image.second {
+		.list {
+			margin-top: 40px;
+
+			display: flex;
+			flex-direction: column;
+			gap: 42px;
+
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 1.2;
+			color: #1E1E1E;
+
+			max-width: 533px;
+		}
+
+		.list-item {
+			@include blue-mark(18px, 16px);
+		}
+
+		@media (max-width: 1023px) {
+			.list {
+				margin-top: 24px;
+				gap: 24px;
+				font-size: 16px;
+				color: var(--black);
+			}
+		}
+
+		@media (max-width: 767px) {
+			.container {
+				gap: 18px;
+			}
+
+			.list {
+				margin-top: 18px;
+				font-size: 14px;
+				gap: 12px;
+			}
+		}
+	}
+
+	.section-proscpects {
+		.cards {
+			margin-top: 40px;
+		}
+
+		.text {
+			margin-top: 24px;
+			max-width: 400px;
+		}
+	}
+
+	.section-diploma {
+		padding: 80px 0 0;
+
+		.text {
+			margin-top: 40px;
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+
+			>div {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+			}
+		}
+
+		.subtitle {
+			font-size: 22px;
+			font-weight: 500;
+			line-height: 1.2;
+		}
+
+		.list {
+			line-height: 1.2;
+			color: #F8F8F8;
+		}
+
+		.info {
+			color: #F8F8F8;
+		}
+
+		.list-item {
+			@extend %list-mark;
+
+			&::after {
+				background: white;
+			}
+		}
+
+		@media (max-width: 1300px) {
+			padding: 80px 0 40px;
+		}
+
+		@media (min-width: 1024px) {
+			&__image {
+
+				img {
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+
+		@media (max-width: 1023px) {
+			padding: 70px 0;
+
+			.text {
+				margin: 0;
+			}
+
+			.subtitle {
+				font-size: 20px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			padding: 60px 0;
+
+			.subtitle {
+				font-size: 18px;
+			}
+
+			.info,
+			.list {
+				font-weight: 500;
+				color: white;
+			}
+		}
+	}
+
+	.section-price {
+		@media (min-width: 768px) {
+			padding: 55px 0 65px;
+
+			.title.second {
+				margin-top: 130px;
+			}
+
+			.mini-cards {
+				margin-top: 50px;
+				gap: 8px;
+			}
+		}
+	}
+
+	.section-questions {
+		@media (min-width: 768px) {
+			padding: 60px 0 75px;
+		}
+	}
+}

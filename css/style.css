@@ -112,24 +112,24 @@ h6 {
   --z-modal: 300;
 }
 
-.crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
+.crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-training-price .price, .section-start__title {
   font-size: 48px;
   line-height: 1.1;
   color: white;
   font-weight: 500;
 }
 @media (max-width: 1200px) {
-  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-training-price .price, .section-start__title {
     font-size: 40px;
   }
 }
 @media (max-width: 1000px) {
-  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-training-price .price, .section-start__title {
     font-size: 32px;
   }
 }
 @media (max-width: 424px) {
-  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-start__title {
+  .crisis-psychology-page .training-price .price, .main-page .main-section__title, .section-training-price .price, .section-start__title {
     font-size: 24px;
   }
 }
@@ -148,43 +148,43 @@ h6 {
   }
 }
 
-.crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+.adhd-page .section-start__title, .speech-disorder-page .section-start__title, .special-education-page .section-start__title, .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .what-should-do .title, .section-proscpects .title, .section-cards-with-checked .title, .section-training-price .title, .section-price .title, .section-about-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .modal-application__title, .page-header__title, .teacher .teacher__name, .info-card__text {
   font-weight: 600;
   font-size: 30px;
   line-height: 1.2;
 }
 @media (max-width: 1023px) {
-  .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+  .adhd-page .section-start__title, .speech-disorder-page .section-start__title, .special-education-page .section-start__title, .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .what-should-do .title, .section-proscpects .title, .section-cards-with-checked .title, .section-training-price .title, .section-price .title, .section-about-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .modal-application__title, .page-header__title, .teacher .teacher__name, .info-card__text {
     font-size: 26px;
   }
 }
 @media (max-width: 424px) {
-  .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .crisis-psychology-page .about-program__title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .page-header__title, .teacher .teacher__name, .info-card__text {
+  .adhd-page .section-start__title, .speech-disorder-page .section-start__title, .special-education-page .section-start__title, .crisis-psychology-page .training-price .title, .crisis-psychology-page .program-features .title, .crisis-psychology-page .form-of-training .title, .crisis-psychology-page .key-topics .title, .dpo-page .consultation__title, .dpo-page .opportunities-info__title, .dpo-page .process-info__title, .institute-info-page .info__title, .news-page .pinned-news__title, .main-page .student-support__title, .main-page .news .pinned, .main-page .news__title, .main-page .psychology-program__title, .main-page .consultation__title, .main-page .videos__title, .main-page .popular-program__title, .what-should-do .title, .section-proscpects .title, .section-cards-with-checked .title, .section-training-price .title, .section-price .title, .section-about-program__title, .section-program-signup__title, .section-questions__title, .section-program-content .title, .section-for-whom__title, .content-with-image .tape-title, .content-with-image__title, .section-achievements__title, .section-comments__title, .section-advantages__title, .section-programs .title, .section-programs__title, .section-question-form__title, .section-partners__title, .section-teachers__title, .section-diploma__title, .section-training-info__title, .section-map__title, .modal-application__title, .page-header__title, .teacher .teacher__name, .info-card__text {
     font-size: 24px;
   }
 }
 
-.main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+.main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle, .modal-success__title {
   font-weight: 500;
   font-size: 26px;
 }
 @media (max-width: 1200px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle, .modal-success__title {
     font-size: 24px;
   }
 }
 @media (max-width: 1000px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle, .modal-success__title {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle, .modal-success__title {
     font-size: 20px;
   }
 }
 @media (max-width: 424px) {
-  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle {
+  .main-page .student-support .lazy-video__text, .main-page .student-support__subtitle, .section-program-content .right-text, .section-comments__name, .section-programs__subtitle, .section-training-info__subtitle, .modal-success__title {
     font-size: 18px;
   }
 }
@@ -210,11 +210,11 @@ h6 {
   height: 0;
 }
 
-.crisis-psychology-page .training-price .list-item, .crisis-psychology-page .program-features .grid__list-item, .crisis-psychology-page .form-of-training .grid__list-item, .section-questions .postscript__list-item {
+.adhd-page .section-diploma .list-item, .speech-disorder-page .section-diploma .list-item, .logomassage-page .section-diploma .list-item, .neuropsychology-page .section-diploma .list-item, .clinical-psychology-page .section-diploma .list-item, .speech-therapy-page .section-diploma .list-item, .special-education-page .section-diploma .list-item, .practical-psychology-page .section-diploma .list-item, .crisis-psychology-page .training-price .list-item, .crisis-psychology-page .program-features .grid__list-item, .crisis-psychology-page .form-of-training .grid__list-item, .section-training-price .list-item, .section-questions .postscript__list-item {
   padding-left: 25px;
   position: relative;
 }
-.crisis-psychology-page .training-price .list-item::after, .crisis-psychology-page .program-features .grid__list-item::after, .crisis-psychology-page .form-of-training .grid__list-item::after, .section-questions .postscript__list-item::after {
+.adhd-page .section-diploma .list-item::after, .speech-disorder-page .section-diploma .list-item::after, .logomassage-page .section-diploma .list-item::after, .neuropsychology-page .section-diploma .list-item::after, .clinical-psychology-page .section-diploma .list-item::after, .speech-therapy-page .section-diploma .list-item::after, .special-education-page .section-diploma .list-item::after, .practical-psychology-page .section-diploma .list-item::after, .crisis-psychology-page .training-price .list-item::after, .crisis-psychology-page .program-features .grid__list-item::after, .crisis-psychology-page .form-of-training .grid__list-item::after, .section-training-price .list-item::after, .section-questions .postscript__list-item::after {
   content: "";
   position: absolute;
   top: 8px;
@@ -339,6 +339,9 @@ h6 {
   color: var(--blue-grey);
   font-size: 10px;
 }
+.header .header__feedback {
+  color: white;
+}
 .header__feedback {
   display: flex;
   align-items: center;
@@ -349,7 +352,6 @@ h6 {
   background: var(--primary);
   border: 1px solid var(--primary-light);
   border-radius: 4px;
-  color: white;
   font-size: 14px;
 }
 @media (max-width: 1140px) {
@@ -785,6 +787,11 @@ h6 {
   width: 100%;
   height: 28px;
 }
+@media (max-width: 767px) {
+  .nav__hidden-list::after {
+    display: none;
+  }
+}
 .nav__hidden-link {
   font-size: 12px;
   padding: 7px 0;
@@ -1079,6 +1086,9 @@ h6 {
   color: white;
   background: var(--primary-intense);
 }
+.program-card .program-card__more-info {
+  color: var(--primary-intense);
+}
 .program-card__more-info {
   display: flex;
   align-items: center;
@@ -1089,7 +1099,6 @@ h6 {
   font-weight: 600;
   font-size: 14px;
   border-radius: 4px;
-  color: var(--primary-intense);
   border: 2px solid #CAD8F6;
 }
 @media (max-width: 767px) {
@@ -1190,6 +1199,7 @@ h6 {
   }
   .info-card__button {
     width: 100%;
+    border-radius: 8px;
   }
 }
 @media (max-width: 424px) {
@@ -1463,7 +1473,7 @@ a.see-all {
 }
 .page-header__breadcrumbs {
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 20px;
   font-size: 14px;
   font-weight: 500;
@@ -1488,6 +1498,11 @@ a.see-all {
 }
 .page-header__title {
   margin-top: 25px;
+}
+@media (max-width: 1023px) {
+  .page-header {
+    background: var(--primary);
+  }
 }
 @media (max-width: 900px) {
   .page-header .container:has(.page-header__image) {
@@ -1613,20 +1628,24 @@ a.see-all {
   z-index: var(--z-modal);
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(20, 52, 116, 0.7490196078);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   opacity: 0;
   visibility: hidden;
   transition: 0.2s;
+  overflow-y: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 @media (max-width: 424px) {
   .modal {
-    padding: 0 12px;
+    padding: 12px;
   }
+}
+.modal__content {
+  margin: 0 auto;
 }
 
 .modal.show {
@@ -1636,6 +1655,7 @@ a.see-all {
 
 .modal-video .modal__content {
   flex: 0 1 792px;
+  max-width: 792px;
   border-radius: 8px;
   aspect-ratio: 792/509;
   position: relative;
@@ -1649,6 +1669,183 @@ a.see-all {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.modal-application .modal__content {
+  border-radius: 32px;
+  background: #F8F8F8;
+  padding: 37px 31px 57px 55px;
+  flex: 0 1 842px;
+  max-width: 842px;
+}
+.modal-application__head {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+}
+.modal-application .modal__close {
+  display: flex;
+}
+.modal-application__title {
+  color: #1E1E1E;
+  flex: 0 1 600px;
+}
+.modal-application__text {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--black-light);
+}
+.modal-application .form {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.modal-application .textarea {
+  grid-column: span 3;
+  border: 1px solid #D3D3D3;
+  height: 106px;
+  color: #535353;
+}
+.modal-application .textarea::-moz-placeholder {
+  color: #959595;
+}
+.modal-application .textarea::placeholder {
+  color: #959595;
+}
+.modal-application .form__foot {
+  grid-column: span 3;
+  margin-top: 40px;
+}
+.modal-application .input input {
+  height: 56px;
+  color: #535353;
+  background: white;
+  border: 1px solid #D3D3D3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.modal-application .input input::-moz-placeholder {
+  color: #959595;
+}
+.modal-application .input input::placeholder {
+  color: #959595;
+}
+.modal-application .input__label {
+  color: var(--primary-intense);
+  font-size: 10px;
+}
+.modal-application .form__foot {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.modal-application .form__submit {
+  font-size: 18px;
+  font-weight: 600;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--primary-intense);
+  color: white;
+  width: 222px;
+}
+.modal-application .checkbox {
+  border: 1px solid #E4E4E4;
+}
+.modal-application .form__checkbox {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  font-size: 10px;
+  line-height: 1.2;
+  max-width: 300px;
+}
+@media (max-width: 767px) {
+  .modal-application .modal__content {
+    padding: 24px;
+  }
+  .modal-application__head {
+    align-items: start;
+    gap: 12px;
+  }
+  .modal-application .modal__close {
+    margin-top: 6px;
+  }
+  .modal-application__title {
+    font-size: 24px;
+  }
+  .modal-application .form {
+    margin-top: 24px;
+    grid-template-columns: 1fr;
+  }
+  .modal-application .form__foot {
+    grid-column: unset;
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .modal-application .form__submit {
+    width: 100%;
+  }
+  .modal-application .textarea {
+    grid-column: unset;
+  }
+}
+@media (max-width: 424px) {
+  .modal-application__title {
+    font-size: 20px;
+  }
+  .modal-application .form {
+    gap: 8px;
+  }
+}
+
+.modal-success {
+  text-align: center;
+  color: white;
+}
+.modal-success .modal__content {
+  max-width: 475px;
+  background: url("../img/birds-5.png") left top no-repeat #154CB5;
+  padding: 36px 32px 57px;
+  border-radius: 30px;
+  outline: 11px solid rgba(255, 255, 255, 0.1098039216);
+}
+.modal-success .modal__close:first-child {
+  display: flex;
+  margin-left: auto;
+}
+.modal-success__title {
+  margin-top: 52px;
+}
+.modal-success__text {
+  margin-top: 27px;
+}
+.modal-success__button {
+  background: white;
+  border-radius: 8px;
+  color: #154CB5;
+  height: 56px;
+  width: 222px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 204px auto 0;
+}
+@media (max-width: 767px) {
+  .modal-success__text {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .modal-success .modal__content {
+    padding: 24px;
+    border: 6px solid rgba(255, 255, 255, 0.1019607843);
+    outline: unset;
+  }
+  .modal-success__button {
+    color: #1F3B73;
+    width: 100%;
+  }
 }
 
 .custom-select {
@@ -2039,12 +2236,65 @@ a.see-all {
   }
   .section-training-info__steps {
     margin-top: 24px;
+    align-items: stretch;
+    flex-direction: column;
   }
   .section-training-info .section-training-info__step {
     font-size: 14px;
   }
   .section-training-info .section-training-info__step .counter {
     font-size: 14px;
+  }
+}
+
+.section-training-info.big {
+  background: #F3F3F3;
+}
+.section-training-info.big .section-training-info__flex {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  row-gap: 60px;
+}
+.section-training-info.big .info-card {
+  grid-row: span 2;
+  padding-bottom: 20px;
+}
+.section-training-info.big .info-card__button {
+  width: 100%;
+  border-radius: 8px;
+  color: #273A73;
+}
+@media (max-width: 1023px) {
+  .section-training-info.big .section-training-info__flex {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .section-training-info.big .section-training-info__steps {
+    margin-top: 24px;
+  }
+  .section-training-info.big .subtitle-and-steps:nth-child(2) {
+    order: 1;
+  }
+  .section-training-info.big .subtitle-and-steps:nth-child(3) {
+    order: 3;
+  }
+  .section-training-info.big .info-card {
+    order: 2;
+    grid-row: unset;
+  }
+}
+@media (max-width: 767px) {
+  .section-training-info.big {
+    background: white;
+  }
+  .section-training-info.big .section-training-info__flex {
+    gap: 24px;
+  }
+  .section-training-info.big .info-card__button {
+    color: #1141A4;
+  }
+  .section-training-info.big .info-card {
+    background: var(--primary-intense);
   }
 }
 
@@ -2075,6 +2325,7 @@ a.see-all {
   flex-direction: column;
   gap: 19px;
   margin-top: 90px;
+  max-width: 450px;
 }
 .section-diploma__image {
   flex: 1 1 633px;
@@ -2117,6 +2368,7 @@ a.see-all {
   .section-diploma .mobile {
     display: block;
     width: 100%;
+    max-width: 600px;
   }
   .section-diploma__text {
     margin: 0;
@@ -2523,7 +2775,7 @@ a.see-all {
 .section-start__back-link {
   font-size: 12px;
   font-weight: 500;
-  display: flex;
+  display: inline-flex;
   gap: 4px;
   align-items: center;
   margin-bottom: 24px;
@@ -2549,6 +2801,9 @@ a.see-all {
   align-items: center;
   gap: 15px;
 }
+.section-start .section-start__button {
+  color: #1141A4;
+}
 .section-start__button {
   display: flex;
   align-items: center;
@@ -2556,7 +2811,6 @@ a.see-all {
   height: 65px;
   padding: 0 37px;
   gap: 10px;
-  color: #1141A4;
   font-size: 18px;
   font-weight: 500;
   background: white;
@@ -2568,6 +2822,8 @@ a.see-all {
   }
   .section-start .container {
     min-height: 620px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .section-start__image {
     display: none;
@@ -2591,6 +2847,7 @@ a.see-all {
   .section-start__button {
     height: 60px;
     font-size: 16px;
+    padding: 0 20px;
   }
   .section-start__back-link {
     display: none;
@@ -2976,10 +3233,11 @@ a.see-all {
   .content-with-image .container {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 40px;
   }
   .content-with-image__image {
     max-width: 640px;
+    aspect-ratio: 336/220;
     width: 100%;
     position: static;
   }
@@ -3062,7 +3320,7 @@ a.see-all {
 }
 @media (max-width: 767px) {
   .section-for-whom {
-    background: url("../img/birds-without-one.png") top right no-repeat;
+    background: url("../img/birds-without-one.png") top right no-repeat #F8F8F8;
   }
   .section-for-whom .bird {
     display: block;
@@ -3089,6 +3347,59 @@ a.see-all {
   .section-for-whom__image {
     width: 200px;
     height: 150px;
+  }
+  .section-for-whom__text {
+    font-size: 16px;
+  }
+}
+
+.section-for-whom.big .section-for-whom__body {
+  padding: 70px 0 75px;
+}
+.section-for-whom.big #for-whom-slider {
+  display: none;
+}
+.section-for-whom.big .grid {
+  margin-top: 73px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 366px));
+  justify-content: space-between;
+  gap: 30px;
+}
+.section-for-whom.big .grid .section-for-whom__image {
+  width: 296px;
+}
+.section-for-whom.big .section-for-whom__text {
+  padding: 0 24px;
+  letter-spacing: -1px;
+}
+.section-for-whom.big .grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .section-for-whom.big .grid {
+    grid-template-columns: repeat(2, 366px);
+    justify-content: start;
+  }
+}
+@media (max-width: 1023px) {
+  .section-for-whom.big .section-for-whom__text {
+    padding: 0 6px;
+    letter-spacing: -1px;
+    min-height: 102px;
+  }
+  .section-for-whom.big #for-whom-slider {
+    display: grid;
+  }
+  .section-for-whom.big .grid {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .section-for-whom.big .section-for-whom__body {
+    padding: 60px 0;
   }
 }
 
@@ -3141,7 +3452,7 @@ a.see-all {
     background: url("../img/books-2.png") top -40px right/100% no-repeat var(--primary-intense);
   }
   .section-program-content .body {
-    padding: 60px 0 0;
+    padding: 60px 0;
     background: none;
   }
   .section-program-content .flex {
@@ -3174,8 +3485,9 @@ a.see-all {
 .section-questions .container {
   display: grid;
   justify-content: space-between;
-  gap: 24px;
+  gap: 32px;
   grid-template-columns: minmax(auto, 416px) minmax(auto, 640px);
+  grid-template-rows: 36px;
 }
 .section-questions .accordeons {
   grid-row: span 2;
@@ -3194,13 +3506,7 @@ a.see-all {
   gap: 30px;
 }
 .section-questions .accordeon__answer {
-  padding-left: 82px;
-}
-.section-questions .accordeon.open .accordeon__flex {
-  align-items: start;
-}
-.section-questions .accordeon.open .accordeon__answer {
-  margin-top: 0;
+  padding-left: 72px;
 }
 .section-questions .accordeon__list-item {
   padding-left: 16px;
@@ -3255,6 +3561,7 @@ a.see-all {
   }
   .section-questions .container {
     grid-template-columns: 1fr;
+    grid-template-rows: unset;
   }
   .section-questions .accordeons {
     flex: unset;
@@ -3271,7 +3578,7 @@ a.see-all {
     gap: 12px;
   }
   .section-questions .accordeon__answer {
-    padding-left: 62px;
+    padding-left: 54px;
   }
   .section-questions .accordeon.open .accordeon__flex {
     align-items: center;
@@ -3393,6 +3700,615 @@ a.see-all {
 @media (max-width: 424px) {
   .section-program-signup__checkbox-text {
     font-size: 10px;
+  }
+}
+
+.section-about-program__body {
+  padding: 80px 0;
+  position: relative;
+}
+.section-about-program__text {
+  color: var(--black-light);
+  margin-top: 40px;
+  line-height: 1.2;
+  max-width: 827px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-about-program .bird {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+@media (max-width: 1023px) {
+  .section-about-program__body {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-about-program {
+    background: url("../img/birds-without-one.png") top right no-repeat;
+  }
+  .section-about-program__body {
+    padding: 60px 0;
+  }
+  .section-about-program__text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black);
+    gap: 16px;
+  }
+  .section-about-program .bird {
+    width: 71px;
+    height: 63px;
+    top: 32px;
+    right: -30px;
+    transform: none;
+  }
+}
+@media (max-width: 600px) {
+  .section-about-program .bird {
+    right: -20px;
+  }
+}
+@media (max-width: 424px) {
+  .section-about-program__title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.section-price {
+  padding: 80px 0;
+  background: var(--primary-intense);
+}
+.section-price .head {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.section-price .price__price {
+  font-size: 39px;
+  font-weight: 500;
+}
+.section-price .price__text {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-price .title {
+  color: white;
+}
+.section-price .title.second {
+  margin-top: 160px;
+}
+.section-price .big-cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.section-price .big-card {
+  flex: 1 1 0;
+  height: 293px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 35px 26px;
+}
+.section-price .big-card:nth-child(1) {
+  background: url("../img/price-bg-1.png") right top -40px/200px no-repeat white;
+}
+.section-price .big-card:nth-child(2) {
+  background: url("../img/price-bg-2.png") right top -50px/200px no-repeat white;
+}
+.section-price .big-card__text {
+  color: #404040;
+  font-size: 22px;
+  font-weight: 500;
+}
+.section-price .big-card__price {
+  margin-top: 16px;
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+}
+.section-price .big-card__info {
+  margin-top: 8px;
+  font-size: 12px;
+  color: black;
+}
+.section-price .big-card__foot {
+  margin-top: auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  gap: 12px;
+}
+.section-price .big-card__button {
+  border-radius: 4px;
+  background: var(--primary-intense);
+  height: 53px;
+  flex: 0 1 211px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.section-price .big-card__see-more {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #1141A4;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.section-price .mini-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.section-price .mini-card {
+  flex: 1 1 0;
+  background: white;
+  border-radius: 9px;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+.section-price .mini-card:nth-child(1) .mini-card__icon {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.section-price .mini-card:nth-child(2) .mini-card__icon {
+  width: 92px;
+  margin-right: 12px;
+  margin-top: 22px;
+}
+.section-price .mini-card:nth-child(2) .mini-card__icon img {
+  width: 100%;
+}
+.section-price .mini-card:nth-child(3) {
+  gap: 0;
+}
+.section-price .mini-card__text {
+  align-self: center;
+  margin: 20px 0 20px 20px;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-price .mini-card__icon {
+  flex: 0 0 auto;
+}
+@media (max-width: 1023px) {
+  .section-price {
+    padding: 70px 0;
+  }
+  .section-price .price__price {
+    font-size: 30px;
+  }
+  .section-price .price__text {
+    font-size: 18px;
+  }
+  .section-price .big-card__price {
+    font-size: 32px;
+  }
+  .section-price .big-card__text {
+    font-size: 20px;
+  }
+  .section-price .mini-cards {
+    flex-direction: column;
+  }
+  .section-price .mini-card {
+    max-width: 600px;
+    flex: unset;
+  }
+  .section-price .title.second {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .section-price {
+    padding: 60px 0;
+  }
+  .section-price .card__text {
+    margin: 0;
+    align-self: center;
+    padding: 20px 0 20px 20px;
+  }
+  .section-price .price__price {
+    font-size: 24px;
+  }
+  .section-price .price__text {
+    font-size: 16px;
+  }
+  .section-price .head {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .section-price .big-cards {
+    flex-direction: column;
+  }
+  .section-price .big-card {
+    height: unset;
+    min-height: 238px;
+    padding: 20px;
+  }
+  .section-price .big-card:nth-child(1) {
+    background: url("../img/price-bg-1.png") right top/100px no-repeat white;
+  }
+  .section-price .big-card:nth-child(2) {
+    background: url("../img/price-bg-2.png") right top/100px no-repeat white;
+  }
+  .section-price .big-card__price {
+    font-size: 24px;
+    margin-top: 8px;
+  }
+  .section-price .big-card__text {
+    font-size: 18px;
+    max-width: 164px;
+    line-height: 1.1;
+  }
+  .section-price .big-card__foot {
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 12px;
+  }
+  .section-price .big-card__info {
+    font-size: 14px;
+  }
+  .section-price .big-card__button {
+    flex: unset;
+    width: 211px;
+  }
+  .section-price .mini-cards {
+    gap: 12px;
+  }
+  .section-price .title.second {
+    margin-top: 120px;
+  }
+}
+
+.section-training-price {
+  padding: 55px 0;
+  background: var(--primary-intense);
+  color: white;
+}
+.section-training-price .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.section-training-price .left {
+  flex: 0 1 743px;
+}
+.section-training-price .right {
+  flex: 0 1 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section-training-price .title {
+  font-weight: 500;
+}
+@media (min-width: 1024px) {
+  .section-training-price .title {
+    font-size: 44px;
+  }
+}
+.section-training-price .price {
+  margin-top: 32px;
+}
+.section-training-price .price-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 12px;
+  display: inline-block;
+}
+.section-training-price .list {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.section-training-price .list-item:after {
+  background: white;
+  top: 10px;
+}
+.section-training-price .nearest-flow {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-training-price .card {
+  background: white;
+  border-radius: 9px;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+.section-training-price .card:nth-child(1) .card__icon {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.section-training-price .card:nth-child(2) .card__icon {
+  width: 92px;
+  margin-right: 12px;
+  margin-top: 22px;
+}
+.section-training-price .card:nth-child(2) .card__icon img {
+  width: 100%;
+}
+.section-training-price .card__text {
+  margin-top: 22px;
+  margin-left: 35px;
+  margin-bottom: 22px;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-training-price .card__icon {
+  flex: 0 0 auto;
+}
+@media (max-width: 1023px) {
+  .section-training-price .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .section-training-price .right {
+    flex: unset;
+    max-width: 413px;
+    gap: 12px;
+  }
+  .section-training-price .list {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .section-training-price .price-text {
+    font-size: 18px;
+  }
+  .section-training-price .left {
+    flex: unset;
+  }
+  .section-training-price .nearest-flow {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .section-training-price {
+    padding: 60px 0;
+  }
+  .section-training-price .price-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .section-training-price .price {
+    margin-top: 40px;
+  }
+  .section-training-price .price-text {
+    font-size: 16px;
+  }
+  .section-training-price .list {
+    font-size: 16px;
+  }
+  .section-training-price .nearest-flow {
+    font-size: 16px;
+  }
+  .section-training-price .card__text {
+    margin: 0;
+    align-self: center;
+    padding: 20px 0 20px 20px;
+  }
+}
+
+.section-cards-with-checked {
+  background: url("../img/books-4.png") left top no-repeat;
+  padding: 80px 0;
+}
+.section-cards-with-checked swiper-container {
+  margin-top: 40px;
+  height: 347px;
+  display: grid;
+}
+.section-cards-with-checked swiper-slide {
+  background: white;
+  border: 1px solid #769CDF;
+  border-radius: 7px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-cards-with-checked swiper-slide.blue {
+  background: var(--primary-intense);
+  border: 1px solid var(--primary-intense);
+}
+.section-cards-with-checked swiper-slide.blue .text {
+  color: white;
+}
+.section-cards-with-checked .text {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 230px;
+  color: #454545;
+}
+@media (max-width: 1023px) {
+  .section-cards-with-checked {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-cards-with-checked {
+    background: none;
+    padding: 60px 0;
+  }
+  .section-cards-with-checked swiper-container {
+    height: unset;
+  }
+  .section-cards-with-checked swiper-slide.blue {
+    background: #154DB7;
+    border-radius: 12px;
+  }
+  .section-cards-with-checked .text {
+    max-width: unset;
+    color: var(--black-light);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+.section-proscpects {
+  padding: 80px 0;
+  background: url("../img/books-4.png") left center no-repeat #F4F4F4;
+}
+.section-proscpects .text {
+  margin-top: 32px;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.section-proscpects .cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 14px;
+}
+.section-proscpects .card {
+  border-radius: 7px;
+  border: 1px solid #769CDF;
+  padding: 17px 24px;
+  min-height: 180px;
+  background: white;
+}
+.section-proscpects .card:first-child {
+  border: 1px solid var(--primary-intense);
+}
+.section-proscpects .card__text {
+  color: #454545;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 14px;
+}
+@media (max-width: 1023px) {
+  .section-proscpects {
+    padding: 70px 0;
+  }
+  .section-proscpects .cards {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .section-proscpects {
+    padding: 60px 0;
+  }
+  .section-proscpects .cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .section-proscpects .text {
+    margin-top: 24px;
+    font-size: 18px;
+    color: var(--black);
+  }
+  .section-proscpects .card {
+    border: 1px solid #B2C7ED;
+    border-radius: 12px;
+    min-height: 167px;
+    padding: 20px;
+  }
+  .section-proscpects .card:first-child {
+    border: 1px solid #B2C7ED;
+  }
+  .section-proscpects .card__text {
+    color: var(--black-light);
+    margin-top: 24px;
+  }
+}
+
+.what-should-do {
+  padding: 60px 0 80px;
+}
+.what-should-do .cards {
+  margin-top: 64px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.what-should-do .card {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.1;
+  color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 236px;
+  border-radius: 7px;
+  border: 1px solid #769CDF;
+  padding: 24px;
+  background: white;
+  letter-spacing: -1.6px;
+}
+.what-should-do .card:first-child {
+  background: var(--primary-intense);
+  color: white;
+  justify-content: space-between;
+}
+.what-should-do .button {
+  color: #1F3B73;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
+  height: 60px;
+  max-width: 176px;
+  background: white;
+}
+@media (max-width: 1023px) {
+  .what-should-do {
+    padding: 60px 0 70px;
+  }
+  .what-should-do .cards {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .what-should-do {
+    background: #F3F3F3;
+    padding: 60px 0;
+  }
+  .what-should-do .cards {
+    gap: 12px;
+  }
+  .what-should-do .card {
+    min-height: 167px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #323232;
+    border-radius: 12px;
+    justify-content: start;
+    gap: 24px;
+    letter-spacing: -0.7px;
+  }
+  .what-should-do .button {
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .what-should-do svg,
+  .what-should-do img {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -3559,6 +4475,7 @@ a.see-all {
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
+  display: inline-flex;
 }
 .main-page .main-section__cards {
   display: grid;
@@ -5222,6 +6139,11 @@ a.see-all {
   }
 }
 @media (min-width: 1024px) {
+  .dpo-page .section-diploma__postscript {
+    margin-top: 130px;
+  }
+}
+@media (min-width: 1024px) {
   .dpo-page .section-comments {
     margin-top: 130px;
   }
@@ -5234,7 +6156,7 @@ a.see-all {
 .dpo-page .process-info__button {
   margin-top: 32px;
   background: white;
-  color: var(--primary-intense);
+  color: #1F3B73;
   font-size: 18px;
   font-weight: 500;
   border-radius: 4px;
@@ -5312,6 +6234,11 @@ a.see-all {
   .dpo-page .process-info #process-info-slider {
     display: grid;
   }
+  .dpo-page .process-info__button {
+    border-radius: 8px;
+    height: 60px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 424px) {
   .dpo-page .process-info #process-info-slider {
@@ -5319,6 +6246,7 @@ a.see-all {
   }
   .dpo-page .process-info__button {
     margin-top: 10px;
+    width: 100%;
   }
 }
 .dpo-page .opportunities-info {
@@ -5376,6 +6304,14 @@ a.see-all {
 }
 .dpo-page .section-questions {
   background: url("../img/dpo/questions-birds.png") left bottom -90px no-repeat;
+}
+.dpo-page .section-questions .container {
+  gap: 24px;
+}
+@media (max-width: 767px) {
+  .dpo-page .section-questions {
+    background: none;
+  }
 }
 .dpo-page .consultation {
   position: relative;
@@ -5482,6 +6418,11 @@ a.see-all {
     width: 100%;
   }
 }
+@media (max-width: 900px) {
+  .dpo-page .content-with-image .container {
+    gap: 18px;
+  }
+}
 
 .crisis-psychology-page .section-start .container {
   gap: 24px;
@@ -5549,65 +6490,23 @@ a.see-all {
     gap: 16px;
   }
 }
-.crisis-psychology-page .about-program__body {
-  padding: 80px 0;
-  position: relative;
+@media (min-width: 1024px) {
+  .crisis-psychology-page .section-diploma__postscript {
+    margin-top: 130px;
+  }
 }
-.crisis-psychology-page .about-program__text {
-  color: var(--black-light);
-  margin-top: 40px;
-  line-height: 1.2;
-  font-weight: 500;
+.crisis-psychology-page .section-about-program__text {
   font-size: 18px;
-  max-width: 827px;
-  display: flex;
-  flex-direction: column;
-  gap: 21px;
-}
-.crisis-psychology-page .about-program .bird {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: -1;
+  font-weight: 500;
 }
 @media (max-width: 1023px) {
-  .crisis-psychology-page .about-program__body {
-    padding: 70px 0;
-  }
-  .crisis-psychology-page .about-program__text {
+  .crisis-psychology-page .section-about-program__text {
     font-size: 16px;
   }
 }
 @media (max-width: 767px) {
-  .crisis-psychology-page .about-program {
-    background: url("../img/birds-without-one.png") top right no-repeat;
-  }
-  .crisis-psychology-page .about-program__body {
-    padding: 60px 0;
-  }
-  .crisis-psychology-page .about-program__text {
+  .crisis-psychology-page .section-about-program__text {
     font-size: 14px;
-    color: var(--black);
-    gap: 16px;
-  }
-  .crisis-psychology-page .about-program .bird {
-    width: 71px;
-    height: 63px;
-    top: 32px;
-    right: -30px;
-    transform: none;
-  }
-}
-@media (max-width: 600px) {
-  .crisis-psychology-page .about-program .bird {
-    right: -20px;
-  }
-}
-@media (max-width: 424px) {
-  .crisis-psychology-page .about-program__title {
-    font-weight: 500;
-    font-size: 20px;
   }
 }
 .crisis-psychology-page .content-with-image {
@@ -6023,6 +6922,1950 @@ a.see-all {
     padding: 20px 0 20px 20px;
   }
 }
+@media (max-width: 767px) {
+  .crisis-psychology-page .section-program-content .body {
+    padding: 60px 0 0;
+  }
+}
+
+.practical-psychology-page .section-start .container {
+  gap: 24px;
+}
+.practical-psychology-page .section-start__text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 560px;
+}
+.practical-psychology-page .section-start__table {
+  margin-top: 26px;
+  display: flex;
+  gap: 32px;
+  max-width: 650px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.practical-psychology-page .section-start__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.practical-psychology-page .section-start__column:last-child {
+  flex: 0 0 auto;
+}
+.practical-psychology-page .section-start .bold {
+  font-weight: bold;
+}
+.practical-psychology-page .section-start .mobile {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .practical-psychology-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/practical-psychology/image-1.png") 50%/cover no-repeat;
+  }
+  .practical-psychology-page .section-start__text {
+    margin-top: 18px;
+  }
+  .practical-psychology-page .section-start__table {
+    gap: 16px;
+  }
+  .practical-psychology-page .section-start__column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .practical-psychology-page .section-start__column:last-child {
+    flex: unset;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .section-start__table {
+    margin-top: 24px;
+  }
+  .practical-psychology-page .section-start__text {
+    font-size: 14px;
+    gap: 16px;
+  }
+  .practical-psychology-page .section-start__column {
+    font-size: 12px;
+  }
+  .practical-psychology-page .section-start .mobile {
+    display: block;
+  }
+  .practical-psychology-page .section-start .desktop {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .practical-psychology-page .section-start__table {
+    flex-direction: column;
+  }
+}
+.practical-psychology-page .section-about-program__body {
+  padding: 80px 0 60px;
+}
+.practical-psychology-page .section-about-program__text {
+  max-width: 700px;
+}
+@media (min-width: 1024px) {
+  .practical-psychology-page .section-about-program .bird {
+    right: 133px;
+  }
+}
+@media (max-width: 1023px) {
+  .practical-psychology-page .section-about-program__body {
+    padding: 70px 0 60px;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .section-about-program__body {
+    padding: 60px 0;
+  }
+}
+.practical-psychology-page .content-with-image {
+  padding: 60px 0 115px;
+  background: url("../img/books-4.png") left top no-repeat;
+}
+.practical-psychology-page .content-with-image .text {
+  margin-top: 62px;
+  color: var(--black-light);
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  max-width: 320px;
+}
+.practical-psychology-page .content-with-image .list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.practical-psychology-page .content-with-image .list-item {
+  padding-left: 32px;
+  position: relative;
+}
+.practical-psychology-page .content-with-image .list-item::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 900px) {
+  .practical-psychology-page .content-with-image {
+    padding: 70px 0;
+    background: none;
+  }
+  .practical-psychology-page .content-with-image .text {
+    font-size: 16px;
+  }
+  .practical-psychology-page .content-with-image .list {
+    font-size: 16px;
+    gap: 24px;
+  }
+  .practical-psychology-page .content-with-image .list-item {
+    padding-left: 24px;
+  }
+  .practical-psychology-page .content-with-image .list-item::after {
+    top: 6px;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .content-with-image {
+    padding: 60px 0;
+  }
+  .practical-psychology-page .content-with-image .text {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  .practical-psychology-page .content-with-image .list-item {
+    padding-left: 16px;
+  }
+  .practical-psychology-page .content-with-image .list-item::after {
+    top: 5px;
+  }
+  .practical-psychology-page .content-with-image .list {
+    font-size: 14px;
+    gap: 12px;
+    margin-top: 40px;
+  }
+}
+.practical-psychology-page .content-with-image.second {
+  background: none;
+  padding: 80px 0;
+  min-height: 636px;
+}
+.practical-psychology-page .content-with-image.second .content-with-image__body {
+  padding-right: 53px;
+}
+.practical-psychology-page .content-with-image.second .list {
+  margin-top: 40px;
+  gap: 18px;
+  color: #1E1E1E;
+}
+.practical-psychology-page .content-with-image.second .list-item {
+  padding-left: 18px;
+}
+.practical-psychology-page .content-with-image.second .list-item::after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 1023px) {
+  .practical-psychology-page .content-with-image.second {
+    padding: 70px 0;
+  }
+  .practical-psychology-page .content-with-image.second .list {
+    margin-top: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .content-with-image.second {
+    background: url("../img/books-4.png") left top no-repeat;
+    padding: 60px 0;
+  }
+  .practical-psychology-page .content-with-image.second .list {
+    color: var(--black);
+    gap: 12px;
+  }
+}
+.practical-psychology-page .section-program-content .body {
+  padding: 80px 0 120px;
+}
+@media (max-width: 1023px) {
+  .practical-psychology-page .section-program-content .body {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .section-program-content .body {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .practical-psychology-page .section-program-content .desk {
+    padding: 30px;
+  }
+}
+.practical-psychology-page .section-diploma__text {
+  gap: 40px;
+}
+.practical-psychology-page .section-diploma .list-item {
+  line-height: 1.2;
+}
+.practical-psychology-page .section-diploma .list-item::after {
+  background: white;
+}
+.practical-psychology-page .section-diploma__postscript {
+  margin-top: 150px;
+}
+@media (max-width: 1200px) {
+  .practical-psychology-page .section-diploma__postscript {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1023px) {
+  .practical-psychology-page .section-diploma__postscript {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .section-diploma {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .section-training-info .info-card {
+    background: var(--primary-intense);
+  }
+}
+.practical-psychology-page .what-should-do {
+  background: white;
+}
+@media (min-width: 768px) {
+  .practical-psychology-page .what-should-do .card {
+    font-size: 20px;
+    font-weight: 600;
+    gap: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .practical-psychology-page .section-advantages {
+    padding-top: 80px;
+  }
+}
+.practical-psychology-page .section-comments {
+  margin-top: 0;
+}
+
+.special-education-page .section-start .subtitle {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.special-education-page .section-start .text {
+  margin-top: 24px;
+  display: flex;
+  line-height: 1.2;
+  flex-direction: column;
+  gap: 6px;
+}
+.special-education-page .section-start__body {
+  flex: 0 1 674px;
+  padding-right: 24px;
+}
+.special-education-page .section-start .table {
+  margin-top: 24px;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 32px;
+  font-size: 14px;
+}
+.special-education-page .section-start .bold {
+  font-weight: 700;
+}
+.special-education-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+@media (max-width: 1023px) {
+  .special-education-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/special-education/image-1.png") 50%/cover no-repeat;
+  }
+  .special-education-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+  .special-education-page .section-start .subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .section-start .subtitle {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .special-education-page .section-start .text {
+    margin-top: 18px;
+    font-size: 14px;
+    gap: 16px;
+  }
+  .special-education-page .section-start .desktop {
+    display: none;
+  }
+  .special-education-page .section-start .table {
+    font-size: 12px;
+    gap: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .special-education-page .section-start .table__column {
+    gap: 12px;
+  }
+}
+@media (max-width: 424px) {
+  .special-education-page .section-start .subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 360px) {
+  .special-education-page .section-start .table {
+    grid-template-columns: 1fr;
+  }
+}
+.special-education-page .section-about-program__text {
+  max-width: 640px;
+}
+@media (min-width: 1024px) {
+  .special-education-page .section-cards-with-checked {
+    padding: 70px 0 155px;
+  }
+}
+.special-education-page .content-with-image.first {
+  padding: 65px 0;
+}
+.special-education-page .content-with-image.first .list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.special-education-page .content-with-image.first .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: 40px;
+  display: none;
+}
+.special-education-page .content-with-image.first .list-item {
+  padding-left: 21px;
+  position: relative;
+  max-width: 470px;
+}
+.special-education-page .content-with-image.first .list-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 900px) {
+  .special-education-page .content-with-image.first .list {
+    font-size: 16px;
+    gap: 12px;
+    margin-top: 40px;
+  }
+  .special-education-page .content-with-image.first .list-item::after {
+    top: 6px;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .content-with-image.first {
+    padding: 60px 0;
+  }
+  .special-education-page .content-with-image.first .list {
+    font-size: 14px;
+  }
+  .special-education-page .content-with-image.first .text {
+    display: block;
+  }
+  .special-education-page .content-with-image.first .list-item {
+    padding-left: 16px;
+  }
+  .special-education-page .content-with-image.first .list-item::after {
+    top: 4px;
+  }
+}
+.special-education-page .section-program-content .desk {
+  padding: 30px;
+  align-self: stretch;
+  justify-content: center;
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .special-education-page .section-program-content .body {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .section-program-content .desk {
+    padding: 20px;
+  }
+}
+.special-education-page .content-with-image.second {
+  padding: 65px 0 70px;
+}
+.special-education-page .content-with-image.second .content-with-image__title {
+  line-height: 1.1;
+  max-width: 590px;
+}
+.special-education-page .content-with-image.second .list {
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 500px;
+  color: #1E1E1E;
+}
+.special-education-page .content-with-image.second .list-item {
+  padding-left: 18px;
+  position: relative;
+}
+.special-education-page .content-with-image.second .list-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 1023px) {
+  .special-education-page .content-with-image.second .list {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .special-education-page .content-with-image.second .list-item::after {
+    top: 6px;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .content-with-image.second {
+    padding: 60px 0;
+    background: url("../img/books-4.png") left top/100% no-repeat;
+  }
+  .special-education-page .content-with-image.second .list {
+    margin-top: 18px;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
+  }
+  .special-education-page .content-with-image.second .container {
+    gap: 18px;
+  }
+  .special-education-page .content-with-image.second .list-item {
+    padding-left: 16px;
+  }
+  .special-education-page .content-with-image.second .list-item::after {
+    top: 5px;
+  }
+}
+@media (min-width: 1024px) {
+  .special-education-page .section-proscpects {
+    padding: 90px 0 115px;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .section-training-info .info-card {
+    background: var(--primary-intense);
+  }
+}
+.special-education-page .section-diploma {
+  padding: 80px 0 43px;
+}
+.special-education-page .section-diploma__text {
+  line-height: 1.2;
+  font-size: 22px;
+  max-width: 506px;
+  gap: 26px;
+}
+.special-education-page .section-diploma .list-item::after {
+  background: white;
+  top: 12px;
+}
+@media (max-width: 1023px) {
+  .special-education-page .section-diploma {
+    padding: 70px 0;
+  }
+  .special-education-page .section-diploma__text {
+    font-size: 20px;
+    gap: 24px;
+  }
+  .special-education-page .section-diploma .list-item::after {
+    top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .section-diploma {
+    padding: 60px 0;
+  }
+  .special-education-page .section-diploma__text {
+    font-size: 18px;
+    gap: 21px;
+  }
+  .special-education-page .section-diploma .list-item::after {
+    top: 8px;
+  }
+}
+.special-education-page .section-advantages {
+  padding: 95px 0 80px;
+}
+.special-education-page .section-advantages .section-comments {
+  margin-top: 0;
+}
+@media (max-width: 1023px) {
+  .special-education-page .section-advantages {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .special-education-page .section-advantages {
+    padding: 60px 0;
+  }
+}
+
+.speech-therapy-page .section-start__body {
+  flex: 0 1 654px;
+  padding-right: 24px;
+}
+.speech-therapy-page .section-start .text {
+  margin-top: 40px;
+  line-height: 1.2;
+}
+.speech-therapy-page .section-start .table {
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.speech-therapy-page .section-start .bold {
+  font-weight: bold;
+}
+.speech-therapy-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.speech-therapy-page .section-start .table__column:nth-child(1) {
+  flex: 0 1 210px;
+}
+.speech-therapy-page .section-start .table__column:nth-child(2) {
+  flex: 0 1 110px;
+}
+.speech-therapy-page .section-start .table__column:nth-child(3) {
+  flex: 0 1 130px;
+}
+@media (max-width: 1023px) {
+  .speech-therapy-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/speech-therapy/image-1.png") 50%/cover no-repeat;
+  }
+  .speech-therapy-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .section-start .text {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .speech-therapy-page .section-start .table {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .speech-therapy-page .section-start .table .table__column {
+    gap: 12px;
+    flex: unset;
+  }
+}
+@media (max-width: 360px) {
+  .speech-therapy-page .section-start .table {
+    flex-direction: column;
+  }
+}
+.speech-therapy-page .section-about-program__text {
+  max-width: 580px;
+}
+.speech-therapy-page .content-with-image.first .content-with-image__body {
+  padding-right: 18px;
+}
+.speech-therapy-page .content-with-image.first .list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 500;
+}
+.speech-therapy-page .content-with-image.first .list-item {
+  position: relative;
+  padding-left: 19px;
+}
+.speech-therapy-page .content-with-image.first .list-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .content-with-image.first .list-item {
+    padding-left: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-therapy-page .content-with-image.first {
+    padding: 65px 0 85px;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-therapy-page .content-with-image.first .list {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .content-with-image.first .list {
+    margin-top: 40px;
+    font-size: 14px;
+    gap: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-therapy-page .section-program-content .body {
+    padding: 80px 0;
+  }
+}
+@media (min-width: 768px) {
+  .speech-therapy-page .section-program-content .desk {
+    padding: 30px;
+  }
+}
+.speech-therapy-page .content-with-image.second .list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1E1E1E;
+}
+.speech-therapy-page .content-with-image.second .list-item {
+  position: relative;
+  padding-left: 18px;
+}
+.speech-therapy-page .content-with-image.second .list-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .content-with-image.second .list-item {
+    padding-left: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-therapy-page .content-with-image.second .list {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .content-with-image.second .list {
+    margin-top: 18px;
+    color: var(--black);
+    font-size: 14px;
+    gap: 12px;
+  }
+  .speech-therapy-page .content-with-image.second .container {
+    gap: 18px;
+  }
+}
+.speech-therapy-page .section-proscpects .text {
+  margin-top: 24px;
+}
+.speech-therapy-page .section-proscpects .cards {
+  margin-top: 40px;
+}
+.speech-therapy-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.speech-therapy-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.speech-therapy-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.speech-therapy-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.speech-therapy-page .section-diploma .info {
+  color: #F8F8F8;
+}
+.speech-therapy-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .speech-therapy-page .section-diploma__image {
+    max-height: 400px;
+  }
+  .speech-therapy-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-therapy-page .section-diploma .text {
+    margin: 0;
+  }
+  .speech-therapy-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .section-diploma {
+    padding: 60px 0;
+  }
+  .speech-therapy-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .speech-therapy-page .section-diploma .info,
+  .speech-therapy-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+.speech-therapy-page .section-achievements {
+  padding: 70px 0 40px;
+}
+@media (max-width: 767px) {
+  .speech-therapy-page .section-achievements {
+    padding: 60px 0;
+  }
+}
+.speech-therapy-page .section-price {
+  padding: 60px 0;
+}
+@media (min-width: 1024px) {
+  .speech-therapy-page .section-price .mini-cards {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .speech-therapy-page .section-price .title.second {
+    margin-top: 130px;
+  }
+  .speech-therapy-page .section-price .mini-cards {
+    gap: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-therapy-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
+
+.clinical-psychology-page .section-start__body {
+  flex: 0 1 674px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+}
+.clinical-psychology-page .section-start .text {
+  margin-top: 24px;
+  line-height: 1.2;
+}
+.clinical-psychology-page .section-start .table {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 20px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 14px;
+}
+.clinical-psychology-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.clinical-psychology-page .section-start .bold {
+  font-weight: 700;
+}
+.clinical-psychology-page .section-start__foot {
+  margin-top: 32px;
+}
+@media (max-width: 1023px) {
+  .clinical-psychology-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/clinical-psychology/image-1.png") 50%/cover no-repeat;
+  }
+  .clinical-psychology-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .clinical-psychology-page .section-start .table {
+    margin-top: 24px;
+    gap: 20px;
+    grid-template-columns: repeat(2, auto);
+  }
+  .clinical-psychology-page .section-start .text {
+    font-size: 14px;
+  }
+  .clinical-psychology-page .section-start .table__column:nth-child(3) {
+    grid-row: 3/3;
+    grid-column: span 2;
+  }
+  .clinical-psychology-page .section-start__foot {
+    margin-top: 24px;
+  }
+}
+.clinical-psychology-page .section-about-program__body {
+  padding: 70px 0 100px;
+}
+.clinical-psychology-page .section-about-program__text {
+  max-width: 580px;
+  margin-top: 58px;
+}
+@media (max-width: 1023px) {
+  .clinical-psychology-page .section-about-program__body {
+    padding: 70px 0 80px;
+  }
+  .clinical-psychology-page .section-about-program__text {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .clinical-psychology-page .section-about-program__body {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 768px) {
+  .clinical-psychology-page .section-cards-with-checked swiper-container {
+    height: 374px;
+  }
+}
+@media (min-width: 1024px) {
+  .clinical-psychology-page .section-program-content .desk {
+    padding: 50px 30px;
+  }
+  .clinical-psychology-page .section-program-content .body {
+    padding: 60px 0 70px;
+  }
+  .clinical-psychology-page .section-program-content .flex {
+    margin-top: 63px;
+  }
+  .clinical-psychology-page .section-program-content .right {
+    align-self: end;
+  }
+}
+.clinical-psychology-page .section-diploma {
+  padding: 80px 0 40px;
+}
+.clinical-psychology-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.clinical-psychology-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.clinical-psychology-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.clinical-psychology-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.clinical-psychology-page .section-diploma .info {
+  color: #F8F8F8;
+}
+.clinical-psychology-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .clinical-psychology-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .clinical-psychology-page .section-diploma {
+    padding: 70px 0;
+  }
+  .clinical-psychology-page .section-diploma .text {
+    margin: 0;
+  }
+  .clinical-psychology-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .clinical-psychology-page .section-diploma {
+    padding: 60px 0;
+  }
+  .clinical-psychology-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .clinical-psychology-page .section-diploma .info,
+  .clinical-psychology-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+@media (min-width: 1024px) {
+  .clinical-psychology-page .section-price .mini-cards {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .clinical-psychology-page .section-price {
+    padding: 55px 0 65px;
+  }
+  .clinical-psychology-page .section-price .title.second {
+    margin-top: 130px;
+  }
+  .clinical-psychology-page .section-price .mini-cards {
+    gap: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .clinical-psychology-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
+
+.neuropsychology-page .section-start__body {
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+.neuropsychology-page .section-start__title {
+  max-width: 670px;
+}
+.neuropsychology-page .section-start .text {
+  margin-top: 24px;
+  line-height: 1.2;
+  max-width: 640px;
+}
+.neuropsychology-page .section-start .table {
+  max-width: 600px;
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 20px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  font-size: 14px;
+}
+.neuropsychology-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.neuropsychology-page .section-start .bold {
+  font-weight: 700;
+}
+.neuropsychology-page .section-start__foot {
+  margin-top: 32px;
+}
+@media (max-width: 1023px) {
+  .neuropsychology-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/neuropsychology/image-1.png") 7% 50%/cover no-repeat;
+  }
+  .neuropsychology-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .neuropsychology-page .section-start .table {
+    margin-top: 24px;
+    gap: 20px;
+    grid-template-columns: repeat(2, auto);
+  }
+  .neuropsychology-page .section-start .text {
+    font-size: 14px;
+  }
+  .neuropsychology-page .section-start .table__column:nth-child(3) {
+    grid-column: span 2;
+  }
+  .neuropsychology-page .section-start__foot {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .neuropsychology-page .section-about-program__body {
+    padding: 65px 0 130px;
+  }
+  .neuropsychology-page .section-about-program__text {
+    margin-top: 53px;
+  }
+}
+.neuropsychology-page .section-about-program__text {
+  max-width: 580px;
+}
+.neuropsychology-page .section-program-content .body {
+  padding: 80px 0;
+}
+@media (min-width: 768px) {
+  .neuropsychology-page .section-program-content .desk {
+    padding: 48px 20px;
+  }
+  .neuropsychology-page .section-program-content .right {
+    align-self: end;
+  }
+}
+@media (max-width: 1023px) {
+  .neuropsychology-page .section-program-content .body {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .neuropsychology-page .section-program-content .body {
+    padding: 60px 0;
+  }
+}
+.neuropsychology-page .section-training-info {
+  background: #F3F3F3;
+}
+.neuropsychology-page .section-training-info__subtitle {
+  max-width: 540px;
+}
+@media (max-width: 767px) {
+  .neuropsychology-page .section-training-info {
+    background: none;
+  }
+  .neuropsychology-page .section-training-info .info-card {
+    background: var(--primary-intense);
+  }
+}
+.neuropsychology-page .section-diploma {
+  padding: 80px 0 40px;
+}
+.neuropsychology-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.neuropsychology-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.neuropsychology-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.neuropsychology-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.neuropsychology-page .section-diploma .info {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.neuropsychology-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .neuropsychology-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .neuropsychology-page .section-diploma {
+    padding: 70px 0;
+  }
+  .neuropsychology-page .section-diploma .text {
+    margin: 0;
+  }
+  .neuropsychology-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .neuropsychology-page .section-diploma {
+    padding: 60px 0;
+  }
+  .neuropsychology-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .neuropsychology-page .section-diploma .info,
+  .neuropsychology-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+@media (min-width: 1024px) {
+  .neuropsychology-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
+
+.logomassage-page .section-start .container {
+  height: 492px;
+  min-height: unset;
+}
+.logomassage-page .section-start__image {
+  flex: 0 1 calc(50% + 80px);
+}
+.logomassage-page .section-start__body {
+  flex: 0 1 50%;
+  padding-right: 42px;
+}
+.logomassage-page .section-start .text {
+  margin-top: 24px;
+  line-height: 1.2;
+}
+.logomassage-page .section-start .table {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 20px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  font-size: 14px;
+}
+.logomassage-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.logomassage-page .section-start .bold {
+  font-weight: 700;
+}
+.logomassage-page .section-start__foot {
+  margin-top: 32px;
+}
+@media (max-width: 1023px) {
+  .logomassage-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/logomassage/image-1.png") 7% 50%/cover no-repeat;
+  }
+  .logomassage-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .logomassage-page .section-start .table {
+    margin-top: 24px;
+    gap: 20px;
+    grid-template-columns: repeat(2, auto);
+  }
+  .logomassage-page .section-start .text {
+    font-size: 14px;
+  }
+  .logomassage-page .section-start .table__column:nth-child(1) {
+    order: 1;
+  }
+  .logomassage-page .section-start .table__column:nth-child(2) {
+    grid-column: span 2;
+    order: 3;
+  }
+  .logomassage-page .section-start .table__column:nth-child(3) {
+    order: 4;
+  }
+  .logomassage-page .section-start .table__column:nth-child(4) {
+    order: 2;
+  }
+  .logomassage-page .section-start__foot {
+    margin-top: 24px;
+  }
+}
+.logomassage-page .section-about-program__text {
+  max-width: 580px;
+}
+@media (min-width: 1024px) {
+  .logomassage-page .section-about-program__body {
+    padding: 65px 0 115px;
+  }
+  .logomassage-page .section-about-program .bird {
+    right: 150px;
+  }
+  .logomassage-page .section-about-program__text {
+    margin-top: 65px;
+  }
+}
+.logomassage-page .section-program-content .desk p {
+  counter-increment: count 1;
+  position: relative;
+  padding-left: 20px;
+}
+.logomassage-page .section-program-content .desk p::before {
+  content: counter(count) ".";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (min-width: 768px) {
+  .logomassage-page .section-program-content .body {
+    padding: 80px 0;
+  }
+  .logomassage-page .section-program-content .desk {
+    padding: 50px 20px;
+  }
+  .logomassage-page .section-program-content .right {
+    align-self: end;
+  }
+}
+@media (max-width: 767px) {
+  .logomassage-page .section-program-content .desk p {
+    padding-left: 15px;
+  }
+  .logomassage-page .section-program-content .desk {
+    gap: 0;
+  }
+}
+.logomassage-page .section-training-info {
+  background: #F3F3F3;
+}
+.logomassage-page .section-training-info__subtitle {
+  max-width: 540px;
+}
+@media (max-width: 767px) {
+  .logomassage-page .section-training-info {
+    background: none;
+  }
+  .logomassage-page .section-training-info .info-card {
+    background: var(--primary-intense);
+  }
+}
+.logomassage-page .section-diploma {
+  padding: 80px 0 40px;
+}
+.logomassage-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.logomassage-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.logomassage-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.logomassage-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.logomassage-page .section-diploma .info {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.logomassage-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .logomassage-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .logomassage-page .section-diploma {
+    padding: 70px 0;
+  }
+  .logomassage-page .section-diploma .text {
+    margin: 0;
+  }
+  .logomassage-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .logomassage-page .section-diploma {
+    padding: 60px 0;
+  }
+  .logomassage-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .logomassage-page .section-diploma .info,
+  .logomassage-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+@media (min-width: 1024px) {
+  .logomassage-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
+
+.speech-disorder-page .section-start__body {
+  flex: 0 1 660px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+}
+.speech-disorder-page .section-start__title {
+  margin-top: 12px;
+}
+.speech-disorder-page .section-start .text {
+  line-height: 1.2;
+}
+.speech-disorder-page .section-start .table {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 32px;
+  font-size: 14px;
+}
+.speech-disorder-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.speech-disorder-page .section-start .bold {
+  font-weight: 700;
+}
+@media (max-width: 1023px) {
+  .speech-disorder-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/speech-therapy/image-1.png") 50%/cover no-repeat;
+  }
+  .speech-disorder-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .section-start .table {
+    gap: 20px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .speech-disorder-page .section-start__title {
+    font-weight: 500;
+    margin-top: 18px;
+  }
+  .speech-disorder-page .section-start .text {
+    font-size: 14px;
+  }
+  .speech-disorder-page .section-start__foot {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 374px) {
+  .speech-disorder-page .section-start .table {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-disorder-page .section-about-program__body {
+    padding: 85px 0;
+  }
+}
+.speech-disorder-page .section-about-program__text {
+  max-width: 580px;
+}
+.speech-disorder-page .section-for-whom.big .grid {
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  .speech-disorder-page .section-for-whom.big .section-for-whom__body {
+    padding: 80px 0;
+  }
+}
+.speech-disorder-page .content-with-image.first .list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.speech-disorder-page .content-with-image.first .list-item {
+  position: relative;
+  padding-left: 19px;
+}
+.speech-disorder-page .content-with-image.first .list-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .content-with-image.first .list-item {
+    padding-left: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-disorder-page .content-with-image.first {
+    padding: 65px 0 85px;
+  }
+  .speech-disorder-page .content-with-image.first .content-with-image__body {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-disorder-page .content-with-image.first .list {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .content-with-image.first .list {
+    font-size: 14px;
+    gap: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .speech-disorder-page .section-program-content .body {
+    padding: 80px 0;
+  }
+  .speech-disorder-page .section-program-content .desk {
+    padding: 35px 30px;
+  }
+  .speech-disorder-page .section-program-content .right {
+    align-self: end;
+  }
+}
+.speech-disorder-page .content-with-image.second .list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1E1E1E;
+  max-width: 533px;
+}
+.speech-disorder-page .content-with-image.second .list-item {
+  position: relative;
+  padding-left: 18px;
+}
+.speech-disorder-page .content-with-image.second .list-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary-intense);
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .content-with-image.second .list-item {
+    padding-left: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-disorder-page .content-with-image.second .list {
+    margin-top: 24px;
+    gap: 24px;
+    font-size: 16px;
+    color: var(--black);
+  }
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .content-with-image.second .container {
+    gap: 18px;
+  }
+  .speech-disorder-page .content-with-image.second .list {
+    margin-top: 18px;
+    font-size: 14px;
+    gap: 12px;
+  }
+}
+.speech-disorder-page .section-proscpects .cards {
+  margin-top: 40px;
+}
+.speech-disorder-page .section-proscpects .text {
+  margin-top: 24px;
+  max-width: 400px;
+}
+.speech-disorder-page .section-diploma {
+  padding: 80px 0 0;
+}
+.speech-disorder-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.speech-disorder-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.speech-disorder-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.speech-disorder-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.speech-disorder-page .section-diploma .info {
+  color: #F8F8F8;
+}
+.speech-disorder-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (max-width: 1300px) {
+  .speech-disorder-page .section-diploma {
+    padding: 80px 0 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .speech-disorder-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .speech-disorder-page .section-diploma {
+    padding: 70px 0;
+  }
+  .speech-disorder-page .section-diploma .text {
+    margin: 0;
+  }
+  .speech-disorder-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .speech-disorder-page .section-diploma {
+    padding: 60px 0;
+  }
+  .speech-disorder-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .speech-disorder-page .section-diploma .info,
+  .speech-disorder-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  .speech-disorder-page .section-price {
+    padding: 55px 0 65px;
+  }
+  .speech-disorder-page .section-price .title.second {
+    margin-top: 130px;
+  }
+  .speech-disorder-page .section-price .mini-cards {
+    margin-top: 50px;
+    gap: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .speech-disorder-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
+
+.adhd-page .section-start__body {
+  flex: 0 1 660px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+}
+.adhd-page .section-start .table {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 20px;
+  font-size: 14px;
+}
+.adhd-page .section-start .table__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.adhd-page .section-start .bold {
+  font-weight: 700;
+}
+.adhd-page .section-start__foot {
+  margin-top: 32px;
+}
+@media (max-width: 1023px) {
+  .adhd-page .section-start::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url("../img/speech-disorder/image-1.png") 50%/cover no-repeat;
+  }
+  .adhd-page .section-start__body {
+    flex: unset;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .adhd-page .section-start .table {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 24px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .adhd-page .section-start .table__column {
+    gap: 12px;
+  }
+  .adhd-page .section-start__title {
+    font-weight: 500;
+  }
+  .adhd-page .section-start__foot {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 374px) {
+  .adhd-page .section-start .table {
+    grid-template-columns: 1fr;
+  }
+}
+.adhd-page .section-about-program__text {
+  max-width: 630px;
+}
+.adhd-page .content-with-image {
+  padding: 65px 0 85px;
+  background: #F8F8F8;
+}
+.adhd-page .content-with-image .text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 50px;
+  max-width: 470px;
+}
+@media (max-width: 1023px) {
+  .adhd-page .content-with-image {
+    padding: 70px 0;
+  }
+  .adhd-page .content-with-image .text {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .adhd-page .content-with-image {
+    background: none;
+    padding: 60px 0;
+  }
+  .adhd-page .content-with-image .text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .adhd-page .section-for-whom__image {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .adhd-page .section-program-content.first .body {
+    padding: 80px 0 55px;
+  }
+  .adhd-page .section-program-content.first .desk {
+    padding: 20px 30px;
+  }
+  .adhd-page .section-program-content.first .right {
+    align-self: end;
+  }
+}
+.adhd-page .section-program-content.second .body {
+  padding: 80px 0 90px;
+}
+@media (min-width: 768px) {
+  .adhd-page .section-program-content.second .desk {
+    padding: 52px 30px;
+  }
+  .adhd-page .section-program-content.second .right {
+    align-self: end;
+  }
+}
+@media (max-width: 1023px) {
+  .adhd-page .section-program-content.second .body {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .adhd-page .section-program-content.second .body {
+    bottom: 60px 0;
+  }
+}
+.adhd-page .section-proscpects .cards {
+  margin-top: 40px;
+}
+.adhd-page .section-proscpects .text {
+  margin-top: 24px;
+}
+@media (min-width: 1024px) {
+  .adhd-page .section-proscpects {
+    padding-bottom: 100px;
+  }
+}
+.adhd-page .section-diploma {
+  padding: 80px 0 40px;
+}
+.adhd-page .section-diploma .text {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.adhd-page .section-diploma .text > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.adhd-page .section-diploma .subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.adhd-page .section-diploma .list {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.adhd-page .section-diploma .info {
+  line-height: 1.2;
+  color: #F8F8F8;
+}
+.adhd-page .section-diploma .list-item::after {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .adhd-page .section-diploma__image img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1023px) {
+  .adhd-page .section-diploma {
+    padding: 70px 0;
+  }
+  .adhd-page .section-diploma .text {
+    margin: 0;
+  }
+  .adhd-page .section-diploma .subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .adhd-page .section-diploma {
+    padding: 60px 0;
+  }
+  .adhd-page .section-diploma .subtitle {
+    font-size: 18px;
+  }
+  .adhd-page .section-diploma .info,
+  .adhd-page .section-diploma .list {
+    font-weight: 500;
+    color: white;
+  }
+}
+.adhd-page .section-price {
+  padding: 55px 0 65px;
+}
+.adhd-page .section-price .title.second {
+  margin-top: 120px;
+}
+.adhd-page .section-price .mini-cards {
+  margin-top: 50px;
+  gap: 8px;
+}
+@media (max-width: 1023px) {
+  .adhd-page .section-price {
+    padding: 70px 0;
+  }
+  .adhd-page .section-price .title.second {
+    margin-top: 80px;
+  }
+  .adhd-page .section-price .mini-cards {
+    margin-top: 40px;
+    gap: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .adhd-page .section-price {
+    padding: 60px 0;
+  }
+  .adhd-page .section-price .title.second {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .adhd-page .section-questions {
+    padding: 60px 0 75px;
+  }
+}
 
 body {
   font-family: "Golos Text", serif;
@@ -6040,6 +8883,11 @@ body.lock {
 }
 body b {
   font-weight: 600;
+}
+
+form:not(:has(input[name=privacy_policy]:checked)) button[type=submit] {
+  opacity: 0.8;
+  pointer-events: none;
 }
 
 .container {

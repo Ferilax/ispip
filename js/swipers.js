@@ -238,6 +238,7 @@ swiperInit(videoSlider, {
 	spaceBetween: 8,
 	grid: {
 		rows: 1,
+		fill: "row",
 	},
 	breakpoints: {
 		351: {
@@ -245,6 +246,7 @@ swiperInit(videoSlider, {
 			spaceBetween: 8,
 			grid: {
 				rows: 1,
+				fill: "row",
 			},
 		},
 		451: {
@@ -252,6 +254,7 @@ swiperInit(videoSlider, {
 			spaceBetween: 8,
 			grid: {
 				rows: 1,
+				fill: "row",
 			},
 		},
 		651: {
@@ -259,6 +262,7 @@ swiperInit(videoSlider, {
 			spaceBetween: 20,
 			grid: {
 				rows: 1,
+				fill: "row",
 			},
 		},
 		901: {
@@ -266,6 +270,7 @@ swiperInit(videoSlider, {
 			spaceBetween: 20,
 			grid: {
 				rows: 1,
+				fill: "row",
 			},
 		},
 		1024: {
@@ -273,6 +278,7 @@ swiperInit(videoSlider, {
 			spaceBetween: 20,
 			grid: {
 				rows: 2,
+				fill: "row",
 			},
 		},
 	}
@@ -335,6 +341,7 @@ swiperInit(opportunitiesSwiper, {
 	spaceBetween: 12,
 	grid: {
 		rows: 1,
+		fill: "row",
 	},
 
 	breakpoints: {
@@ -343,6 +350,7 @@ swiperInit(opportunitiesSwiper, {
 			spaceBetween: 12,
 			grid: {
 				rows: 1,
+				fill: "row",
 			},
 		},
 		768: {
@@ -350,6 +358,7 @@ swiperInit(opportunitiesSwiper, {
 			spaceBetween: 20,
 			grid: {
 				rows: 2,
+				fill: "row",
 			},
 		},
 		1024: {
@@ -357,6 +366,41 @@ swiperInit(opportunitiesSwiper, {
 			spaceBetween: 20,
 			grid: {
 				rows: 2,
+				fill: "row",
+			},
+		},
+	},
+});
+
+const trainingStepsSwiper = document.querySelector("#cards-with-checked-slider");
+swiperInit(trainingStepsSwiper, {
+	slidesPerView: 1.2,
+	spaceBetween: 12,
+	grid: {
+		rows: 1,
+		fill: "row",
+	},
+
+	breakpoints: {
+		601: {
+			slidesPerView: 2.2,
+			grid: {
+				rows: 1,
+				fill: "row",
+			},
+		},
+		768: {
+			slidesPerView: 2.2,
+			grid: {
+				rows: 2,
+				fill: "row",
+			},
+		},
+		1024: {
+			slidesPerView: 3,
+			grid: {
+				rows: 2,
+				fill: "row",
 			},
 		},
 	},

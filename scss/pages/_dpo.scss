@@ -137,6 +137,14 @@
 		}
 	}
 
+	.section-diploma {
+		@media (min-width: 1024px) {
+			&__postscript {
+				margin-top: 130px;
+			}
+		}
+	}
+
 	.section-comments {
 		@media (min-width: 1024px) {
 			margin-top: 130px;
@@ -155,13 +163,12 @@
 		&__button {
 			margin-top: 32px;
 			background: white;
-			color: var(--primary-intense);
+			color: #1F3B73;
 
 			font-size: 18px;
 			font-weight: 500;
 			border-radius: 4px;
 			@include button(65px, 60px);
-
 		}
 
 		.grid {
@@ -240,6 +247,12 @@
 			#process-info-slider {
 				display: grid;
 			}
+
+			&__button {
+				border-radius: 8px;
+				height: 60px;
+				font-size: 16px;
+			}
 		}
 
 		@media (max-width: 424px) {
@@ -249,6 +262,7 @@
 
 			&__button {
 				margin-top: 10px;
+				width: 100%;
 			}
 		}
 	}
@@ -316,6 +330,14 @@
 
 	.section-questions {
 		background: url("../img/dpo/questions-birds.png") left bottom -90px no-repeat;
+
+		.container {
+			gap: 24px;
+		}
+
+		@media (max-width: 767px) {
+			background: none;
+		}
 	}
 
 	.consultation {
@@ -443,6 +465,14 @@
 
 			&__buttons {
 				width: 100%;
+			}
+		}
+	}
+
+	.content-with-image {
+		@media (max-width: 900px) {
+			.container {
+				gap: 18px;
 			}
 		}
 	}

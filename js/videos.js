@@ -2,7 +2,7 @@ const videos = document.querySelector(".videos");
 const videoModal = document.querySelector(".modal-video");
 const videoModalContent = videoModal?.querySelector(".modal__content");
 
-videos?.addEventListener("click", e => {
+document.addEventListener("click", e => {
 	const playButton = e.target.closest(".lazy-video__play");
 	const video = e.target.closest(".lazy-video");
 	const videoId = video?.dataset.id;

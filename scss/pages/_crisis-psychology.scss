@@ -83,82 +83,25 @@
 
 	}
 
-	.about-program {
-
-		&__body {
-			padding: 80px 0;
-			position: relative;
-		}
-
-		&__title {
-			@extend %h2;
-		}
-
-		&__text {
-			color: var(--black-light);
-			margin-top: 40px;
-			line-height: 1.2;
-			font-weight: 500;
-			font-size: 18px;
-			max-width: 827px;
-
-			display: flex;
-			flex-direction: column;
-			gap: 21px;
-		}
-
-		.bird {
-			position: absolute;
-			right: 0;
-			top: 50%;
-			transform: translateY(-50%);
-			z-index: -1;
-		}
-
-		@media (max-width: 1023px) {
-
-			&__body {
-				padding: 70px 0;
+	.section-diploma {
+		@media (min-width: 1024px) {
+			&__postscript {
+				margin-top: 130px;
 			}
+		}
+	}
 
-			&__text {
+	.section-about-program {
+		&__text {
+			font-size: 18px;
+			font-weight: 500;
+
+			@media (max-width: 1023px) {
 				font-size: 16px;
 			}
-		}
 
-		@media (max-width: 767px) {
-			background: url("../img/birds-without-one.png") top right no-repeat;
-
-			&__body {
-				padding: 60px 0;
-			}
-
-			&__text {
+			@media (max-width: 767px) {
 				font-size: 14px;
-				color: var(--black);
-				gap: 16px;
-			}
-
-			.bird {
-				width: 71px;
-				height: 63px;
-				top: 32px;
-				right: -30px;
-				transform: none;
-			}
-		}
-
-		@media (max-width: 600px) {
-
-			.bird {
-				right: -20px;
-			}
-		}
-
-		@media (max-width: 424px) {
-			&__title {
-				font-weight: 500;
-				font-size: 20px;
 			}
 		}
 	}
@@ -683,6 +626,14 @@
 				margin: 0;
 				align-self: center;
 				padding: 20px 0 20px 20px;
+			}
+		}
+	}
+
+	.section-program-content {
+		@media (max-width: 767px) {
+			.body {
+				padding: 60px 0 0;
 			}
 		}
 	}

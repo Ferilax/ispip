@@ -121,3 +121,24 @@
 		border-radius: 50%;
 	}
 }
+
+@mixin blue-mark($desktop-left-padding, $mobile-left-padding) {
+	position: relative;
+	padding-left: $desktop-left-padding;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: var(--primary-intense);
+	}
+
+	@media (max-width: 767px) {
+		padding-left: $mobile-left-padding;
+	}
+}

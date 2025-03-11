@@ -19,6 +19,14 @@
 @import "./pages/contacts";
 @import "./pages/dpo";
 @import "./pages/crisis-psychology";
+@import "./pages/practical-psychology";
+@import "./pages/special-education";
+@import "./pages/speech-therapy";
+@import "./pages/clinical-psychology";
+@import "./pages/neuropsychology";
+@import "./pages/logomassage";
+@import "./pages/speech-disorder";
+@import "./pages/adhd";
 
 body {
 	font-family: "Golos Text", serif;
@@ -38,6 +46,15 @@ body {
 
 	b {
 		font-weight: 600;
+	}
+}
+
+form {
+	&:not(:has(input[name="privacy_policy"]:checked)) {
+		button[type="submit"] {
+			opacity: 0.8;
+			pointer-events: none;
+		}
 	}
 }
 
