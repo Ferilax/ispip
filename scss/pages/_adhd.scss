@@ -84,7 +84,7 @@
 
 	.section-about-program {
 		&__text {
-			max-width: 630px;
+			max-width: 650px;
 		}
 	}
 
@@ -231,7 +231,7 @@
 
 				img {
 					height: 100%;
-					object-fit: cover;
+					object-fit: contain;
 				}
 			}
 		}

@@ -22,7 +22,8 @@
 		position: relative;
 		z-index: var(--z-nav-link);
 
-		img {
+		img,
+		svg {
 			transition: 0.2s;
 		}
 	}
@@ -106,10 +107,10 @@
 	& &__login {
 		@include button(42px, 14px);
 		font-size: 12px;
-		color: var(--primary);
+		color: white;
 		border-radius: 4px;
-		background: white;
 		align-self: center;
+		background: #1F3B73;
 
 		margin-top: 147px;
 	}
@@ -118,10 +119,6 @@
 		gap: 8px;
 		justify-content: center;
 		margin-top: 24px;
-	}
-
-	&__social-link {
-		@include social-link(#FFFFFF30);
 	}
 
 	& &__login,
@@ -137,8 +134,9 @@
 		height: 100%;
 		z-index: var(--z-nav);
 
-		padding-top: 100px;
-		background: var(--primary);
+		padding-top: 110px;
+		color: #1F3B73;
+		background: white;
 
 		transform: translateX(-100%);
 		overflow-y: auto;
@@ -158,12 +156,18 @@
 		&__link {
 			padding: 12px 0 14px;
 			width: 100%;
-			border-bottom: 1px solid #FFFFFF33;
+			border-bottom: 1px solid #1F3B7333;
 			justify-content: space-between;
+			color: #1F3B73;
 
-			img {
+			img,
+			svg {
 				min-width: 12px;
-				transform: rotate(-90deg);
+				transform: rotate(-90deg) scale(1.4);
+
+				path {
+					fill: #1F3B73;
+				}
 			}
 		}
 
@@ -172,12 +176,13 @@
 				margin-top: 6px;
 			}
 
-			.nav__link img {
-				transform: none;
+			.nav__link svg {
+				transform: scale(1.4);
 			}
 		}
 
 		&__hidden-list {
+			color: #1F3B73;
 			visibility: visible;
 			opacity: 1;
 
@@ -190,12 +195,15 @@
 			background: none;
 			box-shadow: none;
 			padding: 0;
-			color: white;
 			width: auto;
 
 			&.short {
 				width: auto;
 			}
+		}
+
+		.logo-content__text {
+			color: #1F3B73;
 		}
 
 		&__hidden-link {
@@ -403,16 +411,9 @@
 	&__info {
 		margin-top: 18px;
 		margin-bottom: auto;
-		line-height: 1.2;
-		font-size: 10px;
+		font-size: 14px;
+		line-height: 1.4;
 		flex: 1 1 auto;
-	}
-
-	&:not(:has(.tag)) {
-		.program-card__info {
-			font-size: 14px;
-			line-height: 1.4;
-		}
 	}
 
 	&__buttons {
@@ -1654,9 +1655,12 @@ a.see-all {
 
 		>* {
 			object-fit: cover;
+			max-width: 100%;
 			width: 100%;
+			min-width: 100%;
 			height: 100%;
 		}
+
 	}
 
 	&__comments {
@@ -1722,6 +1726,9 @@ a.see-all {
 			margin-top: 24px;
 			border-radius: 8px;
 			overflow: hidden;
+
+			background: #000;
+			height: 440px;
 		}
 	}
 
@@ -1737,6 +1744,7 @@ a.see-all {
 			}
 		}
 	}
+
 }
 
 .section-training-info {
@@ -1905,6 +1913,7 @@ a.see-all {
 
 	&__flex {
 		display: flex;
+		gap: 24px;
 	}
 
 	&__left {
@@ -2192,6 +2201,10 @@ a.see-all {
 	@media (max-width: 767px) {
 		padding: 60px 0;
 
+		.textarea {
+			margin-top: 4px;
+		}
+
 		&__form {
 			display: flex;
 			flex-direction: column;
@@ -2305,6 +2318,7 @@ a.see-all {
 		display: flex;
 		justify-content: space-between;
 		margin-top: 52px;
+		align-items: center;
 	}
 
 	&__subtitle {
@@ -2332,6 +2346,33 @@ a.see-all {
 		flex-wrap: wrap;
 	}
 
+	.programs-container {
+		position: relative;
+	}
+
+	.swiper-prev,
+	.swiper-next {
+		position: absolute;
+		top: 50%;
+	}
+
+	.swiper-prev {
+		left: -20px;
+		transform: translate(-100%, -50%);
+	}
+
+	.swiper-next {
+		right: -20px;
+		transform: translate(100%, -50%);
+	}
+
+	.flex {
+		margin-top: 42px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
 	&__show-more-container {
 		margin-top: 42px;
 		display: flex;
@@ -2355,6 +2396,10 @@ a.see-all {
 	}
 
 	@media (max-width: 1200px) {
+
+		.flex {
+			display: none;
+		}
 
 		&__show-more-container {
 			display: none;
@@ -2443,8 +2488,11 @@ a.see-all {
 	}
 
 	&__image {
-		margin-right: -80px;
-		flex: 0 1 600px;
+		position: absolute;
+		left: calc(50% + 110px);
+		width: 50vw;
+		top: 0;
+		height: 100%;
 
 		img {
 			height: 100%;
@@ -2454,7 +2502,9 @@ a.see-all {
 	}
 
 	&__body {
+		max-width: calc(57vw - 24px);
 		padding-top: 30px;
+		padding-bottom: 24px;
 	}
 
 	&__back-link {
@@ -2527,6 +2577,7 @@ a.see-all {
 			flex-direction: column;
 			justify-content: center;
 			padding: 0;
+			max-width: unset;
 		}
 	}
 
@@ -2979,7 +3030,6 @@ a.see-all {
 		top: 0;
 		height: 100%;
 		width: 50%;
-		max-width: 720px;
 
 		img {
 			width: 100%;
@@ -4133,7 +4183,7 @@ a.see-all {
 	.text {
 		font-size: 18px;
 		font-weight: 500;
-		max-width: 230px;
+		max-width: 260px;
 		color: #454545;
 	}
 
@@ -4406,7 +4456,6 @@ a.see-all {
 	left: 50%;
 	top: 0;
 	width: 50%;
-	max-width: calc(1440px / 2);
 	height: 100%;
 
 	img {
@@ -4431,8 +4480,12 @@ a.see-all {
 }
 
 #program-slider {
-	display: grid;
+	display: none;
 	margin-top: 42px;
+
+	display: grid;
+
+	@media (max-width: 1200px) {}
 }
 
 #popular-program-slider {

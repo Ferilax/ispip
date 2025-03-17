@@ -39,6 +39,7 @@ body {
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -106,6 +107,7 @@ h6 {
   --blue-grey: #7D8CB8;
   --z-header-top: 5;
   --z-header-bottom: 15;
+  --z-header-sticky: 30;
   --z-tooltip: 50;
   --z-nav-link: 51;
   --z-nav: 200;
@@ -365,7 +367,10 @@ h6 {
 }
 @media (max-width: 1023px) {
   .header {
-    background: var(--primary);
+    position: sticky;
+    top: 0;
+    z-index: var(--z-header-sticky);
+    background: white;
     padding: 54px 0 15px;
   }
   .header .mobile {
@@ -387,10 +392,9 @@ h6 {
   }
   .header__logo-text {
     font-size: 10px;
-    color: white;
   }
   .header__mobile-links {
-    border-bottom: 1px solid #CFCFCF;
+    border-bottom: 1px solid #1F3B73;
     padding-bottom: 12px;
     align-items: center;
     justify-content: end;
@@ -717,7 +721,6 @@ h6 {
     width: 93px;
   }
   .footer__logo-container {
-    background: #000;
     flex: 0 0 136px;
     max-width: 136px;
   }
@@ -750,7 +753,8 @@ h6 {
   position: relative;
   z-index: var(--z-nav-link);
 }
-.nav__link img {
+.nav__link img,
+.nav__link svg {
   transition: 0.2s;
 }
 .nav__hidden-container {
@@ -820,26 +824,16 @@ h6 {
   padding: 0 14px;
   gap: 10px;
   font-size: 12px;
-  color: var(--primary);
+  color: white;
   border-radius: 4px;
-  background: white;
   align-self: center;
+  background: #1F3B73;
   margin-top: 147px;
 }
 .nav__social {
   gap: 8px;
   justify-content: center;
   margin-top: 24px;
-}
-.nav__social-link {
-  flex: 0 0 40px;
-  width: 40px;
-  height: 40px;
-  border: 1.5px solid rgba(255, 255, 255, 0.1882352941);
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .nav .nav__login, .nav__social {
   display: none;
@@ -852,8 +846,9 @@ h6 {
     width: 100%;
     height: 100%;
     z-index: var(--z-nav);
-    padding-top: 100px;
-    background: var(--primary);
+    padding-top: 110px;
+    color: #1F3B73;
+    background: white;
     transform: translateX(-100%);
     overflow-y: auto;
   }
@@ -869,20 +864,27 @@ h6 {
   .nav__link {
     padding: 12px 0 14px;
     width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(31, 59, 115, 0.2);
     justify-content: space-between;
+    color: #1F3B73;
   }
-  .nav__link img {
+  .nav__link img,
+  .nav__link svg {
     min-width: 12px;
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) scale(1.4);
+  }
+  .nav__link img path,
+  .nav__link svg path {
+    fill: #1F3B73;
   }
   .nav__hidden-container.open .nav__hidden-list {
     margin-top: 6px;
   }
-  .nav__hidden-container.open .nav__link img {
-    transform: none;
+  .nav__hidden-container.open .nav__link svg {
+    transform: scale(1.4);
   }
   .nav__hidden-list {
+    color: #1F3B73;
     visibility: visible;
     opacity: 1;
     position: static;
@@ -892,11 +894,13 @@ h6 {
     background: none;
     box-shadow: none;
     padding: 0;
-    color: white;
     width: auto;
   }
   .nav__hidden-list.short {
     width: auto;
+  }
+  .nav .logo-content__text {
+    color: #1F3B73;
   }
   .nav__hidden-link {
     padding: 6px 0 12px;
@@ -1071,13 +1075,9 @@ h6 {
 .program-card__info {
   margin-top: 18px;
   margin-bottom: auto;
-  line-height: 1.2;
-  font-size: 10px;
-  flex: 1 1 auto;
-}
-.program-card:not(:has(.tag)) .program-card__info {
   font-size: 14px;
   line-height: 1.4;
+  flex: 1 1 auto;
 }
 .program-card__buttons {
   margin-top: 24px;
@@ -2119,7 +2119,9 @@ a.see-all {
 .section-map__map > * {
   -o-object-fit: cover;
      object-fit: cover;
+  max-width: 100%;
   width: 100%;
+  min-width: 100%;
   height: 100%;
 }
 .section-map__comments {
@@ -2171,6 +2173,8 @@ a.see-all {
     margin-top: 24px;
     border-radius: 8px;
     overflow: hidden;
+    background: #000;
+    height: 440px;
   }
 }
 @media (max-width: 424px) {
@@ -2318,6 +2322,7 @@ a.see-all {
 }
 .section-diploma__flex {
   display: flex;
+  gap: 24px;
 }
 .section-diploma__left {
   flex: 1 1 647px;
@@ -2559,6 +2564,9 @@ a.see-all {
   .section-question-form {
     padding: 60px 0;
   }
+  .section-question-form .textarea {
+    margin-top: 4px;
+  }
   .section-question-form__form {
     display: flex;
     flex-direction: column;
@@ -2656,6 +2664,7 @@ a.see-all {
   display: flex;
   justify-content: space-between;
   margin-top: 52px;
+  align-items: center;
 }
 .section-programs__subtitle {
   max-width: 262px;
@@ -2674,6 +2683,28 @@ a.see-all {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+}
+.section-programs .programs-container {
+  position: relative;
+}
+.section-programs .swiper-prev,
+.section-programs .swiper-next {
+  position: absolute;
+  top: 50%;
+}
+.section-programs .swiper-prev {
+  left: -20px;
+  transform: translate(-100%, -50%);
+}
+.section-programs .swiper-next {
+  right: -20px;
+  transform: translate(100%, -50%);
+}
+.section-programs .flex {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 .section-programs__show-more-container {
   margin-top: 42px;
@@ -2700,6 +2731,9 @@ a.see-all {
   margin: auto;
 }
 @media (max-width: 1200px) {
+  .section-programs .flex {
+    display: none;
+  }
   .section-programs__show-more-container {
     display: none;
   }
@@ -2772,8 +2806,11 @@ a.see-all {
   justify-content: space-between;
 }
 .section-start__image {
-  margin-right: -80px;
-  flex: 0 1 600px;
+  position: absolute;
+  left: calc(50% + 110px);
+  width: 50vw;
+  top: 0;
+  height: 100%;
 }
 .section-start__image img {
   height: 100%;
@@ -2782,7 +2819,9 @@ a.see-all {
      object-fit: cover;
 }
 .section-start__body {
+  max-width: calc(57vw - 24px);
   padding-top: 30px;
+  padding-bottom: 24px;
 }
 .section-start__back-link {
   font-size: 12px;
@@ -2845,6 +2884,7 @@ a.see-all {
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    max-width: unset;
   }
 }
 @media (max-width: 767px) {
@@ -3217,7 +3257,6 @@ a.see-all {
   top: 0;
   height: 100%;
   width: 50%;
-  max-width: 720px;
 }
 .content-with-image__image img {
   width: 100%;
@@ -4148,7 +4187,7 @@ a.see-all {
 .section-cards-with-checked .text {
   font-size: 18px;
   font-weight: 500;
-  max-width: 230px;
+  max-width: 260px;
   color: #454545;
 }
 @media (max-width: 1023px) {
@@ -4375,7 +4414,6 @@ a.see-all {
   left: 50%;
   top: 0;
   width: 50%;
-  max-width: 720px;
   height: 100%;
 }
 #main-slider img {
@@ -4402,10 +4440,10 @@ a.see-all {
 }
 
 #program-slider {
-  display: grid;
+  display: none;
   margin-top: 42px;
+  display: grid;
 }
-
 #popular-program-slider {
   display: grid;
   margin-top: 40px;
@@ -4526,7 +4564,6 @@ a.see-all {
 @media (max-width: 1023px) {
   .main-page .main-section {
     background: rgba(17, 65, 164, 0.7);
-    border-bottom: 10px solid var(--primary);
     padding: 65px 0 40px;
   }
   .main-page .main-section::after {
@@ -4539,6 +4576,9 @@ a.see-all {
     background: url("../img/main-slider-1.png") 50%/cover no-repeat;
     z-index: -1;
   }
+  .main-page .main-section__title {
+    text-align: center;
+  }
   .main-page .main-section .swiper-buttons,
   .main-page .main-section .swiper-pagination {
     display: none;
@@ -4547,6 +4587,8 @@ a.see-all {
     min-height: unset;
   }
   .main-page .main-section__left {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     width: auto;
   }
@@ -4558,6 +4600,7 @@ a.see-all {
   }
   .main-page .main-section__button {
     font-size: 16px;
+    align-self: center;
   }
 }
 @media (max-width: 800px) {
@@ -4569,6 +4612,12 @@ a.see-all {
   }
 }
 @media (max-width: 424px) {
+  .main-page .main-section {
+    padding: 93px 0 21px;
+  }
+  .main-page .main-section__title {
+    text-align: left;
+  }
   .main-page .main-section__button {
     width: 100%;
   }
@@ -4786,6 +4835,7 @@ a.see-all {
 }
 .main-page .psychology-program__text {
   margin-top: 28px;
+  max-width: 460px;
 }
 .main-page .psychology-program__foot {
   display: flex;
@@ -4904,7 +4954,6 @@ a.see-all {
 }
 .main-page .news__news {
   display: flex;
-  width: 330px;
   min-height: 417px;
   border-radius: 8px;
   background: white;
@@ -4980,7 +5029,6 @@ a.see-all {
     font-size: 18px;
   }
   .main-page .news__news {
-    width: 306px;
     min-height: 306px;
     padding: 20px;
   }
@@ -5006,6 +5054,7 @@ a.see-all {
   display: flex;
   margin-top: 50px;
   align-items: end;
+  padding: 0;
 }
 .main-page .student-support__content {
   flex: 1 1 50%;
@@ -5199,7 +5248,7 @@ a.see-all {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../../img/news/pinned-bg.png") 50%/cover no-repeat;
+  background: url("../img/news/pinned-bg.png") 50%/cover no-repeat;
   position: absolute;
   z-index: -1;
 }
@@ -5957,7 +6006,7 @@ a.see-all {
   max-width: 1440px;
   padding: 0;
   margin: auto;
-  height: 393px;
+  height: 315px;
 }
 .contacts-page .map__container-big > * {
   width: 100%;
@@ -6050,7 +6099,7 @@ a.see-all {
 }
 .dpo-page .section-start__body {
   padding-top: 60px;
-  flex: 0 1 734px;
+  flex: 0 1 628px;
 }
 .dpo-page .section-start__text {
   max-width: 373px;
@@ -6689,6 +6738,7 @@ a.see-all {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  max-width: 1000px;
 }
 .crisis-psychology-page .form-of-training .grid__text {
   line-height: 1.2;
@@ -6951,7 +7001,7 @@ a.see-all {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 560px;
+  max-width: 630px;
 }
 .practical-psychology-page .section-start__table {
   margin-top: 26px;
@@ -7057,6 +7107,14 @@ a.see-all {
   font-weight: 500;
   max-width: 320px;
 }
+.practical-psychology-page .content-with-image__title {
+  max-width: unset;
+}
+@media (max-width: 767px) {
+  .practical-psychology-page .content-with-image__title {
+    max-width: 390px;
+  }
+}
 .practical-psychology-page .content-with-image .list {
   margin-top: 32px;
   display: flex;
@@ -7157,6 +7215,11 @@ a.see-all {
     gap: 12px;
   }
 }
+@media (min-width: 768px) {
+  .practical-psychology-page .section-program-content .right {
+    align-self: end;
+  }
+}
 .practical-psychology-page .section-program-content .body {
   padding: 80px 0 120px;
 }
@@ -7209,13 +7272,6 @@ a.see-all {
 }
 .practical-psychology-page .what-should-do {
   background: white;
-}
-@media (min-width: 768px) {
-  .practical-psychology-page .what-should-do .card {
-    font-size: 20px;
-    font-weight: 600;
-    gap: 20px;
-  }
 }
 @media (min-width: 1024px) {
   .practical-psychology-page .section-advantages {
@@ -7527,6 +7583,9 @@ a.see-all {
   flex: 0 1 654px;
   padding-right: 24px;
 }
+.speech-therapy-page .section-start__title {
+  max-width: 600px;
+}
 .speech-therapy-page .section-start .text {
   margin-top: 40px;
   line-height: 1.2;
@@ -7570,6 +7629,9 @@ a.see-all {
     flex: unset;
     padding: 0;
   }
+  .speech-therapy-page .section-start__title {
+    max-width: unset;
+  }
 }
 @media (max-width: 767px) {
   .speech-therapy-page .section-start .text {
@@ -7606,6 +7668,7 @@ a.see-all {
   line-height: 1.2;
   font-size: 18px;
   font-weight: 500;
+  letter-spacing: -1.08px;
 }
 .speech-therapy-page .content-with-image.first .list-item {
   position: relative;
@@ -7738,8 +7801,8 @@ a.see-all {
   }
   .speech-therapy-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -7794,7 +7857,7 @@ a.see-all {
 }
 
 .clinical-psychology-page .section-start__body {
-  flex: 0 1 674px;
+  flex: 0 1 707px;
   padding-right: 24px;
   padding-bottom: 30px;
 }
@@ -7926,8 +7989,8 @@ a.see-all {
 @media (min-width: 1024px) {
   .clinical-psychology-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -8120,8 +8183,8 @@ a.see-all {
 @media (min-width: 1024px) {
   .neuropsychology-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -8159,7 +8222,8 @@ a.see-all {
   min-height: unset;
 }
 .logomassage-page .section-start__image {
-  flex: 0 1 calc(50% + 80px);
+  left: 50%;
+  width: 50%;
 }
 .logomassage-page .section-start__body {
   flex: 0 1 50%;
@@ -8322,8 +8386,8 @@ a.see-all {
 @media (min-width: 1024px) {
   .logomassage-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -8445,6 +8509,7 @@ a.see-all {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: -1.08px;
 }
 .speech-disorder-page .content-with-image.first .list-item {
   position: relative;
@@ -8590,8 +8655,8 @@ a.see-all {
 @media (min-width: 1024px) {
   .speech-disorder-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -8703,7 +8768,7 @@ a.see-all {
   }
 }
 .adhd-page .section-about-program__text {
-  max-width: 630px;
+  max-width: 650px;
 }
 .adhd-page .content-with-image {
   padding: 65px 0 85px;
@@ -8815,8 +8880,8 @@ a.see-all {
 @media (min-width: 1024px) {
   .adhd-page .section-diploma__image img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1023px) {
@@ -8900,6 +8965,12 @@ body b {
 form:not(:has(input[name=privacy_policy]:checked)) button[type=submit] {
   opacity: 0.8;
   pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  br.desktop {
+    display: none;
+  }
 }
 
 .container {

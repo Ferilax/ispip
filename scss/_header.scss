@@ -148,8 +148,10 @@
 	}
 
 	@media (max-width: 1023px) {
-		background: var(--primary);
-
+		position: sticky;
+		top: 0;
+		z-index: var(--z-header-sticky);
+		background: white;
 		padding: 54px 0 15px;
 
 		.mobile {
@@ -176,11 +178,10 @@
 
 		&__logo-text {
 			font-size: 10px;
-			color: white;
 		}
 
 		&__mobile-links {
-			border-bottom: 1px solid #CFCFCF;
+			border-bottom: 1px solid #1F3B73;
 			padding-bottom: 12px;
 
 			align-items: center;

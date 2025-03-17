@@ -115,6 +115,7 @@
 			font-size: 18px;
 			font-weight: 500;
 			line-height: 1.2;
+			letter-spacing: -1.08px;
 		}
 
 		.list-item {
@@ -261,7 +262,7 @@
 
 				img {
 					height: 100%;
-					object-fit: cover;
+					object-fit: contain;
 				}
 			}
 		}

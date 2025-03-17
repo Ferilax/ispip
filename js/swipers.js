@@ -22,37 +22,33 @@ swiperInit(mainSlider, {
 
 const cardSlider = document.querySelector("#card-slider");
 swiperInit(cardSlider, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 8,
 
 	breakpoints: {
 		680: {
 			spaceBetween: 16,
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 		},
 		930: {
-			slidesPerView: 3.2,
+			slidesPerView: 3,
 		},
 	}
 })
 
 const programSlider = document.querySelector("#program-slider");
 swiperInit(programSlider, {
-	slidesPerView: 1.1,
+	slidesPerView: 1,
 	spaceBetween: 20,
 
 	breakpoints: {
-		601: {
-			slidesPerView: 1.4,
-		},
 		801: {
-			slidesPerView: 1.6,
+			slidesPerView: 2,
 		},
 		951: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 		},
 		1201: {
-			allowTouchMove: false,
 			slidesPerView: 3,
 		},
 	}
@@ -60,7 +56,7 @@ swiperInit(programSlider, {
 
 const popularProgramSlider = document.querySelector("#popular-program-slider");
 swiperInit(popularProgramSlider, {
-	slidesPerView: 1.1,
+	slidesPerView: 1,
 	spaceBetween: 20,
 
 	navigation: {
@@ -69,16 +65,13 @@ swiperInit(popularProgramSlider, {
 	},
 
 	breakpoints: {
-		600: {
-			slidesPerView: 1.4,
+		801: {
+			slidesPerView: 2,
 		},
-		800: {
-			slidesPerView: 1.6,
+		951: {
+			slidesPerView: 2,
 		},
-		950: {
-			slidesPerView: 2.2,
-		},
-		1200: {
+		1201: {
 			slidesPerView: 3,
 		},
 	}
@@ -87,15 +80,12 @@ swiperInit(popularProgramSlider, {
 const tabSlider = document.querySelector("#tab-slider");
 const isDouble = tabSlider?.querySelectorAll("swiper-slide").length === 2;
 swiperInit(tabSlider, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 18,
 
 	breakpoints: {
-		400: {
-			slidesPerView: 1.6,
-		},
 		550: {
-			slidesPerView: isDouble ? 2 : 2.2,
+			slidesPerView: isDouble ? 2 : 2,
 		},
 		768: {
 			slidesPerView: isDouble ? 2 : 3,
@@ -164,7 +154,7 @@ swiperInit(commentProfileSlider, {
 
 const achievementSlider = document.querySelector("#achievement-slider");
 swiperInit(achievementSlider, {
-	slidesPerView: 1.3,
+	slidesPerView: 1,
 	spaceBetween: 24,
 	navigation: {
 		prevEl: ".section-achievements .swiper-prev",
@@ -192,25 +182,30 @@ swiperInit(achievementSlider, {
 
 const teacherSlider = document.querySelector("#teacher-slider");
 swiperInit(teacherSlider, {
-	slidesPerView: "auto",
+	slidesPerView: 1,
 	spaceBetween: 42,
 	navigation: {
 		prevEl: ".section-teachers .swiper-prev",
 		nextEl: ".section-teachers .swiper-next",
 	},
+
+	breakpoints: {
+		600: {
+			slidesPerView: 2,
+		},
+		900: {
+			slidesPerView: 3
+		}
+	}
 })
 
 const partnerSlider = document.querySelector("#partner-slider");
 swiperInit(partnerSlider, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 8,
 
 	breakpoints: {
-		425: {
-			spaceBetween: 20,
-			slidesPerView: 1.4,
-		},
-		768: {
+		668: {
 			spaceBetween: 20,
 			slidesPerView: 2,
 		},
@@ -219,16 +214,29 @@ swiperInit(partnerSlider, {
 
 const newsSlider = document.querySelector("#news-slider");
 swiperInit(newsSlider, {
-	slidesPerView: "auto",
+	slidesPerView: 1,
 	spaceBetween: 20,
 	navigation: {
 		prevEl: ".news .swiper-prev",
 		nextEl: ".news .swiper-next",
 	},
 	breakpoints: {
+		601: {
+			spaceBetween: 20,
+			slidesPerView: 2,
+		},
 		768: {
 			spaceBetween: 7,
-		}
+			slidesPerView: 2,
+		},
+		901: {
+			spaceBetween: 7,
+			slidesPerView: 3,
+		},
+		1201: {
+			spaceBetween: 7,
+			slidesPerView: 4,
+		},
 	}
 });
 
@@ -242,7 +250,7 @@ swiperInit(videoSlider, {
 	},
 	breakpoints: {
 		351: {
-			slidesPerView: 1.2,
+			slidesPerView: 1,
 			spaceBetween: 8,
 			grid: {
 				rows: 1,
@@ -250,7 +258,7 @@ swiperInit(videoSlider, {
 			},
 		},
 		451: {
-			slidesPerView: 1.6,
+			slidesPerView: 1,
 			spaceBetween: 8,
 			grid: {
 				rows: 1,
@@ -258,7 +266,7 @@ swiperInit(videoSlider, {
 			},
 		},
 		651: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 			spaceBetween: 20,
 			grid: {
 				rows: 1,
@@ -313,31 +321,44 @@ swiperInit(tableSwiper, {
 
 const commentsGridSwiper = document.querySelector("#comments-grid-slider");
 swiperInit(commentsGridSwiper, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 12,
 });
 
 const processInfoSwiper = document.querySelector("#process-info-slider");
 swiperInit(processInfoSwiper, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 12,
 });
 
 const forWhomSliderSwiper = document.querySelector("#for-whom-slider");
 swiperInit(forWhomSliderSwiper, {
-	slidesPerView: "auto",
+	slidesPerView: 1,
 	spaceBetween: 8,
 
 	breakpoints: {
+		651: {
+			spaceBetween: 8,
+			slidesPerView: 1,
+		},
 		768: {
+			spaceBetween: 8,
+			slidesPerView: 2,
+		},
+		951: {
 			spaceBetween: 20,
-		}
+			slidesPerView: 3,
+		},
+		1201: {
+			spaceBetween: 20,
+			slidesPerView: 4,
+		},
 	}
 });
 
 const opportunitiesSwiper = document.querySelector("#opportunities-slider");
 swiperInit(opportunitiesSwiper, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 12,
 	grid: {
 		rows: 1,
@@ -346,7 +367,7 @@ swiperInit(opportunitiesSwiper, {
 
 	breakpoints: {
 		601: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 			spaceBetween: 12,
 			grid: {
 				rows: 1,
@@ -354,7 +375,7 @@ swiperInit(opportunitiesSwiper, {
 			},
 		},
 		768: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 			spaceBetween: 20,
 			grid: {
 				rows: 2,
@@ -374,7 +395,7 @@ swiperInit(opportunitiesSwiper, {
 
 const trainingStepsSwiper = document.querySelector("#cards-with-checked-slider");
 swiperInit(trainingStepsSwiper, {
-	slidesPerView: 1.2,
+	slidesPerView: 1,
 	spaceBetween: 12,
 	grid: {
 		rows: 1,
@@ -383,14 +404,14 @@ swiperInit(trainingStepsSwiper, {
 
 	breakpoints: {
 		601: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 			grid: {
 				rows: 1,
 				fill: "row",
 			},
 		},
 		768: {
-			slidesPerView: 2.2,
+			slidesPerView: 2,
 			grid: {
 				rows: 2,
 				fill: "row",

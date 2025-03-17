@@ -7,7 +7,8 @@
 		}
 
 		&__image {
-			flex: 0 1 calc(50% + 80px);
+			left: 50%;
+			width: 50%;
 		}
 
 		&__body {
@@ -217,7 +218,7 @@
 
 				img {
 					height: 100%;
-					object-fit: cover;
+					object-fit: contain;
 				}
 			}
 		}

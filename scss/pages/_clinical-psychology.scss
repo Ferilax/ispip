@@ -2,7 +2,7 @@
 	.section-start {
 
 		&__body {
-			flex: 0 1 674px;
+			flex: 0 1 707px;
 			padding-right: 24px;
 			padding-bottom: 30px;
 		}
@@ -177,7 +177,7 @@
 
 				img {
 					height: 100%;
-					object-fit: cover;
+					object-fit: contain;
 				}
 			}
 		}

@@ -103,7 +103,6 @@
 
 		@media (max-width: 1023px) {
 			background: rgba($color: #1141A4, $alpha: 0.7);
-			border-bottom: 10px solid var(--primary);
 			padding: 65px 0 40px;
 
 			&::after {
@@ -118,6 +117,10 @@
 				z-index: -1;
 			}
 
+			&__title {
+				text-align: center;
+			}
+
 			.swiper-buttons,
 			.swiper-pagination {
 				display: none;
@@ -128,6 +131,9 @@
 			}
 
 			&__left {
+				display: flex;
+				flex-direction: column;
+
 				padding: 0;
 				width: auto;
 			}
@@ -142,6 +148,7 @@
 
 			&__button {
 				font-size: 16px;
+				align-self: center;
 			}
 		}
 
@@ -156,10 +163,17 @@
 		}
 
 		@media (max-width: 424px) {
+			padding: 93px 0 21px;
+
+			&__title {
+				text-align: left;
+			}
+
 			&__button {
 				width: 100%;
 			}
 		}
+
 	}
 
 	.popular-program {
@@ -422,6 +436,7 @@
 
 		&__text {
 			margin-top: 28px;
+			max-width: 460px;
 		}
 
 		&__foot {
@@ -561,7 +576,6 @@
 
 		&__news {
 			display: flex;
-			width: 330px;
 			min-height: 417px;
 			border-radius: 8px;
 			background: white;
@@ -653,7 +667,6 @@
 			}
 
 			&__news {
-				width: 306px;
 				min-height: 306px;
 				padding: 20px;
 
@@ -686,6 +699,7 @@
 			display: flex;
 			margin-top: 50px;
 			align-items: end;
+			padding: 0;
 		}
 
 		&__content {
