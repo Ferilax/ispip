@@ -292,6 +292,7 @@ swiperInit(videoSlider, {
 	}
 });
 
+// Удален, но на всякий пусть останется
 const tableSwiper = document.querySelector("#table-slider");
 swiperInit(tableSwiper, {
 	slidesPerView: 2.5,
